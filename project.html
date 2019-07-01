@@ -6,390 +6,624 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+<nav>
+  <ul class="elements">
+    <div class="logo">
+      <li class="irlogo"><img src="images/mylogo.png" width="34px" height="40px" alt="logo"></li>
+
+    </div>
+    <div class="name">
+      <li class="myname">
+        <h2>Indu Remesh</h2>
+      </li>
+    </div>
+
+    <div class="menuicon fontawesome">
+      <li><i class="fa fa-bars"></i></li>
+    </div>
+
+    <div class="links none">
+      <li class="work">Work</li>
+      <li class="about">About</li>
+      <li class="contact">Contact</li>
+    </div>
+
+  </ul>
+</nav>
 
 <body>
-  <nav>
-    <ul>
-      <li>Indu Remesh</li>
-      <li>Work</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-  <header>
-    <h1>Flono</h1>
-    <p>Flono is a cloud storage app
-      designed to make cloud-related activities in the workplace easier.</p>
-<a href="#"><button name="button">View Prototype</button></a>
- <img src="images/HomePage.png" width="300px" alt="Illustration">
-  <img src="images/Dashboard.png" width="300px" alt="Illustration">
-    <h2 class="topic">Introduction</h2>
-    <p>The cloud storage market is huge with multiple big-name competitors like Google Drive, Dropbox, etc. It is projected that by 2022, more than 72% of the global organizations will migrate to the cloud from on-premise data centers.
-      But the market is still young and there is scope for a new entrant. The <strong>purpose</strong> of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for that
-      market.
-    </p>
-
+  <header class="bgcolor colorbox marginbottom">
+    <div class="container">
+      <div class="flonointro marginbottomsmall">
+        <div class="flonoimage">
+          <img class="marginbottomsmall" src="images/HomePage.png" width="300px" alt="Illustration">
+          <img class="none" src="images/Dashboard.png" width="300px" alt="Illustration">
+        </div>
+        <div class="flonotext">
+          <h1 class="underline">Flono</h1>
+          <p>Flono is a cloud storage app
+            designed to make cloud-related activities in the workplace easier.</p>
+          <a href="#"><button name="button">View Prototype</button></a>
+        </div>
+      </div>
+      <div class="topicintro">
+        <h2>Introduction</h2>
+        <p>The cloud storage market is huge with multiple big-name competitors like Google Drive, Dropbox, etc. It is projected that by 2022, more than 72% of the global organizations will migrate to the cloud from on-premise data centers.
+          But the market is still young and there is scope for a new entrant. The <strong>purpose</strong> of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for
+          that
+          market.
+        </p>
+      </div>
+    </div>
   </header>
-  <section class="prosol">
-    <h2>Problem</h2>
-    <p>Though this market is dominated by big names, Most of these platforms have an <strong>unintuitive design</strong> . There are many online forums and twitter rants which reflect this issue. When I carried out a survey to find out what users
-      wanted to see in a new cloud storage product, more than any fancy feature, their main concern was the usability of existing basic features .</p>
-    <h2>Solution</h2>
-    <p>Flono prioritizes usability over everything else. To achieve this, the service is designed to provide an intuitive workflow by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation,
-      efficiency. </p>
-    <h2>Roles</h2>
-    <ul>
-      <li>User Research</li>
-      <li>Competitive Analysis</li>
-      <li>User Flows</li>
-      <li>Content Strategy</li>
-      <li>Wireframing</li>
-      <li>Prototyping</li>
-      <li>Branding & Style Guide</li>
-      <li>Usability Testing</li>
-    </ul>
-    <h2>Tools</h2>
-    <ul>
-      <li>Sketch</li>
-      <li>Figma</li>
-      <li>Usability Hub</li>
-      <li>Draw.io</li>
-      <li>Google forms</li>
-    </ul>
+  <div class="prosol">
+    <div class="container">
+      <div class="problemandsol marginbottomsmall">
+        <div class="problem marginbottomsmall">
 
-  </section>
-  <div class="comp">
-    <h2>Competitive Analysis</h2>
-    <p>The first step was to analyze the market to evaluate current options and find out opportunities to enter this space.
-      I chose three main players in the market for this purpose - Google drive, Dropbox, Box.</p>
-
-    <h3>Google Drive</h3>
-    <ul>
-      <li>
-        <p>Provides 15 GB of free storage</p>
-      </li>
-      <li>
-        <p>Native productivity apps are very popular</p>
-      </li>
-      <li>
-        <p>Advanced features For e.g Search using many parameters</p>
-      </li>
-      <li>
-        <p>Easy to recover files</p>
-      </li>
-      <li>
-        <p>Unintuitive design</p>
-      </li>
-      <li>
-        <p>Visual layout is cluttered</p>
-      </li>
-    </ul>
-
-    <h3>Dropbox</h3>
-    <ul>
-      <li>
-        <p>The most reviewed app</p>
-      </li>
-      <li>
-        <p>Good visual layout</p>
-      </li>
-      <li>
-        <p>AI-powered suggestions</p>
-      </li>
-      <li>
-        <p>Makes collaboration easier</p>
-      </li>
-      <li>
-        <p>Link expiry and password settings</p>
-      </li>
-      <li>
-        <p>High price tag</p>
-      </li>
-      <li>
-        <p>Certain components are cluttered</p>
-      </li>
-    </ul>
-    <h3>Box</h3>
-    <ul>
-      <li>
-        <p>Intuitive layout</p>
-      </li>
-      <li>
-        <p>Customization option available</p>
-      </li>
-      <li>
-        <p>Huge selection of third-party apps</p>
-      </li>
-      <li>
-        <p>Provides guest accounts</p>
-      </li>
-      <li>
-        <p>Difficult to sync files</p>
-      </li>
-      <li>
-        <p>Doesn’t run as fast as competitors</p>
-      </li>
-      <li>
-        <p>File size restriction of 250 MB</p>
-      </li>
-    </ul>
-  </div>
-  <div class="survey">
-    <h2>User Survey</h2>
-    <p>I conducted a survey to understand the needs of users. This survey was sent out through social media accounts, subreddits, and friends.</p>
-    <p>The main purpose of this survey was to answer the following questions:</p>
-    <ol>
-      <li>
-        <p><b>Ideal target group for a new cloud service product?</b></p>
-      </li>
-      <li>
-        <p><b>How are people using such a service now? and Why?</b></p>
-      </li>
-      <li>
-        <p><b>What features do they use regularly?</b></p>
-      </li>
-      <li>
-        <p><b>What problems can I solve with a new product?</b></p>
-      </li>
-    </ol>
-    <h3><b>Key Takeaway</b></h3>
-
-
-
-    <p>The most critical thing that I learned during the survey was more than new features, users are concerned about the usability of basic features</p>
-    <p>When users were asked what they DO NOT like about their present service, these were their responses.</p>
-    <ul>
-      <li><q>I didn't know how to create a folder for a long time</q></li>
-      <li><q>Difficult to understand, so I don’t use much</q></li>
-      <li><q>Saved it in the wrong folder and couldn’t find it</q></li>
-      <li><q>One drive wasn’t very intuitive to use</q></li>
-      <li><q>Right click for options wasn’t clear</q></li>
-      <li><q>Couldn’t share a file</q></li>
-    </ul>
-    <p>All these led to the same problem - Unintuitive Design
-      Not having an intuitive user flow that helps the user to move from one step to the other without any friction is the concern among cloud storage users</p>
-    <h3><b>Other Key Points</b></h3>
-    <p>75% of the users accessed their cloud storage service through larger devices – Desktop, Laptop.</p>
-
-    <p>65% use the service for a work-related purpose.</p>
-    <p>75% chose Uploading a file and Sharing files as their main reasons to use this service at present.</p>
-
-    <p>Important features according to users - Uploading content, Organizing content, and Collaboration.</p>
-  </div>
-
-  <div class="definesol">
-    <h2>Defining the Solution</h2>
-    <p>Based on the competitive analysis and user survey, I identified the possible characteristics of a new entrant.
-    </p>
-    <ul>
-      <li><b>A service that’s ideal for workplace-related activities.</b></li>
-
-      <li><b>Available on larger devices with a mobile app to support the workflow.</b></li>
-
-      <li><b>Focused on providing an intuitive workflow.</b></li>
-
-      <li><b>Must have features – Uploading content, Organizing content & Sharing.</b></li>
-    </ul>
-
-  </div>
-  <div class="persona">
-    <h2>User Personas</h2>
-    <p>To understand the user better, I developed two personas based on two clear usage motivations that stood out during the survey. </p>
-    <p>The uploader - Wants a safe space to upload and organize all the work files.</p>
-    <p>The collaborator - Wants to quickly share and receive feedback on work files.</p>
-    <div class="persona1">
-    <img src="images/Jacob.jpg" width="150px" height="150px" alt="User Persona">
-      <h3><b>Jacob - The Uploader</b></h3>
-      <p><b>AGE:</b> 34</p>
-      <p><b>Occupation:</b> Scientist</p>
-      <p><b>Location:</b> Boston</p>
-      <p><b>Gender:</b> Male</p>
-      <p>He is constantly exporting data from microscopes and prefers to save it all these files in the cloud so that he can save space in his personal system.</p>
-      <p><b>Main Goal:</b><br>To upload files and organize file</p>
-      <p><b>Frustration</b><br>Multiple steps to upload files <br>Forgets to organize files that are uploaded</p>
-    </div>
-    <div class="persona2">
-  <img src="images/Ashley.jpg"width="150px" height="150px" alt="User Persona">
-      <h3><b>Ashley - The Collaborator</b></h3>
-      <p><b>AGE:</b> 30</p>
-      <p><b>Occupation:</b> UX Designer</p>
-      <p><b>Location:</b> Atlanta</p>
-      <p><b>Gender:</b> Female</p>
-      <p>The project she is working on is highly collaborative in nature and she shares her daily progress with team members for their feedback.</p>
-      <p><b>Main Goal:</b><br>Share files with team members quickly</p>
-      <p><b>Frustration</b><br>Sharing with multiple people takes time
-        <br>Difficult to search for items that were uploaded</p>
+          <h2>Problem</h2>
+          <p>Though this market is dominated by big names, Most of these platforms have an <strong>unintuitive design</strong> . There are many online forums and twitter rants which reflect this issue. When I carried out a survey to find out what
+            users
+            wanted to see in a new cloud storage product, more than any fancy feature, their main concern was the usability of existing basic features.</p>
+        </div>
+        <h2>Solution</h2>
+        <div class="solution marginbottomsmall">
+          <p>Flono prioritizes usability over everything else. To achieve this, the service is designed to provide an intuitive workflow by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance,
+            expectation,
+            efficiency. </p>
+        </div>
+      </div>
+      <div class="roleandtools aligncenter">
+        <div class="roles marginbottomsmall">
+          <h2>Roles</h2>
+          <ul class="list">
+            <li>
+              <p>User Research</p>
+            </li>
+            <li>
+              <p>Competitive Analysis</p>
+            </li>
+            <li>
+              <p>User Flows</p>
+            </li>
+            <li>
+              <p>Content Strategy</p>
+            </li>
+            <li>
+              <p>Wireframing</p>
+            </li>
+            <li>
+              <p>Prototyping</p>
+            </li>
+            <li>
+              <p>Branding & Style Guide</p>
+            </li>
+            <li>
+              <p>Usability Testing</p>
+            </li>
+          </ul>
+        </div>
+        <div class="Tools marginbottomsmall">
+          <h2>Tools</h2>
+          <ul class="list">
+            <li>
+              <p>Sketch
+            <li>
+              <p>
+            <li>
+              <p>Figma
+            <li>
+              <p>
+            <li>
+              <p>Usability Hub
+            <li>
+              <p>
+            <li>
+              <p>Draw.io
+            <li>
+              <p>
+            <li>
+              <p>Google forms
+            <li>
+              <p>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="stories">
-    <h2>User Stories</h2>
-    <p>To identify all the necessary features, I listed down what ‘Ashley’ and ‘ Jacob ‘ would want to see in such a service.
-      From the list, I selected all the high priority user stories and few low & medium priority ones to form the MVP.</p>
-    <h3 class="storylist"><b>Stories</b></h3>
-    <ul>
-      <li>I want to upload files</li>
+  <div class="comp marginbottom">
+    <div class="container">
+      <h2>Competitive Analysis</h2>
+      <p>The first step was to analyze the market to evaluate current options and find out opportunities to enter this space.
+        I chose three main players in the market for this purpose - Google drive, Dropbox, Box.</p>
 
-      <li>I want to create new folders</li>
+      <div class="competitors none">
 
-      <li>I want to search for files with file name</li>
 
-      <li>I want to upload folders</li>
+        <div class="google">
 
-      <li>I want to organize uploaded content into various folders</li>
 
-      <li>I want to share uploaded files/folders with others from the platform itself</li>
+          <h3 class="smallheading">Google Drive</h3>
+          <ul class="complist">
+            <li>
+              <p>Provides 15 GB of free storage</p>
+            </li>
+            <li>
+              <p>Native productivity apps are very popular</p>
+            </li>
+            <li>
+              <p>Advanced features For e.g Search using many parameters</p>
+            </li>
+            <li>
+              <p>Easy to recover files</p>
+            </li>
+            <li>
+              <p>Unintuitive design</p>
+            </li>
+            <li>
+              <p>Visual layout is cluttered</p>
+            </li>
+          </ul>
+        </div>
+        <div class="dropbox">
+          <h3 class="smallheading">Dropbox</h3>
+          <ul class="complist">
+            <li>
+              <p>The most reviewed app</p>
+            </li>
+            <li>
+              <p>Good visual layout</p>
+            </li>
+            <li>
+              <p>AI-powered suggestions</p>
+            </li>
+            <li>
+              <p>Makes collaboration easier</p>
+            </li>
+            <li>
+              <p>Link expiry and password settings</p>
+            </li>
+            <li>
+              <p>High price tag</p>
+            </li>
+            <li>
+              <p>Certain components are cluttered</p>
+            </li>
+          </ul class="complist">
+        </div>
+        <div class="box">
+          <h3 class="smallheading">Box</h3>
+          <ul>
+            <li>
+              <p>Intuitive layout</p>
+            </li>
+            <li>
+              <p>Customization option available</p>
+            </li>
+            <li>
+              <p>Huge selection of third-party apps</p>
+            </li>
+            <li>
+              <p>Provides guest accounts</p>
+            </li>
+            <li>
+              <p>Difficult to sync files</p>
+            </li>
+            <li>
+              <p>Doesn’t run as fast as competitors</p>
+            </li>
+            <li>
+              <p>File size restriction of 250 MB</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="#"><button name="button">View In Detail</button></a>
+    </div>
+  </div>
+  <div class="survey marginbottom colorbox bgcolor">
+    <div class="container">
+      <div class="marginbottomsmall">
+        <h2>User Survey</h2>
+        <p>I conducted a survey to understand the needs of users. This survey was sent out through social media accounts, subreddits, and friends.</p>
+      </div>
+      <div class="marginbottomsmall">
 
-      <li>I want to add files to a quick access category</li>
 
-      <li>I want to share uploaded files/folders with others using a link</li>
+        <p>The main purpose of this survey was to answer the following questions:</p>
 
-      <li>I want to create new notes online</li>
+        <ul class="listspace">
+          <li>
+            <p><b>1. Ideal target group for a new cloud service product?</b></p>
+          </li>
+          <li>
+            <p><b>2. How are people using such a service now? and Why?</b></p>
+          </li>
+          <li>
+            <p><b>3. What features do they use regularly?</b></p>
+          </li>
+          <li>
+            <p><b>4. What problems can I solve with a new product?</b></p>
+          </li>
+        </ul>
 
-    </ul>
+      </div>
+      <p class="red underline"><b>Key Takeaway</b></p>
+      <p>The most critical thing that I learned during the survey was more than new features, users are concerned about the usability of basic features</p>
+      <p class="marginbottomsmall">When users were asked what they DO NOT like about their present service, these were their responses.</p>
+      <ul class="squarelist listspace marginbottomsmall">
+        <li>
+          <p>I didn't know how to create a folder for a long time</p>
+        </li>
 
-    <h3 class="mvplist">Features for MVP</h3>
-    <ol>
-      <li>Upload files</li>
+        <li>
+          <p>Difficult to understand, so I don’t use much</p>
+        </li>
 
-      <li>Upload folders</li>
+        <li>
+          <p>Saved it in the wrong folder and couldn’t find it</p>
+        </li>
 
-      <li>Search</li>
-      <li>Organize</li>
+        <li>
+          <p>One drive wasn’t very intuitive to use</p>
+        </li>
 
-      <li>Share – Email & Link</li>
+        <li>
+          <p>Right click for options wasn’t clear</p>
+        </li>
 
-      <li>Create a folder</li>
+        <li>
+          <p>Couldn’t share a file</p>
+        </li>
+      </ul>
+      <hr>
+      <p class="red aligncenter">All these led to the same problem - Unintuitive Design <br>
+        Not having an intuitive user flow that helps the user to move from one step to the other without any friction is the concern among cloud storage users</p>
+      <hr>
 
-      <li>Create a note</li>
+      <p class="red underline marginbottomsmall"><b>Other Key Points<p>
 
-      <li>Quick access</li>
 
-    </ol>
-    <a href="#"><button name="button">View User Stories</button></a>
+
+            <p><span class="emp red">75%</span> of the users accessed their cloud storage service through larger devices – Desktop, Laptop.</p>
+
+            <p><span class="emp red">65%</span> use the service for a work-related purpose.</p>
+            <p><span class="emp red">75% </span>chose Uploading a file and Sharing files as their main reasons to use this service at present.</p>
+
+            <p>Important features according to users - <span class="red bold">Uploading content, Organizing content, and Collaboration.</span></p>
+    </div>
+  </div>
+
+  <div class="definesol marginbottom">
+    <div class="container">
+      <h2>Defining the Solution</h2>
+      <p>Based on the competitive analysis and user survey, I identified the possible characteristics of a new entrant.
+      </p>
+      <ul class="squarelist listspace">
+        <li>
+          <p>A service that’s ideal for workplace-related activities.</p>
+        </li>
+
+        <li>
+          <p>Available on larger devices with a mobile app to support the workflow.</p>
+        </li>
+
+        <li>
+          <p>Focused on providing an intuitive workflow.</p>
+        </li>
+
+        <li>
+          <p>Must have features – Uploading content, Organizing content & Sharing.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="persona marginbottom">
+    <div class="container">
+
+
+      <h2>User Personas</h2>
+      <p>To understand the user better, I developed two personas based on two clear usage motivations that stood out during the survey. </p>
+      <p><span class="bold red">The uploader</span> - Wants a safe space to upload and organize all the work files.</p>
+      <p><span class="bold red">The collaborator</span> - Wants to quickly share and receive feedback on work files.</p>
+      <div class="persona1 aligncenter marginbottomsmall">
+        <img src="images/Jacob.jpg" width="150px" height="150px" alt="User Persona">
+        <p class="bold">Jacob - The Uploader</p>
+        <h3>AGE: 34</h3>
+        <h3>Occupation:</b> Scientist</h3>
+        <h3>Location:</b> Boston</h3>
+        <h3 class="marginbottomsmall">Gender:</b> Male</h3>
+        <p>He is constantly exporting data from microscopes and prefers to save it all these files in the cloud so that he can save space in his personal system.</p>
+        <p><b>Main Goal:</b><br>To upload files and organize file</p>
+        <p><b>Frustration:</b><br>Multiple steps to upload files <br>Forgets to organize files that are uploaded</p>
+        <hr>
+      </div>
+
+      <div class="persona2 aligncenter marginbottomsmall">
+        <img src="images/Ashley.jpg" width="150px" height="150px" alt="User Persona">
+        <p class="bold">Ashley - The Collaborator</p>
+
+        <h3>AGE: 30</h3>
+        <h3>Occupation:</b> UX Designer</h3>
+        <h3>Location:</b> Atlanta</h3>
+        <h3 class="marginbottomsmall">Gender:</b> Female</h3>
+
+        <p>The project she is working on is highly collaborative in nature and she shares her daily progress with team members for their feedback.</p>
+        <p><b>Main Goal:</b><br>Share files with team members quickly</p>
+        <p><b>Frustration:</b><br>Sharing with multiple people takes time
+          <br>Difficult to search for uploaded items</p>
+        <hr>
+      </div>
+
+    </div>
+  </div>
+  <div class="stories marginbottom">
+    <div class="container">
+
+
+
+      <h2>User Stories</h2>
+      <p>To identify all the necessary features, I listed down what ‘Ashley’ and ‘ Jacob ‘ would want to see in such a service.
+        From the list, I selected all the high priority user stories and few low & medium priority ones to form the MVP.</p>
+      <div class="userstories none">
+        <h3 class="storylist"><b>Stories</b></h3>
+        <ul>
+          <li>
+            <p>I want to upload files</p>
+          </li>
+
+          <li>
+            <p>I want to create new folders</p>
+          </li>
+
+          <li>
+            <p>I want to search for files with file name</p>
+          </li>
+
+          <li>
+            <p>I want to upload folders</p>
+          </li>
+
+          <li>
+            <p>I want to organize uploaded content into various folders</p>
+          </li>
+
+          <li>
+            <p>I want to share uploaded files/folders with others from the platform itself</p>
+          </li>
+
+          <li>
+            <p>I want to add files to a quick access category</p>
+          </li>
+
+          <li>
+            <p>I want to share uploaded files/folders with others using a link</p>
+          </li>
+
+          <li>
+            <p>I want to create new notes online</p>
+          </li>
+
+        </ul>
+      </div>
+      <p class="red underline"><b>Features<p>
+            <ul>
+              <li>
+                <p>Upload files</p>
+              </li>
+
+              <li>
+                <p>Upload folders</p>
+              </li>
+
+              <li>
+                <p>Search</p>
+              </li>
+              <li>
+                <p>Organize</p>
+              </li>
+
+              <li>
+                <p>Share – Email & Link</p>
+              </li>
+
+              <li>
+                <p>Create a folder</p>
+              </li>
+
+              <li>
+                <p>Create a note</p>
+              </li>
+
+              <li>
+                <p>Quick access</p>
+              </li>
+
+            </ul>
+            <a href="#"><button name="button">View User Stories</button></a>
+    </div>
 
   </div>
-  <div class="flows">
-    <h2>User Flows</h2>
-    <p>The next process involved accounting for all the steps a user takes while navigating through various features identified during the last step. I created 8 different user flows to map out the process and to identify the hierarchy of these
-      elements. The main focus here was to find ways to address the main pain points.</p>
-    <a href="#"><button name="button">View User Flows</button></a>
 
+  <div class="papersketch marginbottom ">
+    <div class="container">
+      <h2>Paper Sketches</h2>
+      <p>I started with paper sketching and once I figured out the flow and placement of various elements, I used Sketch to design wireframes.</p>
+    </div>
+    <div class="aligncenter colorbox bgcolor">
+      <img class="marginbottomsmall" src="images/Papersketch1.jpg" width="250px" height="250px" alt="User Persona">
+      <img class="marginbottomsmall" src="images/Papersketch2.jpg" width="250px" height="250px" alt="User Persona">
+      <img class="marginbottomsmall" src="images/Papersketch3.jpg" width="250px" height="250px" alt="User Persona">
+    </div>
   </div>
-  <div class="papersketch">
-    <h2>Paper Sketches</h2>
-    <p>I started with paper sketching and once I figured out the flow and placement of various elements, I used Sketch to design wireframes.</p>
-<img src="images/Papersketch1.jpg" width="270px" height="360px" alt="User Persona">
- <img src="images/Papersketch2.jpg" width="270px" height="360px" alt="User Persona">
- <img src="images/Papersketch3.jpg" width="270px" height="360px" alt="User Persona">
+  </div>
+  <div class="wireframes marginbottom colorbox bgcolor">
+    <div class="container">
+      <h2>Wireframes</h2>
+      <img class="none" src="images/WF1.png" width=95% height="250px" alt="wireframes">
+      <img class="marginbottomsmall" src="images/WF2.png" width=98% height="300px" alt="wireframes">
+      <img class="none" src="images/WF4.png" width=95% height="300px" alt="wireframes">
+      <img class="none" src="images/WF5.png" width=95% height="300px" alt="wireframes">
+      <img class="marginbottomsmall" src="images/WF6.png" width=98% height="300px" alt="wireframes">
+      <img class="marginbottomsmall" src="images/WF7.png" width=98% height="300px" alt="wireframes">
+    </div>
+  </div>
 
-  </div>
-  <div class="wireframes">
-    <h2>Wireframes</h2>
- <img src="images/WF1.png" width="400px" height="300px" alt="wireframes">
-   <img src="images/WF2.png" width="400px" height="300px" alt="wireframes">
- <img src="images/WF4.png" width="400px" height="300px" alt="wireframes">
-   <img src="images/WF5.png" width="400px" height="300px" alt="wireframes">
-<img src="images/WF6.png" width="400px" height="300px" alt="wireframes">
-<img src="images/WF7.png" width="400px" height="300px" alt="wireframes">
+  <div class="usertesting marginbottom">
+    <div class="container">
+      <h2>Usability Testing</h2>
+      <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues so that I can iterate and improve before moving forward. Wireframes were tested with 3 people through zoom.</p>
+      <h3><b>Changes after usability testing</b></h3>
+      <p>When the user hovers over a file, it gets highlighted along with the actions they could perform with that file. But I learned during the test that the hovering feature was confusing and the users found it difficult to click the ‘Move’ button
+        .
+        So I decided to remove the hovering option.</p>
+    </div>
 
-  </div>
-  <div class="usertesting">
-    <h2>Usability Testing</h2>
-    <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues so that I can iterate and improve before moving forward. Wireframes were tested with 3 people through zoom.</p>
-    <h3><b>Changes after usability testing</b></h3>
-    <p>When the user hovers over a file, it gets highlighted along with the actions they could perform with that file. But I learned during the test that the hovering feature was confusing and the users found it difficult to click the ‘Move’ button .
-      So I decided to remove the hovering option.</p>
-  <img src="images/uploadold.png" width="260px" height="120px" alt="Upload button Before">
-  <img src="images/uploadnew.png" width="260px" height="120px" alt="Upload button After">
-    <p>Users pointed out that the downward triangle next to the upload button was counter-intuitive.</p>
-   <img src="images/hbefore.png" width="360px" height="340px" alt="File hierarchy before">
- <img src="images/hafter.png" width="380px" height="360px" alt="File hierarchy after">
-    <p>Users found it difficult to understand the hierarchy of files while moving a file, uploading a new file to a folder, etc. So I redesigned the modal window.</p>
-  <img src="images/Sbefore.png" width="400px" height="200px" alt="Share button before">
-    <img src="images/Safter.png" width="425px" height="235px" alt="Share button after">
-    <p>Users found it confusing as there were two buttons ‘Share’ and ‘Done’. I thought it would make it easier for the user to have access to the share button close to the input field. But the test proved otherwise so I decided to get rid of the
-      ‘Share’ button.
-    </p>
-  </div>
-  <div class="visual">
-    <h2>Visual Design</h2>
-    <p>Branding direction - A product that’s intuitive and makes the workspace fun & vibrant.
-    </p>
-    <p>Brand voice will be approachable, vibrant, warm, helpful (Reference - MailChimp).</p>
- <img src="images/logo.png" width="381px" height="147px" alt="Logo">
-    <p class="logo">Through brainstorming, I figured the intended benefits of this service. One that clearly stood out was “Being in the flow”. I tried many variations with ‘FLO’ and decided on flono.</p>
-<img src="images/colorpalette.png" width="455px" height="327px" alt="Color palette">
-    <p class="color">I wanted the primary colors to evoke feelings of passion and energy to align with the vibrant nature of this service. But at the same time, I didn’t want it to be overpowering and in-your-face. </p>
-  <img src="images/typo.png" width="360px" height="467px" alt="Typography">
-    <p class="type">I chose ‘Amarnath’ as the brand typeface as it aligned with the casual and approachable brand voice of this service. <br> I paired it with ‘Open Sans’ to provide great clarity & readability at any font size and this will help
-      users to easily consume the content.</p>
-  </div>
-  <div class="preftest">
-    <h2>Preference Test</h2>
-    <p>I conducted a preference test for a few visual elements before finalizing the design. Following were the three elements that I tested.</p>
-    <ul>
-      <li>Sign Up Button</li>
+    <div class="otherchanges colorbox bgcolor">
 
-      <li>Active State for a file</li>
+      <div class="container aligncenter">
+        <h4 class="bold underline marginbottomsmall">Upload Button</h4>
+        <img src="images/uploadold.png" width="48%" height="120px" alt="Upload button Before">
 
-      <li>Notification Alert</li>
 
-    </ul>
-    <h5>Sign Up button</h5>
-   <img src="images/pref1.png" width="266px" height="361px" alt="Signup Option1">
-<img src="images/pref2.png" width="266px" height="361px"  alt="Signup Option2">
-    <p>Participants didn’t exhibit a strong preference for one over another. Decided to go with option 2.</p>
-    <h5>Active State for a file</h5>
-   <img src="images/pref3.png" width="749px" height="219px" alt="Active state Option1">
-  <img src="images/pref4.png" width="749px" height="219px" alt="Active state Option2">
-    <p>75% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
-    <h5>Notification Alert</h5>
- <img src="images/pref5.png" width="743px" height="213px" alt="Notification Option1">
- <img src="images/pref6.png" width="743px" height="213px" alt="Notification Option2">
-    <p>92% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
-  </div>
-  <div class="usability">
-    <h2>Usability Testing</h2>
-    <p>The prototype was tested again to find out how users responded to the various visual elements. I had to make one last change based on the usability testing before finalizing the design. </p>
-     <img src="images/utbefore.png" width="379px" height="358px" alt="Usability Test">
-     <img src="images/utafter.png" width="379px" height="358px" alt="Usability Test">
+        <img src="images/uploadnew.png" width="48%" height="120px" alt="Upload button After">
 
-    <p>In the modal window, users were trying to click the ‘upload’ button before necessary selections were made. I think the issue here is that the ‘Upload’ button is always in the active mode which confuses the user as to whether the necessary
-      selections were made or not. So I reduced the opacity of the button and once a selection is made, it changes to 100%.</p>
+
+        <p class="red bold aligncenter marginbottomsmall">Users pointed out that the downward triangle next to the upload button was counter-intuitive.</p>
+        <h4 class="bold underline marginbottomsmall">File hierarchy</h4>
+        <img class="aligncenter" src="images/hbefore.png" width=91% height="340px" alt="File hierarchy before">
+
+        <img src="images/hafter.png" width=91% height="360px" alt="File hierarchy after">
+
+        <p class="red bold aligncenter marginbottomsmall">Users found it difficult to understand the hierarchy of files while moving a file, uploading a new file to a folder, etc. So I redesigned the modal window.</p>
+        <h4 class="bold underline marginbottomsmall">Share Button</h4>
+        <img src="images/Sbefore.png" width=91% height="200px" alt="Share button before">
+
+        <img src="images/Safter.png" width=91% height="235px" alt="Share button after">
+
+        <p class="red bold aligncenter marginbottomsmall">Users found it confusing as there were two buttons ‘Share’ and ‘Done’. I thought it would make it easier for the user to have access to the share button close to the input field. But the test
+          proved
+          otherwise so I decided to get rid of the
+          ‘Share’ button.
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="final">
-    <h2>Final Prototype</h2>
-    <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
-    <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
-  <img src="images/feedback1.png" width="475px" height="337px" alt="Feedback Screenshot">
- <img src="images/feedback2.png" width="475px" height="337px" alt="Feedback Screenshot">
-    <p>Provides feedback through notification alerts wherever applicable.</p>
-    <img src="images/constraint.png" width="550px" height="391px" alt="Constraint Screenshot">
-    <p>Establishes constraints by not allowing the user to proceed without making necessary selections.</p>
- <img src="images/info.png" width="550px" height="391px" alt="Affordance Screenshot">
-    <p>Provides affordances to help the user understand how to interact with various elements.</p>
+
+  <div class="visual marginbottom">
+    <div class="container">
+      <h2>Visual Design</h2>
+      <p>Branding direction - A product that’s intuitive and makes the workspace fun & vibrant.
+      </p>
+      <p>Brand voice will be approachable, vibrant, warm, helpful (Reference - MailChimp).</p>
+      <img src="images/logo.png" width=100% height="147px" alt="Logo">
+      <p class="logo">Through brainstorming, I figured the intended benefits of this service. One that clearly stood out was “Being in the flow”. I tried many variations with ‘FLO’ and decided on flono.</p>
+      <img src="images/colorpalette.png" width=100% height="327px" alt="Color palette">
+      <p class="color">I wanted the primary colors to evoke feelings of passion and energy to align with the vibrant nature of this service. But at the same time, I didn’t want it to be overpowering and in-your-face. </p>
+      <img src="images/typo.png" width=95% height="467px" alt="Typography" class="border marginbottomsmall">
+      <p class="type">I chose ‘Amarnath’ as the brand typeface as it aligned with the casual and approachable brand voice of this service. <br> I paired it with ‘Open Sans’ to provide great clarity & readability at any font size and this will help
+        users to easily consume the content.</p>
+    </div>
   </div>
-  <div class="conclusion">
-    <h2>Conclusion</h2>
-    <p>It was a rewarding experience to design a product from scratch. Though the direction wasn’t clear in the beginning, each step added clarity and helped me to get closer to the final prototype. While there are still a lot of possibilities to
-      explore, I believe this is a good start.
-    </p>
-    <p>A few insights during the usability tests were particularly surprising. Some of the elements which I thought would make the process easier didn’t work. But eventually, it helped me design an even better solution to the user’s pain points.</p>
-    <p>If I had more time, I wouldn’t have considered doing another round of usability testing to test the final changes I made to the prototype.</p>
+  <div class="preftest marginbottom colorbox bgcolor">
+    <div class="container">
+
+
+      <h2>Preference Test</h2>
+      <p>I conducted a preference test for a few visual elements before finalizing the design. Following were the three elements that I tested.</p>
+      <div class="aligncenter">
+
+
+        <h4 class="bold underline marginbottomsmall">Sign Up button</h4>
+        <img class="marginbottomsmall signupop1" src="images/pref1.png" width="47%" height="250px" alt="Signup Option1">
+        <img class="marginbottomsmall signupop2" src="images/pref2.png" width="47%" height="250px" alt="Signup Option2">
+        <p class="red bold aligncenter marginbottomsmall">Participants didn’t exhibit a strong preference for one over another. Decided to go with option 2.</p>
+        <h4 class="bold underline marginbottomsmall">Active State For A File</h4>
+        <img class="marginbottomsmall" src="images/pref3.png" width=100% height="100px" alt="Active state Option1">
+        <img class="marginbottomsmall" src="images/pref4.png" width=100% height="100px" alt="Active state Option2">
+        <p class="red bold aligncenter marginbottomsmall">75% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
+        <h4 class="bold underline marginbottomsmall">Active State For A File</h4>
+        <img class="marginbottomsmall" src="images/pref5.png" width=100% height="100px" alt="Notification Option1">
+        <img class="marginbottomsmall" src="images/pref6.png" width=100% height="100px" alt="Notification Option2">
+        <p class="red bold aligncenter marginbottomsmall">92% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
+      </div>
+    </div>
   </div>
-  <a href="#"><button name="button">Previous Case Study</button></a>
-  <a href="#"><button name="button">Next Case Study</button></a>
-  <footer>
-    <h2>Let's Connect</h2>
-    <h3>I'd love to hear from you</h3>
+  <div class="usability marginbottom">
+    <div class="container">
+
+
+      <h2>Usability Testing</h2>
+      <p>The prototype was tested again to find out how users responded to the various visual elements. I had to make one last change based on the usability testing before finalizing the design. </p>
+    </div>
+    <div class="utimages colorbox bgcolor aligncenter">
+
+
+      <img class="marginbottomsmall" src="images/utbefore.png" width=91% height="358px" alt="Usability Test">
+      <img class="marginbottomsmall" src="images/utafter.png" width=91% height="358px" alt="Usability Test">
+    </div>
+    <div class="container">
+      <p>In the modal window, users were trying to click the ‘upload’ button before necessary selections were made. I think the issue here is that the ‘Upload’ button is always in the active mode which confuses the user as to whether the necessary
+        selections were made or not. So I reduced the opacity of the button and once a selection is made, it changes to 100%.</p>
+    </div>
+  </div>
+
+  <div class="final marginbottom">
+    <div class="container">
+      <h2>Final Prototype</h2>
+      <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
+      <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
+    </div>
+    <div class="colorbox bgcolor aligncenter">
+      <img class="marginbottomsmall" src="images/feedback1.png" width="91%" height="250px" alt="Feedback Screenshot">
+      <img class="none" src="images/feedback2.png" width="475px" height="300px" alt="Feedback Screenshot">
+      <div class="container">
+        <p class="red bold ">Provides feedback through notification alerts wherever applicable.</p>
+      </div>
+      <img class="marginbottomsmall" src="images/constraint.png" width="91%" height="250px" alt="Constraint Screenshot">
+      <img class="none" src="images/feedback2.png" width="475px" height="300px" alt="Feedback Screenshot">
+      <div class="container">
+        <p class="red bold ">Establishes constraints by not allowing the user to proceed without making necessary selections.</p>
+      </div>
+      <img class="marginbottomsmall" src="images/info.png" width="91%" height="250px" alt="Affordance Screenshot">
+      <img class="none" src="images/feedback2.png" width="475px" height="300px" alt="Feedback Screenshot">
+      <div class="container">
+        <p class="red bold ">Provides affordances to help the user understand how to interact with various elements.</p>
+      </div>
+    </div>
+  </div>
+  <div class="conclusion marginbottom">
+    <div class="container">
+      <h2>Conclusion</h2>
+      <p>It was a rewarding experience to design a product from scratch. Though the direction wasn’t clear in the beginning, each step added clarity and helped me to get closer to the final prototype. While there are still a lot of possibilities to
+        explore, I believe this is a good start.
+      </p>
+      <p>A few insights during the usability tests were particularly surprising. Some of the elements which I thought would make the process easier didn’t work. But eventually, it helped me design an even better solution to the user’s pain points.
+      </p>
+      <p>If I had more time, I wouldn’t have considered doing another round of usability testing to test the final changes I made to the prototype.</p>
+    </div>
+  </div>
+
+
+  <footer class="aligncenter">
+    <img src="images/mylogo.png" class="footerlogo none" width="34px" height="40px" alt="logo">
+    <h2 class="footernote">Let's Connect!</h2>
+    <h3 class="none">I'd love to hear from you</h3>
     <a href="#"><button name="button">Contact Me</button><br></a>
-    <i class="fa fa-linkedin"></i>
-    <i class="fa fa-github-square"></i>
-    <i class="fa fa-twitter"></i><br>
-    <i class="fa fa-copyright"></i> 2019 Indu Remesh
+    <ul class="socialicons fontawesome">
+      <li><i class="fa fa-linkedin"></i></li>
+      <li><i class="fa fa-github-square"></i></li>
+      <li><i class="fa fa-twitter"></i><br></li>
+    </ul>
+    <i class="fa fa-copyright"></i> Indu Remesh
+
+
   </footer>
+
 
 
 

@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.none{
+  display: none;
+}
+nav{
+  color: #3A58ED;
+  font-family: "Raleway";
+  font-weight: bold;
+  box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.container{
+  width: 91%;
+  margin:0 auto;
+
+}
+
+html{
+  font-size: 10px;
+  font-family: "poppins";
+  color: #4A4A4A;
+}
+
+h1{
+font-size: 3rem;
+color:#3A58ED;
+line-height: 4rem;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color:#3A58ED;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+h4{
+  font-size: 1.4rem;
+  margin-bottom:5px;
+}
+p{
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  margin-bottom: 10px;
+}
+.fontawesome{
+  font-size: 20px;
+}
+
+.blue{
+  color:#3A58ED;
+}
+
+nav ul{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.irlogo{
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+header.home{
+margin-bottom: 30px;
+
+}
+
+.herohi, .oneliner{
+  font-size: 2rem;
+  color: #9B9B9B;
+   font-family: "Inter";
+   line-height: 3rem;
+}
+
+.heroname{
+  font-family: "Inter";
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+button {
+  border: 1px solid #309A01;
+  background-color: white;
+  color: #309A01;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+.aligncenter{
+  text-align: center;
+}
+
+
+.project{
+  width:90%;
+  margin: 0 auto;
+  height:40%;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+
+}
+
+.projectimage{
+  padding: 5% 5%;
+  background-color: #FEF5F2;
+}
+
+.projectdescription{
+ padding: 6% 6%;
+}
+
+footer ul{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.socialicons{
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.marginbottom{
+  margin-bottom: 40px;
+}
+
+.marginbottomsmall{
+  margin-bottom: 20px;
+}
+.bgcolor{
+  background-color: #FEF5F2;
+}
+
+.colorbox{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.red{
+  color:#E76155;
+}
+
+.emp{
+  font-size: 2.5rem;
+}
+
+.squarelist {list-style-type: square;}
+
+.divider{
+  width: 100%;
+  height: 3px;
+  color: red;
+}
+
+.bold{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+}
+
+
+ul.listspace li{
+  margin-bottom: 10px;
+}
+
+.border{
+  border-style: solid;
+  border-width: thin;
+}
+
+
+
+.previous{
+  float:left;
+}
+
+.next{
+  float: right;
+}
+
+
+hr{
+  border-top: 1px solid red;
+}
+
+.black{
+  color: #4A4A4A;
+}
