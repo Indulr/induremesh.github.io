@@ -5,98 +5,83 @@
   <title>Portfolio | Indu Remesh</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<nav>
-  <ul class="elements">
-    <div class="logo">
-      <li class="irlogo"><img src="images/mylogo.png" width="34px"  alt="logo"></li>
-
+<nav class="blue bold">
+  <ul>
+    <div class="navelements">
+      <div class="logounit">
+        <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
+        <li class="myname blue">Indu Remesh</li>
+      </div>
+      <div class="menuicon fontawesome">
+        <li><i class="fa fa-bars"></i></li>
+      </div>
+      <div class="links none">
+        <li class="work">Work</li>
+        <li class="about">About</li>
+        <li class="contact">Contact</li>
+      </div>
     </div>
-    <div class="name">
-      <li class="myname"><h2>Indu Remesh</h2></li>
-    </div>
-
-    <div class="menuicon fontawesome">
-      <li><i class="fa fa-bars"></i></li>
-    </div>
-
-    <div class="links none">
-      <li class="work">Work</li>
-      <li class="about">About</li>
-      <li class="contact">Contact</li>
-    </div>
-
   </ul>
 </nav>
-
 <body>
   <div class="container">
-
     <header class="home">
-
-
-
-
-        <div class="herotext">
-          <h3 class="herohi"> Hi There!</h3>
-          <h1 class="heroname blue"><span class="black">I’m </span> Indu Remesh.</h1>
-          <p class="oneliner">UX Designer based in NYC passionate about learning the whys and hows of user behavior.</p>
-        </div>
-          <div class="heroimage">
-            <img  class ="illustration" src="images/illustration.png"  alt="Illustration">
-          </div>
-
-          <div class="herobutton aligncenter">
-              <a href="#"><button name="button">More About Me</button></a>
-          </div>
-
-
-
-
+      <div class="herotext heroelement">
+        <h3 class="herohi"> Hi There!</h3>
+        <h1 class="heroname blue"><span class="black">I’m </span> Indu Remesh.</h1>
+        <p class="oneliner">UX Designer based in NYC passionate about learning the whys and hows of user behavior.</p>
+        <a href="project.html"><button class="none">More About Me</button></a>
+      </div>
+      <div class="heroimage heroelement">
+        <img class="illustration" src="images/illustration.png" alt="Illustration">
+      </div>
+      <div class="herobutton aligncenter">
+        <a href="#"><button class="none2" name="button">More About Me</button></a>
+      </div>
     </header>
     <div class="viewmore blue none">
-
       <i class="fa fa-chevron-down arrowdown"></i>
-      <h4>View More</h4>
-
+      <h3>View My Work</h3>
     </div>
-
     <section class="project aligncenter">
       <div class="projectimage">
-        <img class="pro1 mainprojectimage" src="images/HomePage.svg"  alt="Illustration">
-        <img class="pro2 none " src="images/mobilehp.png"  alt="Illustration">
+        <img class="pro1 mainprojectimage" src="images/HomePage.svg" alt="Project Image">
+        <img class="pro2 none" src="images/dashboardmain.svg" alt="Project Image">
       </div>
-
       <div class="projectdescription">
         <h2 class="blue">Flono</h2>
         <p>Flono is a cloud storage app designed to make cloud-related activities in the workplace easier.
-          <span class="none">The purpose of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for that market.</p></span>
+          <span class="none tabnone comview">The purpose of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for that market.</p></span>
         <a href="project.html"><button>View case study</button></a>
-
       </div>
-
-
     </section>
-
-
     <footer class="aligncenter">
-      <img src="images/mylogo.png" class="footerlogo none" width="34px" height="40px" alt="logo">
+      <img src="images/mylogo.png" class="footerlogo" width="34px" alt="logo">
       <h2 class="footernote">Let's Connect!</h2>
       <h3 class="none">I'd love to hear from you</h3>
       <a href="#"><button name="button">Contact Me</button><br></a>
       <ul class="socialicons fontawesome">
-        <a href="https://www.linkedin.com/in/indurk/"><li><i class="fa fa-linkedin"></i></li></a>
-        <a href="https://github.com/Indulr"><li><i class="fa fa-github-square"></i></li></a>
-        <a href="https://twitter.com/iindurem"><li><i class="fa fa-twitter"></i><br></li></a>
+        <a href="https://www.linkedin.com/in/indurk/">
+          <li><i class="fa fa-linkedin"></i></li>
+        </a>
+        <a href="https://github.com/Indulr">
+          <li><i class="fa fa-github-square"></i></li>
+        </a>
+        <a href="https://twitter.com/iindurem">
+          <li><i class="fa fa-twitter"></i><br></li>
+        </a>
       </ul>
-      <i class="fa fa-copyright"></i> Indu Remesh
+      <div class="copyright">
+        <i class="fa fa-copyright"></i> Indu Remesh
 
-
+      </div>
     </footer>
   </div>
 </body>
-
 </html>

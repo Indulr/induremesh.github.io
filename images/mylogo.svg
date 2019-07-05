@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Pg-Desktop-Copy" transform="translate(-120.000000, -129.000000)">
+            <g id="Group-2-Copy" transform="translate(120.000000, 129.000000)">
+                <g id="Group" transform="translate(8.000000, 4.000000)">
+                    <rect id="Rectangle" fill="#090446" x="0" y="9" width="7" height="33"></rect>
+                    <rect id="Rectangle" fill="#3A58ED" x="0" y="0" width="7" height="6"></rect>
+                    <path d="M25.6932232,23.9182275 L36,42 L28.219988,42 L18.4768507,24.9102003 L9,24.9102003 L9,18.6631704 L20.4813986,18.6631704 C24.8558989,18.6631704 28.3915956,15.9015301 28.3915956,12.5045489 C28.3915956,9.0940812 24.8558989,6.34293099 20.4813986,6.34293099 L9,6.34293099 L9,0.00749242326 L9,0 L14.8213255,0 L14.8213255,0.0539440997 L20.2417407,0 C28.2199891,0 34.1507876,5.15466141 34.1507876,12.0085631 C34.1507876,17.2081779 30.7926152,21.9357813 25.6932232,23.9182275 Z" id="r-copy-3" fill="#090446"></path>
+                </g>
+                <rect id="Rectangle" stroke="#3A58ED" stroke-width="2" x="1" y="1" width="48" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,50 +5,47 @@
   <title>Portfolio | Indu Remesh</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<nav>
-  <ul class="elements">
-    <div class="logo">
-      <a href="index.html"><li class="irlogo"><img src="images/mylogo.png" width="34px" alt="logo"></li></a>
-
+<nav class="blue bold">
+  <ul>
+    <div class="navelements">
+      <div class="logounit">
+        <a href="index.html"><li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li></a>
+        <li class="myname blue">Indu Remesh</li>
+      </div>
+      <div class="menuicon fontawesome">
+        <li><i class="fa fa-bars"></i></li>
+      </div>
+      <div class="links none">
+        <li class="work">Work</li>
+        <li class="about">About</li>
+        <li class="contact">Contact</li>
+      </div>
     </div>
-    <div class="name">
-      <li class="myname">
-        <h2>Indu Remesh</h2>
-      </li>
-    </div>
-
-    <div class="menuicon fontawesome">
-      <li><i class="fa fa-bars"></i></li>
-    </div>
-
-    <div class="links none">
-      <li class="work">Work</li>
-      <li class="about">About</li>
-      <li class="contact">Contact</li>
-    </div>
-
   </ul>
 </nav>
 
 <body>
-  <header class="bgcolor colorbox marginbottom">
-    <div class="container">
-      <div class="flonointro marginbottomsmall">
-        <div class="flonoimage">
-          <img class="marginbottomsmall mainprojectimage" src="images/HomePage.png" alt="Illustration">
-          <img class="none" src="images/Dashboard.png" width="300px" alt="Illustration">
-        </div>
-        <div class="flonotext">
-          <h1 class="underline">Flono</h1>
-          <p>Flono is a cloud storage app
-            designed to make cloud-related activities in the workplace easier.</p>
-          <a href="#"><button name="button">View Prototype</button></a>
-        </div>
+  <div class="container">
+    <div class=" flonomain marginbottom">
+      <div class="desktopnone">
+        <img class="marginbottomsmall fullimg" src="images/HomePage.png" alt="Illustration">
+        <!-- <img class="none" src="images/Dashboard.png" width="300px" alt="Illustration"> -->
       </div>
+      <div class="flonoheadcomp flonoabout">
+        <h1 class=" ">Flono</h1>
+        <p>Flono is a cloud storage app
+          designed to make cloud-related activities in the workplace easier.</p>
+        <a href="#"><button name="button">View Prototype</button></a>
+      </div>
+      <video class="flonoheadcomp none" controls autoplay>
+        <source src="images/figmagif.mp4" type="video/mp4"> </video>
+      <!--    <img class="marginbottomsmall newimage flonoheadcomp none" src="images/HomePage.png" alt="Illustration">-->
       <div class="topicintro">
         <h2>Introduction</h2>
         <p>The cloud storage market is huge with multiple big-name competitors like Google Drive, Dropbox, etc. It is projected that by 2022, more than 72% of the global organizations will migrate to the cloud from on-premise data centers.
@@ -58,11 +55,9 @@
         </p>
       </div>
     </div>
-  </header>
-  <div class="prosol">
-    <div class="container">
-      <div class="problemandsol marginbottomsmall">
-        <div class="problem marginbottomsmall">
+    <div class="prosol marginbottom colorbox bgcolor marginforproblem">
+      <div class="problemandsol marginbottomsmall psrt">
+        <div class="problem marginbottom bwprosol">
           <h2>Problem</h2>
           <p>Though this market is dominated by big names, Most of these platforms have an <strong>unintuitive design</strong> . There are many online forums and twitter rants which reflect this issue. When I carried out a survey to find out what
             users
@@ -75,72 +70,71 @@
             efficiency. </p>
         </div>
       </div>
-      <div class="roleandtools aligncenter">
-        <div class="roles marginbottomsmall">
+      <div class="roleandtools  psrt">
+        <div class="roles aligncenter marginbottomsmall">
           <h2>Roles</h2>
-          <ul class="list">
+          <ul>
             <li>
-              <p>User Research</p>
+              <h3>User Research</h3>
             </li>
             <li>
-              <p>Competitive Analysis</p>
+              <h3>Competitive Analysis</h3>
             </li>
             <li>
-              <p>User Flows</p>
+              <h3>User Flows</h3>
             </li>
             <li>
-              <p>Content Strategy</p>
+              <h3>Content Strategy</h3>
             </li>
             <li>
-              <p>Wireframing</p>
+              <h3>Wireframing</h3>
             </li>
             <li>
-              <p>Prototyping</p>
+              <h3>Prototyping</h3>
             </li>
             <li>
-              <p>Branding & Style Guide</p>
+              <h3>Branding & Style Guide</h3>
             </li>
             <li>
-              <p>Usability Testing</p>
+              <h3>Usability Testing</h3>
             </li>
           </ul>
         </div>
-        <div class="Tools marginbottomsmall">
+        <div class="tools aligncenter marginbottomsmall">
           <h2>Tools</h2>
           <ul class="list">
             <li>
-              <p>Sketch
+              <h3>Sketch</h3>
+            </li>
+
             <li>
-              <p>
-            <li>
-              <p>Figma
-            <li>
-              <p>
-            <li>
-              <p>Usability Hub
-            <li>
-              <p>
-            <li>
-              <p>Draw.io
-            <li>
-              <p>
-            <li>
-              <p>Google forms
-            <li>
+              <h3>Figma</h3>
+            </li>
+            <h3>
+              <li>
+                <h3>Usability Hub</h3>
+              </li>
+
+              <li>
+                <h3>Draw.io</h3>
+              </li>
+
+              <li>
+                <h3>Google forms</h3>
+              </li>
               <p>
           </ul>
         </div>
       </div>
+
     </div>
-  </div>
-  <div class="comp marginbottom">
-    <div class="container">
+    <div class="comp marginbottom">
       <h2>Competitive Analysis</h2>
       <p>The first step was to analyze the market to evaluate current options and find out opportunities to enter this space.
         I chose three main players in the market for this purpose - Google drive, Dropbox, Box.</p>
-      <div class="competitors none">
+      <div class="competitors none desktopnone comview">
         <div class="google">
-          <h3 class="smallheading">Google Drive</h3>
+          <p class="smallheading underline bold">Google Drive</p>
           <ul class="complist">
             <li>
               <p>Provides 15 GB of free storage</p>
@@ -163,7 +157,7 @@
           </ul>
         </div>
         <div class="dropbox">
-          <h3 class="smallheading">Dropbox</h3>
+          <h3 class="smallheading underline bold">Dropbox</h3>
           <ul class="complist">
             <li>
               <p>The most reviewed app</p>
@@ -186,11 +180,11 @@
             <li>
               <p>Certain components are cluttered</p>
             </li>
-          </ul class="complist">
+          </ul>
         </div>
         <div class="box">
-          <h3 class="smallheading">Box</h3>
-          <ul>
+          <h3 class="smallheading underline bold">Box</h3>
+          <ul class="complist">
             <li>
               <p>Intuitive layout</p>
             </li>
@@ -215,11 +209,11 @@
           </ul>
         </div>
       </div>
-      <a href="#"><button name="button">View In Detail</button></a>
+      <div class="compbutton">
+        <a href="#"><button name="button">View In Detail</button></a>
+      </div>
     </div>
-  </div>
-  <div class="survey marginbottom colorbox bgcolor">
-    <div class="container">
+    <div class="survey marginbottom colorbox bgcolor">
       <div class="marginbottomsmall">
         <h2>User Survey</h2>
         <p>I conducted a survey to understand the needs of users. This survey was sent out through social media accounts, subreddits, and friends.</p>
@@ -274,36 +268,34 @@
             <p><span class="emp red">65%</span> use the service for a work-related purpose.</p>
             <p><span class="emp red">75% </span>chose Uploading a file and Sharing files as their main reasons to use this service at present.</p>
             <p>Important features according to users - <span class="red bold">Uploading content, Organizing content, and Collaboration.</span></p>
+
     </div>
-  </div>
-  <div class="definesol marginbottom">
-    <div class="container">
+    <div class="definesol marginbottom">
+
       <h2>Defining the Solution</h2>
       <p>Based on the competitive analysis and user survey, I identified the possible characteristics of a new entrant.
       </p>
-      <ul class="squarelist listspace">
+      <ul class=" listspace">
         <li>
-          <p>A service that’s ideal for workplace-related activities.</p>
+          <p>1. A service that’s ideal for workplace-related activities.</p>
         </li>
         <li>
-          <p>Available on larger devices with a mobile app to support the workflow.</p>
+          <p>2. Available on larger devices with a mobile app to support the workflow.</p>
         </li>
         <li>
-          <p>Focused on providing an intuitive workflow.</p>
+          <p>3. Focused on providing an intuitive workflow.</p>
         </li>
         <li>
-          <p>Must have features – Uploading content, Organizing content & Sharing.</p>
+          <p>4. Must have features – Uploading content, Organizing content & Sharing.</p>
         </li>
       </ul>
     </div>
-  </div>
-  <div class="persona marginbottom">
-    <div class="container">
+    <div class="persona marginbottom">
       <h2>User Personas</h2>
       <p>To understand the user better, I developed two personas based on two clear usage motivations that stood out during the survey. </p>
       <p><span class="bold red">The uploader</span> - Wants a safe space to upload and organize all the work files.</p>
       <p><span class="bold red">The collaborator</span> - Wants to quickly share and receive feedback on work files.</p>
-      <div class="persona1 aligncenter marginbottomsmall">
+      <div class="persona1 personaclass aligncenter marginbottomsmall">
         <img src="images/Jacob.jpg" class="personaimage" alt="User Persona">
         <p class="bold">Jacob - The Uploader</p>
         <h3>AGE: 34</h3>
@@ -313,9 +305,9 @@
         <p>He is constantly exporting data from microscopes and prefers to save it all these files in the cloud so that he can save space in his personal system.</p>
         <p><b>Main Goal:</b><br>To upload files and organize file</p>
         <p><b>Frustration:</b><br>Multiple steps to upload files <br>Forgets to organize files that are uploaded</p>
-        <hr>
+        <hr class="desktopnone">
       </div>
-      <div class="persona2 aligncenter marginbottomsmall">
+      <div class="persona2 personaclass aligncenter marginbottomsmall">
         <img src="images/Ashley.jpg" class="personaimage" alt="User Persona">
         <p class="bold">Ashley - The Collaborator</p>
         <h3>AGE: 30</h3>
@@ -326,17 +318,15 @@
         <p><b>Main Goal:</b><br>Share files with team members quickly</p>
         <p><b>Frustration:</b><br>Sharing with multiple people takes time
           <br>Difficult to search for uploaded items</p>
-        <hr>
+        <hr class="desktopnone">
       </div>
     </div>
-  </div>
-  <div class="stories marginbottom">
-    <div class="container">
+    <div class="stories marginbottom">
       <h2>User Stories</h2>
       <p>To identify all the necessary features, I listed down what ‘Ashley’ and ‘ Jacob ‘ would want to see in such a service.
         From the list, I selected all the high priority user stories and few low & medium priority ones to form the MVP.</p>
-      <div class="userstories none">
-        <h3 class="storylist"><b>Stories</b></h3>
+      <div class="userstories  none storyandfeature">
+        <p class="storylist bold red underline"><b>Stories</b></p>
         <ul>
           <li>
             <p>I want to upload files</p>
@@ -367,200 +357,198 @@
           </li>
         </ul>
       </div>
-      <p class="red underline"><b>Features<p>
-            <ul>
-              <li>
-                <p>Upload files</p>
-              </li>
-              <li>
-                <p>Upload folders</p>
-              </li>
-              <li>
-                <p>Search</p>
-              </li>
-              <li>
-                <p>Organize</p>
-              </li>
-              <li>
-                <p>Share – Email & Link</p>
-              </li>
-              <li>
-                <p>Create a folder</p>
-              </li>
-              <li>
-                <p>Create a note</p>
-              </li>
-              <li>
-                <p>Quick access</p>
-              </li>
-            </ul>
-            <a href="#"><button name="button">View User Stories</button></a>
-    </div>
-  </div>
-  <div class="papersketch marginbottom ">
-    <div class="container">
-      <h2>Paper Sketches</h2>
-      <p>I started with paper sketching and once I figured out the flow and placement of various elements, I used Sketch to design wireframes.</p>
-    </div>
-    <div class="aligncenter colorbox bgcolor">
-      <img class="marginbottomsmall papersketchimg" src="images/Papersketch1.jpg" alt="User Persona">
-      <img class="marginbottomsmall papersketchimg" src="images/Papersketch2.jpg" alt="User Persona">
-      <img class="marginbottomsmall papersketchimg" src="images/Papersketch3.jpg" alt="User Persona">
-    </div>
-  </div>
-  </div>
-  <div class="wireframes  marginbottom ">
-    <div class="container ">
-      <h2>Wireframes</h2>
 
-    </div>
-    <div class="aligncenter colorbox bgcolor ">
-      <img class="none wireframeimg" src="images/WF1.png" alt="wireframes">
-      <img class="marginbottomsmall wireframeimg" src="images/WF2.png" alt="wireframes">
-      <img class="none wireframeimg" src="images/WF4.png" alt="wireframes">
-      <img class="none wireframeimg" src="images/WF5.png" alt="wireframes">
-      <img class="marginbottomsmall wireframeimg" src="images/WF6.png" alt="wireframes">
-      <img class="marginbottomsmall wireframeimg" src="images/WF7.png" alt="wireframes">
-    </div>
-
-  </div>
-  <div class="usertesting marginbottom">
-    <div class="container">
-      <h2>Usability Testing</h2>
-      <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues so that I can iterate and improve before moving forward. Wireframes were tested with 3 people through zoom.</p>
-      <h3><b>Changes after usability testing</b></h3>
-      <p>When the user hovers over a file, it gets highlighted along with the actions they could perform with that file. But I learned during the test that the hovering feature was confusing and the users found it difficult to click the ‘Move’ button
-        .
-        So I decided to remove the hovering option.</p>
-    </div>
-    <div class="otherchanges colorbox bgcolor">
-      <div class="container aligncenter">
-        <h4 class="bold underline marginbottomsmall">Upload Button</h4>
-        <img class="uploadbefore halfimg" src="images/uploadold.png" alt="Upload button Before">
-        <img class="uploadafter halfimg" src="images/uploadnew.png" alt="Upload button After">
-        <p class="red bold aligncenter marginbottomsmall">Users pointed out that the downward triangle next to the upload button was counter-intuitive.</p>
-        <h4 class="bold underline marginbottomsmall">File hierarchy</h4>
-        <img class="aligncenter hbefore fullimg" src="images/hbefore.png" alt="File hierarchy before">
-        <img class="aligncenter hafter fullimg" src="images/hafter.png" alt="File hierarchy after">
-        <p class="red bold aligncenter marginbottomsmall">Users found it difficult to understand the hierarchy of files while moving a file, uploading a new file to a folder, etc. So I redesigned the modal window.</p>
-        <h4 class="bold underline marginbottomsmall">Share Button</h4>
-        <img class="aligncenter sbefore fullimg" src="images/Sbefore.png" alt="Share button before">
-        <img class="aligncenter sbefore fullimg" src="images/Safter.png" alt="Share button after">
-        <p class="red bold aligncenter marginbottomsmall">Users found it confusing as there were two buttons ‘Share’ and ‘Done’. I thought it would make it easier for the user to have access to the share button close to the input field. But the test
-          proved
-          otherwise so I decided to get rid of the
-          ‘Share’ button.
-        </p>
+      <div class="storyandfeature featuresonly">
+        <p class="red underline bold"><b>Features<p>
+              <ul>
+                <li>
+                  <p>Upload files</p>
+                </li>
+                <li>
+                  <p>Upload folders</p>
+                </li>
+                <li>
+                  <p>Search</p>
+                </li>
+                <li>
+                  <p>Organize</p>
+                </li>
+                <li>
+                  <p>Share – Email & Link</p>
+                </li>
+                <li>
+                  <p>Create a folder</p>
+                </li>
+                <li>
+                  <p>Create a note</p>
+                </li>
+                <li>
+                  <p>Quick access</p>
+                </li>
+              </ul>
+      </div>
+      <div class="storybutton">
+        <a href="#"><button name="button">View User Stories</button></a>
       </div>
     </div>
-  </div>
-  <div class="visual marginbottom">
-    <div class="container">
+    <div class="papersketch marginbottom ">
+      <h2>Paper Sketches</h2>
+      <p>I started with paper sketching and once I figured out the flow and placement of various elements, I used Sketch to design wireframes.</p>
+      <div class="aligncenter colorbox bgcolor">
+        <img class="marginbottomsmall papersketchimg" src="images/Papersketch1.jpg" alt="User Persona">
+        <img class="marginbottomsmall papersketchimg" src="images/Papersketch2.jpg" alt="User Persona">
+        <img class="marginbottomsmall papersketchimg" src="images/Papersketch3.jpg" alt="User Persona">
+      </div>
+    </div>
+    <div class="wireframes  marginbottom ">
+      <h2>Wireframes</h2>
+      <div class="aligncenter colorbox bgcolor ">
+        <img class="none wireframeimg" src="images/WF1.png" alt="wireframes">
+        <img class="none wireframeimg " src="images/WF4.png" alt="wireframes">
+        <img class="marginbottomsmall wireframeimg" src="images/WF6.png" alt="wireframes">
+        <img class="marginbottomsmall wireframeimg" src="images/WF7.png" alt="wireframes">
+      </div>
+    </div>
+    <div class="usertesting marginbottom">
+      <h2>Usability Testing</h2>
+      <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues so that I can iterate and improve before moving forward. Wireframes were tested with 3 people through zoom.</p>
+      <p class="bold underline">Main change after usability testing</p>
+      <p class="flonoheadcomp">When the user hovers over a file, it gets highlighted along with the actions they could perform with that file. But I learned during the test that the hovering feature was confusing and the users found it difficult to
+        click the ‘Move’ button
+        .
+        So I decided to remove the hovering option.</p>
+      <video class="flonoheadcomp marginbottom none videowidth" controls>
+        <source src="images/usabilitytest.mp4" type="video/mp4"> </video>
+      <p class="bold underline">Other Changes</p>
+      <div class="otherchanges colorbox bgcolor">
+        <div class="container aligncenter">
+          <h4 class="bold underline marginbottomsmall">Upload Button</h4>
+          <img class="uploadbefore halfimg utupload marginaround" src="images/uploadold.png" alt="Upload button Before">
+          <img class="uploadafter halfimg utupload marginaround" src="images/uploadnew.png" alt="Upload button After">
+          <p class="red  marginbottomsmall ">Users pointed out that the downward triangle next to the upload button was counter-intuitive.</p>
+          <h4 class="bold underline marginbottomsmall">File hierarchy</h4>
+          <img class="aligncenter hbefore fullimg marginaround" src="images/hbefore.png" alt="File hierarchy before">
+          <img class="aligncenter hafter fullimg marginaround" src="images/hafter.png" alt="File hierarchy after">
+          <p class="red marginbottomsmall">Users found it difficult to understand the hierarchy of files while moving a file, uploading a new file to a folder, etc. So I redesigned the modal window.</p>
+          <h4 class="bold underline marginbottomsmall">Share Button</h4>
+          <img class="aligncenter sbefore fullimg marginaround" src="images/Sbefore.png" alt="Share button before">
+          <img class="aligncenter sbefore fullimg marginaround" src="images/Safter.png" alt="Share button after">
+          <p class="red marginbottomsmall">Users found it confusing as there were two buttons ‘Share’ and ‘Done’. I thought it would make it easier for the user to have access to the share button close to the input field. But the test
+            proved
+            otherwise so I decided to get rid of the
+            ‘Share’ button.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="visual marginbottom">
       <h2>Visual Design</h2>
       <p>Branding direction - A product that’s intuitive and makes the workspace fun & vibrant.
       </p>
       <p>Brand voice will be approachable, vibrant, warm, helpful (Reference - MailChimp).</p>
-      <img class="logoimg fullimg" src="images/logo.png" alt="Logo">
-      <p class="logo">Through brainstorming, I figured the intended benefits of this service. One that clearly stood out was “Being in the flow”. I tried many variations with ‘FLO’ and decided on flono.</p>
-      <img class="colorimg fullimg" src="images/colorpalette.png" alt="Color palette">
-      <p class="color">I wanted the primary colors to evoke feelings of passion and energy to align with the vibrant nature of this service. But at the same time, I didn’t want it to be overpowering and in-your-face. </p>
-      <img class="typoimg fullimg border marginbottomsmall" src="images/typo.png" alt="Typography">
-      <p class="type">I chose ‘Amarnath’ as the brand typeface as it aligned with the casual and approachable brand voice of this service. <br> I paired it with ‘Open Sans’ to provide great clarity & readability at any font size and this will help
-        users to easily consume the content.</p>
+      <img class="logoimg fullimg visualcolor" src="images/logo.png" alt="Logo">
+      <p class="logo visualcolor">Through brainstorming, I figured the intended benefits of this service. One that clearly stood out was “Being in the flow”. I tried many variations with ‘FLO’ and decided on flono.</p>
+      <img class="colorimg fullimg visualcolorpalette" src="images/colorpalette.png" alt="Color palette">
+      <p class="color visualcolorpalette">I wanted the primary colors to evoke feelings of passion and energy to align with the vibrant nature of this service. But at the same time, I didn’t want it to be overpowering and in-your-face. </p>
+      <!--   <img class="typoimg desktopnone fullimg border marginbottomsmall visualtypo" src="images/typo.png" alt="Typography">
+      <p class="type desktopnone visualtypo">I chose ‘Amarnath’ as the brand typeface as it aligned with the casual and approachable brand voice of this service. <br> I paired it with ‘Open Sans’ to provide great clarity & readability at any font size and this will help
+        users to easily consume the content.</p> -->
+
     </div>
-  </div>
-  <div class="preftest marginbottom colorbox bgcolor">
-    <div class="container">
+    <div class="preftest">
       <h2>Preference Test</h2>
       <p>I conducted a preference test for a few visual elements before finalizing the design. Following were the three elements that I tested.</p>
+    </div>
+    <div class="colorbox marginbottom bgcolor">
       <div class="aligncenter">
-        <h4 class="bold underline marginbottomsmall">Sign Up button</h4>
-        <img class="marginbottomsmall signupop1 halfimg" src="images/pref1.png" alt="Signup Option1">
-        <img class="marginbottomsmall signupop2 halfimg" src="images/pref2.png" alt="Signup Option2">
-        <p class="red bold aligncenter marginbottomsmall">Participants didn’t exhibit a strong preference for one over another. Decided to go with option 2.</p>
-        <h4 class="bold underline marginbottomsmall">Active State For A File</h4>
-        <img class="marginbottomsmall fullimg" src="images/pref3.png" alt="Active state Option1">
-        <img class="marginbottomsmall fullimg" src="images/pref4.png" alt="Active state Option2">
-        <p class="red bold aligncenter marginbottomsmall">75% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
-        <h4 class="bold underline marginbottomsmall">Active State For A File</h4>
-        <img class="marginbottomsmall fullimg" src="images/pref5.png" alt="Notification Option1">
-        <img class="marginbottomsmall fullimg" src="images/pref6.png" alt="Notification Option2">
-        <p class="red bold aligncenter marginbottomsmall">92% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
+        <h4 class="bold underline">Sign Up button</h4>
+        <img class="signupop1 halfimg " src="images/pref1.png" alt="Signup Option1">
+        <img class="signupop2 halfimg " src="images/pref2.png" alt="Signup Option2">
+        <p class="red  aligncenter marginbottomsmall">Participants didn’t exhibit a strong preference for one over another. Decided to go with option 2.</p>
+        <h4 class="bold underline">Active State For A File</h4>
+        <img class="fullimg" src="images/pref3.png" alt="Active state Option1">
+        <img class="fullimg" src="images/pref4.png" alt="Active state Option2">
+        <p class="red  aligncenter marginbottomsmall">75% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
+        <h4 class="bold underline">Active State For A File</h4>
+        <img class="fullimg" src="images/pref5.png" alt="Notification Option1">
+        <img class="fullimg" src="images/pref6.png" alt="Notification Option2">
+        <p class="red  aligncenter marginbottomsmall">92% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
       </div>
     </div>
-  </div>
-  <div class="usability marginbottom">
-    <div class="container">
+    <div class="usability marginbottom">
       <h2>Usability Testing</h2>
       <p>The prototype was tested again to find out how users responded to the various visual elements. I had to make one last change based on the usability testing before finalizing the design. </p>
-    </div>
-    <div class="utimages colorbox bgcolor aligncenter">
-      <img class="marginbottomsmall fullimg" src="images/utbefore.png" alt="Usability Test">
-      <img class="marginbottomsmall fullimg" src="images/utafter.png" alt="Usability Test">
-    </div>
-    <div class="container">
-      <p>In the modal window, users were trying to click the ‘upload’ button before necessary selections were made. I think the issue here is that the ‘Upload’ button is always in the active mode which confuses the user as to whether the necessary
-        selections were made or not. So I reduced the opacity of the button and once a selection is made, it changes to 100%.</p>
-    </div>
-  </div>
-  <div class="final marginbottom">
-    <div class="container">
-      <h2>Final Prototype</h2>
-      <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
-      <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
-    </div>
-    <div class="colorbox bgcolor aligncenter">
-      <img class="marginbottomsmall fullimg" src="images/feedback1.png" alt="Feedback Screenshot">
-      <img class="none" src="images/feedback2.png" alt="Feedback Screenshot">
-      <div class="container">
-        <p class="red bold ">Provides feedback through notification alerts wherever applicable.</p>
+      <div class="utimages colorbox bgcolor aligncenter marginbottom">
+        <img class="marginbottomsmall utbox fullimg" src="images/utbefore.png" alt="Usability Test">
+        <img class="marginbottomsmall utbox fullimg" src="images/utafter.png" alt="Usability Test">
+        <p class="red margincenter aligncenter">In the modal window, users were trying to click the ‘upload’ button before necessary selections were made. I think the issue here is that the ‘Upload’ button is always in the active mode which confuses
+          the user as to whether the necessary
+          selections were made or not. So I reduced the opacity of the button and once a selection is made, it changes to 100%.</p>
       </div>
-      <img class="marginbottomsmall fullimg" src="images/constraint.png" alt="Constraint Screenshot">
+      <div class="final marginbottom desktopnone">
 
-      <div class="container">
-        <p class="red bold ">Establishes constraints by not allowing the user to proceed without making necessary selections.</p>
+        <h2>Final Prototype</h2>
+        <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
+        <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
+        <div class="colorbox bgcolor aligncenter">
+          <img class=" fullimg finalresult1" src="images/feedback1.png" alt="Feedback Screenshot">
+          <!--  <img class="none desktopnone" src="images/feedback2.png" alt="Feedback Screenshot"> -->
+          <p class="red bold marginbottomsmall finalresult1">Provides feedback through notification alerts wherever applicable.</p>
+          <img class=" fullimg finalresult2" src="images/constraint.png" alt="Constraint Screenshot">
+          <p class="red bold marginbottomsmall finalresult2">Establishes constraints by not allowing the user to proceed without making necessary selections.</p>
+          <img class="fullimg finalresult3" src="images/info.png" alt="Affordance Screenshot">
+          <p class="red bold finalresult3">Provides affordances to help the user understand how to interact with various elements.</p>
+        </div>
       </div>
-      <img class="marginbottomsmall fullimg" src="images/info.png" alt="Affordance Screenshot">
-
-      <div class="container">
-        <p class="red bold ">Provides affordances to help the user understand how to interact with various elements.</p>
+      <div class="final none marginbottom">
+        <h2>Final Prototype</h2>
+        <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
+        <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
+        <div class="colorbox bgcolor aligncenter">
+          <div class="container">
+            <img class=" fullimg finalresult1 marginbottomsmall" src="images/feedback1.png" alt="Feedback Screenshot">
+            <!--  <img class="none desktopnone" src="images/feedback2.png" alt="Feedback Screenshot"> -->
+            <p class="red bold marginbottomsmall finalresult1">Provides feedback through notification alerts wherever applicable.</p>
+            <p class="red bold marginbottomsmall finalresult2">Establishes constraints by not allowing the user to proceed without making necessary selections.</p>
+            <img class=" fullimg finalresult2 marginbottomsmall" src="images/constraint.png" alt="Constraint Screenshot">
+            <img class="fullimg finalresult3 marginbottomsmall" src="images/info.png" alt="Affordance Screenshot">
+            <p class="red bold finalresult3">Provides affordances to help the user understand how to interact with various elements.</p>
+          </div>
+        </div>
       </div>
+      <div class="conclusion marginbottom">
+        <h2>Conclusion</h2>
+        <p>It was a rewarding experience to design a product from scratch. Though the direction wasn’t clear in the beginning, each step added clarity and helped me to get closer to the final prototype. While there are still a lot of possibilities to
+          explore, I believe this is a good start.
+        </p>
+        <p>A few insights during the usability tests were particularly surprising. Some of the elements which I thought would make the process easier didn’t work. But eventually, it helped me design an even better solution to the user’s pain points.
+        </p>
+        <p>If I had more time, I wouldn’t have considered doing another round of usability testing to test the final changes I made to the prototype.</p>
+      </div>
+      <div class="endbuttons marginbottom">
+        <a href="#"><button class="previous" name="button">Previous</button></a>
+        <a href="#"><button class="next" name="button">Next</button></a>
+      </div>
+      <footer class="aligncenter container">
+        <img src="images/mylogo.png" class="footerlogo" width="25px" alt="logo">
+        <h2 class="footernote">Let's Connect!</h2>
+        <h3 class="none">I'd love to hear from you</h3>
+        <a href="#"><button name="button">Contact Me</button><br></a>
+        <ul class="socialicons fontawesome">
+          <a href="https://www.linkedin.com/in/indurk/">
+            <li><i class="fa fa-linkedin"></i></li>
+          </a>
+          <a href="https://github.com/Indulr">
+            <li><i class="fa fa-github-square"></i></li>
+          </a>
+          <a href="https://twitter.com/iindurem">
+            <li><i class="fa fa-twitter"></i><br></li>
+          </a>
+        </ul>
+        <i class="fa fa-copyright"></i> Indu Remesh
+      </footer>
     </div>
   </div>
-  <div class="conclusion marginbottom">
-    <div class="container">
-      <h2>Conclusion</h2>
-      <p>It was a rewarding experience to design a product from scratch. Though the direction wasn’t clear in the beginning, each step added clarity and helped me to get closer to the final prototype. While there are still a lot of possibilities to
-        explore, I believe this is a good start.
-      </p>
-      <p>A few insights during the usability tests were particularly surprising. Some of the elements which I thought would make the process easier didn’t work. But eventually, it helped me design an even better solution to the user’s pain points.
-      </p>
-      <p>If I had more time, I wouldn’t have considered doing another round of usability testing to test the final changes I made to the prototype.</p>
-    </div>
-  </div>
-
-  <div class="endbuttons container marginbottom">
-    <a href="#"><button class="previous" name="button">Previous</button></a>
-    <a href="#"><button class="next" name="button">Next</button></a>
-  </div>
-  <footer class="aligncenter container">
-    <img src="images/mylogo.png" class="footerlogo none" width="34px" alt="logo">
-    <h2 class="footernote">Let's Connect!</h2>
-    <h3 class="none">I'd love to hear from you</h3>
-    <a href="#"><button name="button">Contact Me</button><br></a>
-    <ul class="socialicons fontawesome">
-      <a href="https://www.linkedin.com/in/indurk/">
-        <li><i class="fa fa-linkedin"></i></li>
-      </a>
-      <a href="https://github.com/Indulr">
-        <li><i class="fa fa-github-square"></i></li>
-      </a>
-      <a href="https://twitter.com/iindurem">
-        <li><i class="fa fa-twitter"></i><br></li>
-      </a>
-    </ul>
-    <i class="fa fa-copyright"></i> Indu Remesh
-  </footer>
 </body>
 
 </html>

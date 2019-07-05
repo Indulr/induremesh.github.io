@@ -46,53 +46,142 @@ p{
 .none{
   display: none;}
 
+  button {
+    border: 1px solid #309A01;
+    background-color: white;
+    color: #309A01;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .aligncenter{
+    text-align: center;
+  }
+  .halfimg{
+    width: 48%;
+  }
+
+  .fullimg{
+    width: 90%;
+  }
+
+  .marginbottom{
+    margin-bottom: 40px;
+  }
+
+  .marginbottomsmall{
+    margin-bottom: 20px;
+  }
+
+  .alignleft{
+    text-align: left;
+  }
 
 
-/* Navigation */
+  .blue{
+      color:#3A58ED;
+    }
+
+    .black{
+      color: #000000;
+    }
+
+    hr{
+      border-top: 1px solid red;
+    }
+
+    .red{
+      color:#E76155;
+    }
+
+    .emp{
+      font-size: 2.5rem;
+    }
+
+    .squarelist {list-style-type: square;}
+
+    .divider{
+      width: 100%;
+      height: 3px;
+      color: red;
+    }
+
+    .bold{
+      font-weight: bold;
+    }
+    .underline{
+      text-decoration: underline;
+    }
+
+    .marginaround{
+      margin: 2%;
+    }
+
+
+/* navigation */
 
 nav{
-  color: #3A58ED;
-  font-family: "Raleway";
-  font-weight: bold;
-  box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
-  height: 50px;
   width: 100%;
-margin-bottom: 30px;
+  height: 60px;
+  box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
+  font-family: "Raleway";
+position: relative;
+}
+
+.navelements{
+  width: 91%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myname{
+  font-size: 1.6rem;
+}
+
+.irlogo,.myname{
+  display: inline-block;
+  vertical-align:middle;
 }
 
 
-nav ul{
-
-  display:flex;
-  justify-content:space-around;
-align-items: center;
+.irlogo {
+  margin-right:3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.irlogo{
-
-  margin-top: 10%;
-  margin-bottom: 10%;
-
+.menuicon{
+  float: right;
+  font-size: 3rem;
 }
 
 /* Header */
 
 
-header.home{
+header.home, .flonomain{
 
 margin-bottom: 30px;
+margin-top: 30px;
 
 }
 
 .herohi, .oneliner{
   font-size: 2rem;
   color: #9B9B9B;
-   font-family: "Inter";
+   font-family: "Roboto";
    line-height: 3rem;
 }
 
 .heroname{
-  font-family: "Inter";
+  font-family: "Roboto";
   margin-bottom: 10px;
 }
 .illustration{
@@ -100,6 +189,9 @@ margin-bottom: 30px;
   margin: 0 auto;
 }
 
+.herobutton{
+  text-align: center;
+}
 
 /* Main */
 
@@ -108,27 +200,12 @@ margin-bottom: 30px;
   margin:0 auto;
 
 }
-button {
-  border: 1px solid #309A01;
-  background-color: white;
-  color: #309A01;
-  padding: 8px 8px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin-top: 10px;
 
-}
-
-.aligncenter{
-  text-align: center;
-}
-
+/* Project Card on Homepage */
 
 .project{
   width:90%;
   margin: 0 auto;
-  height:40%;
   margin-top: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
@@ -136,12 +213,33 @@ button {
 }
 
 .projectimage{
-  padding: 6% 6%;
-  background-color: #FEF5F2;
+
+  padding: 5%;
+  background-color:#D9F6F1;
 }
 
 .projectdescription{
-padding: 6% 6%;
+padding: 5%;
+}
+
+.pro1{
+  width: 90%;
+}
+
+
+/*Case Study*/
+
+.bgcolor{
+  background-color: #D9F6F1;
+}
+
+.colorbox{
+  padding:5%
+
+}
+
+.margincenter{
+  margin: 0 auto;
 }
 
 .personaimage{
@@ -150,59 +248,6 @@ padding: 6% 6%;
 
 .papersketchimg, .wireframeimg{
   width: 80%;
-}
-
-.halfimg{
-  width: 48%;
-}
-
-.fullimg{
-  width: 90%;
-}
-
-.mainprojectimage{
-  width: 90%;
-}
-
-.alignleft{
-  text-align: left;
-}
-.marginbottom{
-  margin-bottom: 40px;
-}
-
-.marginbottomsmall{
-  margin-bottom: 20px;
-}
-.bgcolor{
-  background-color: #FEF5F2;
-}
-
-.colorbox{
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-.red{
-  color:#E76155;
-}
-
-.emp{
-  font-size: 2.5rem;
-}
-
-.squarelist {list-style-type: square;}
-
-.divider{
-  width: 100%;
-  height: 3px;
-  color: red;
-}
-
-.bold{
-  font-weight: bold;
-}
-.underline{
-  text-decoration: underline;
 }
 
 
@@ -215,19 +260,6 @@ ul.listspace li{
   border-width: thin;
 }
 
-
-
-.blue{
-    color:#3A58ED;
-  }
-
-  .black{
-    color: #4A4A4A;
-  }
-
-  hr{
-    border-top: 1px solid red;
-  }
 
   .previous{
     float: left;
@@ -255,16 +287,14 @@ footer ul{
   margin-bottom: 10px;
 }
 
+.cricon{
+  font-size: 1.5rem
+}
+.crname{
+  font-size: 1.0rem
+}
 
-
-
-
-
-
-
-
-
-
-
-
- }
+.cricon, .crname{
+  display: inline-block;
+  vertical-align: middle;
+}
