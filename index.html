@@ -12,19 +12,38 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <nav class="blue bold">
+
   <ul>
     <div class="navelements">
       <div class="logounit">
         <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
-        <li class="myname blue">Indu Remesh</li>
+        <a href="index.html"><li class="myname blue">Indu Remesh</li></a>
       </div>
-      <div class="menuicon fontawesome">
+
+     <div class="mobile-nav desktopnone">
+       <div class="menu-btn" id="menu-btn">
+        <div></div>
+        <span></span>
+        <span></span>
+        <span></span>
+            </div>
+            <div class="responsive-menu">
+               <ul>
+                 <a href="index.html"><li>Work</li></a>
+                 <a href="about.html"><li>About</li></a>
+                 <a href="contact.html"><li>Contact</li></a>
+               </ul>
+            </div>
+ </div>
+
+
+      <div class="menuicon none fontawesome">
         <li><i class="fa fa-bars"></i></li>
       </div>
       <div class="links none">
-        <li class="work">Work</li>
-        <li class="about">About</li>
-        <li class="contact">Contact</li>
+        <a href="index.html"><li class="work">Work</li></a>
+        <a href="about.html"><li class="about">About</li></a>
+        <a href="contact.html"><li class="contact">Contact</li></a>
       </div>
     </div>
   </ul>
@@ -36,13 +55,13 @@
         <h3 class="herohi"> Hi There!</h3>
         <h1 class="heroname blue"><span class="black">I’m </span> Indu Remesh.</h1>
         <p class="oneliner">UX Designer based in NYC passionate about learning the whys and hows of user behavior.</p>
-        <a href="project.html"><button class="none">More About Me</button></a>
+        <a href="about.html"><button class="">More About Me</button></a>
       </div>
       <div class="heroimage heroelement">
         <img class="illustration" src="images/illustration.png" alt="Illustration">
       </div>
       <div class="herobutton aligncenter">
-        <a href="#"><button class="none2" name="button">More About Me</button></a>
+        <a href="#"><button class="none2 none nobutton" name="button">More About Me</button></a>
       </div>
     </header>
     <div class="viewmore blue none">
@@ -58,14 +77,19 @@
         <h2 class="blue">Flono</h2>
         <p>Flono is a cloud storage app designed to make cloud-related activities in the workplace easier.
           <span class="none tabnone comview">The purpose of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for that market.</p></span>
-        <a href="project.html"><button>View case study</button></a>
+        <a href="project.html"><button onclick="myFunction()">View case study</button></a>
       </div>
     </section>
+
+
+
+
+    </body>
     <footer class="aligncenter">
       <img src="images/mylogo.png" class="footerlogo" width="34px" alt="logo">
       <h2 class="footernote">Let's Connect!</h2>
       <h3 class="none">I'd love to hear from you</h3>
-      <a href="#"><button name="button">Contact Me</button><br></a>
+      <a href="contact.html"><button name="button">Contact Me</button><br></a>
       <ul class="socialicons fontawesome">
         <a href="https://www.linkedin.com/in/indurk/">
           <li><i class="fa fa-linkedin"></i></li>
@@ -83,5 +107,7 @@
       </div>
     </footer>
   </div>
-</body>
+
+
+
 </html>
