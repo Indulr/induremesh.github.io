@@ -19,24 +19,34 @@
         <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
         <a href="index.html"><li class="myname blue">Indu Remesh</li></a>
       </div>
-
-     <div class="mobile-nav desktopnone">
-       <div class="menu-btn" id="menu-btn">
-        <div></div>
-        <span></span>
-        <span></span>
-        <span></span>
-            </div>
-            <div class="responsive-menu">
-               <ul>
-                 <a href="index.html"><li>Work</li></a>
-                 <a href="about.html"><li>About</li></a>
-                 <a href="contact.html"><li>Contact</li></a>
-               </ul>
-            </div>
- </div>
+<div class="mobnav">
 
 
+      <div class="menuicon">
+        <a href="javascript:void(0);"  onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+      </div>
+
+      <div id="mylinks">
+        <a href="index.html">Work</a> <br>
+        <a href="about.html">About</a> <br>
+        <a href="contact.html">Contact</a>
+      </div>
+</div>
+
+<script type="text/javascript">
+function myFunction() {
+  var x = document.getElementById("mylinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+</script>
       <div class="menuicon none fontawesome">
         <li><i class="fa fa-bars"></i></li>
       </div>
