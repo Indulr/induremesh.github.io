@@ -11,7 +11,32 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<nav class="blue bold">
+
+<div class="topnav desktopnone">
+    <div class="navitems">
+    <a href="index.html" class="active irlogo"><img src="images/mylogo.svg"   alt="mylogo"></a>
+    <div id="myLinks">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars hambutton"></i>
+    </a>
+      </div>
+  </div>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+
+<nav class="blue none bold">
   <ul>
     <div class="navelements">
       <div class="logounit">

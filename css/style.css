@@ -65,7 +65,6 @@ button:hover{
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
-
 }
 
   .aligncenter{
@@ -134,51 +133,50 @@ button:hover{
 
 /* navigation */
 
-nav{
-  width: 100%;
-  height: 60px;
+.topnav {
   box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
-  font-family: "Raleway";
-position: relative;
 }
 
-.navelements{
-  width: 91%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.topnav img{
+  width: 50px;
 }
 
-.myname{
-  font-size: 1.6rem;
-}
-
-.irlogo,.myname{
-  display: inline-block;
-  vertical-align:middle;
-}
-
-
-.irlogo {
-  margin-right:3px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-
-.menuicon{
-  font-size: 3rem;
-
-
-}
-
-#mylinks{
+.topnav #myLinks {
   display: none;
 }
 
+.topnav a {
+  color: #3A58ED;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-weight: bold;
+  font-family: "Raleway";
+}
 
 
+.topnav a.icon {
+
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 30px;
+  color:#3A58ED ;
+}
+
+.topnav a:visited {
+  color: #3A58ED;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a:active {
+  color: #3A58ED ;
+}
 
 
 /* Header */
@@ -320,6 +318,7 @@ footer ul{
   vertical-align: middle;
 }
 
+/*Contact Page*/
 .contacttext{
   margin-top: 50px;
   margin-bottom: 20px;
@@ -327,7 +326,9 @@ footer ul{
 }
 .contactfull{
 margin-bottom: 100px;
+
 }
+
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -338,7 +339,7 @@ margin-bottom: 100px;
 }
 
 #contact {
-  background: #F9F9F9;
+  background: white;
   padding: 3%;
 
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -410,7 +411,7 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-
+/*About Page*/
 .mypic{
   max-width: 100%;
   margin-bottom: 30px;
@@ -476,14 +477,30 @@ fieldset {
 
 
 /* Navigation */
-   nav{
-     height: 80px;
-     font-size: 1.9rem;
-   }
+nav{
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
+  font-family: "Raleway";
+  font-size: 1.9rem;
+position: relative;
+}
 
-   .navelements{
-     width: 80%;
-   }
+.navelements{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.irlogo,.myname{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+
 .menuicon{
   display: none;
 }
@@ -501,6 +518,29 @@ fieldset {
 .work, .about, .contact{
   display: inline-block;
   margin-left: 10px;
+}
+
+
+
+.links a:visited{
+  color: #3A58ED;
+}
+
+.links a:link {
+  color:#3A58ED ;
+}
+
+
+.links a:hover {
+  color: black;
+}
+
+.links a:active {
+  color: #3A58ED ;
+}
+
+.myname:hover{
+  color: black;
 }
 
 /*Main */
@@ -792,9 +832,15 @@ ul.lessmarginbottom{
   float: right;
   margin-top: 50px;
 }
+.myabout{
+  width: 38%;
+}
+
+.deskpic{
+  width: 40%;
+}
 
 .myabout, .deskpic{
-  width:  48%;
   display: inline-block;
   vertical-align:middle;}
 
