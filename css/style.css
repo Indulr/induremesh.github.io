@@ -137,6 +137,12 @@ button:hover{
   box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
 }
 
+.navitems{
+  width: 91%;
+  margin: 0 auto;
+}
+
+
 .topnav img{
   width: 50px;
 }
@@ -147,7 +153,7 @@ button:hover{
 
 .topnav a {
   color: #3A58ED;
-  padding: 14px 16px;
+  padding: 5px 5px;
   text-decoration: none;
   font-size: 17px;
   display: block;
@@ -155,12 +161,21 @@ button:hover{
   font-family: "Raleway";
 }
 
+#myLinks a{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  border-bottom: 1px solid #7B8DE4;
+}
+
+#myLinks a:hover{
+  color:black;
+}
+
 
 .topnav a.icon {
-
   display: block;
   position: absolute;
-  right: 0;
+  right: 16px;
   top: 10px;
   font-size: 30px;
   color:#3A58ED ;
@@ -552,7 +567,7 @@ position: relative;
 
 /* Header */
 header.home{
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 60px;
 
 }
@@ -608,8 +623,6 @@ margin-bottom: 150px;
 
 /*Case Study */
 
-
-
 .papersketchimg{
   width: 30%;
   margin: 1%;
@@ -627,7 +640,8 @@ margin-bottom: 150px;
 }
 
 .personaimage{
-  width: 10%;
+  width: 30%;
+
 }
 
 .personaclass {
@@ -837,7 +851,7 @@ ul.lessmarginbottom{
 }
 
 .deskpic{
-  width: 40%;
+  width: 50%;
 }
 
 .myabout, .deskpic{
@@ -847,5 +861,10 @@ ul.lessmarginbottom{
 .aboutfull{
   margin-bottom: 100px;
 }
+
+.myname{
+  font-family:"Raleway";
+}
+
 
 }

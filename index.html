@@ -13,19 +13,19 @@
 </head>
 <!-- Mobile Nav -->
 <div class="topnav desktopnone">
-    <div class="navitems">
-    <a href="index.html" class="active irlogo"><img src="images/mylogo.svg"   alt="mylogo"></a>
+  <div class="navitems">
+    <a href="index.html" class="active irlogo"><img src="images/mylogo.svg" alt="mylogo"></a>
     <div id="myLinks">
-      <a href="index.html">Work</a>
+      <a href="#projectarea">Work</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars hambutton"></i>
     </a>
-      </div>
   </div>
-  <script>
+</div>
+<script>
   function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -34,16 +34,16 @@
       x.style.display = "block";
     }
   }
-  </script>
+</script>
 <!-- Desktop/tablet nav -->
-<nav class="blue none bold">
+<nav class="blue bold none">
   <ul>
     <div class="navelements">
       <div class="logounit">
-        <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
+        <a href="index.html"><li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li></a>
         <a href="index.html"><li class="myname blue">Indu Remesh</li></a>
       </div>
-      <div class="menuicon none fontawesome">
+      <div class="menuicon fontawesome">
         <li><i class="fa fa-bars"></i></li>
       </div>
       <div class="links none">
@@ -70,11 +70,13 @@
         <a href="#"><button class="none2 none nobutton" name="button">More About Me</button></a>
       </div>
     </header>
-    <div class="viewmore blue none">
-      <i class="fa fa-chevron-down arrowdown"></i>
-      <h3>View My Work</h3>
-    </div>
-    <section class="project aligncenter">
+    <a href="#projectarea">
+      <div class="viewmore blue none">
+        <i class="fa fa-chevron-down arrowdown"></i>
+        <h3>View My Work</h3>
+      </div>
+    </a>
+    <section id="projectarea" class="project aligncenter">
       <div class="projectimage">
         <img class="pro1 mainprojectimage" src="images/HomePage.svg" alt="Project Image">
         <img class="pro2 none" src="images/dashboardmain.svg" alt="Project Image">
@@ -86,7 +88,6 @@
         <a href="project.html"><button onclick="myFunction()">View case study</button></a>
       </div>
     </section>
-    </body>
     <footer class="aligncenter">
       <img src="images/mylogo.png" class="footerlogo" width="34px" alt="logo">
       <h2 class="footernote">Let's Connect!</h2>
@@ -108,7 +109,19 @@
 
       </div>
     </footer>
-  </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143614689-1');
+</script>
+</div>
+</body>
+
+
 
 
 
