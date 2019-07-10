@@ -334,6 +334,7 @@ footer ul{
 }
 
 /*Contact Page*/
+
 .contacttext{
   margin-top: 50px;
   margin-bottom: 20px;
@@ -426,6 +427,8 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+
 /*About Page*/
 .mypic{
   max-width: 100%;
@@ -436,10 +439,6 @@ fieldset {
 .aboutfull{
   margin-top: 30px;
 }
-
-
-
-
 
 
 @media screen and (min-width: 575px){
