@@ -365,7 +365,7 @@ fieldset {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
-  padding: 0;
+  padding: 0%;
   width: 100%;
 }
 
@@ -394,7 +394,7 @@ fieldset {
 
 #contact textarea {
   max-width: 100%;
-  height: 50px;
+  height: 100px;
 
 }
 
@@ -427,6 +427,12 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+.inputspace{
+  height: 40px;
+}
+
+
 
 
 /*About Page*/
