@@ -64,17 +64,21 @@
 
     </div>
       <div class="contactform">
-      <form id="contact" action="" method="post">
+      <form id="contact" action="https://formspree.io/indu.remeshk@gmail.com" method="post">
         <h3>Contact Me</h3>
 
         <fieldset>
-          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
-          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          <input placeholder="Your Email Address" name="replyto" type="email" tabindex="2" required>
         </fieldset>
+        <!--
         <fieldset>
-          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset> -->
+        <fieldset>
+          <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
