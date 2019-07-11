@@ -54,9 +54,36 @@
     </div>
   </ul>
 </nav>
+<div id="fixednav" class="none tabnone comview navdirection" >
+  <div class="container">
+  <a href="javascript:void(0)">Overview</a>
+  <a href="javascript:void(0)">Research</a>
+  <a href="javascript:void(0)">Information Architechture</a>
+  <a href="javascript:void(0)">Usability Testing</a>
+  <a href="javascript:void(0)">Visual Design</a>
+  <a href="javascript:void(0)">Preference Test</a>
+  <a href="javascript:void(0)">Final Prototype</a>
+  </div>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("fixednav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
 <body>
   <div class="container">
-    <div class=" flonomain marginbottom">
+
+    <div id="top" class=" flonomain marginbottom">
       <div class="desktopnone">
         <img class="marginbottomsmall fullimg" src="images/HomePage.png" alt="Illustration">
         <!-- <img class="none" src="images/Dashboard.png" width="300px" alt="Illustration"> -->
@@ -65,12 +92,12 @@
         <h1 class=" ">Flono</h1>
         <p>Flono is a cloud storage app
           designed to make cloud-related activities in the workplace easier.</p>
-        <a href="#"><button name="button">View Prototype</button></a>
+        <a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
       </div>
       <video class="flonoheadcomp none" controls autoplay>
         <source src="images/figmagif.mp4" type="video/mp4"> </video>
       <!--    <img class="marginbottomsmall newimage flonoheadcomp none" src="images/HomePage.png" alt="Illustration">-->
-      <div class="topicintro">
+      <div id="intro" class="topicintro">
         <h2>Introduction</h2>
         <p>The cloud storage market is huge with multiple big-name competitors like Google Drive, Dropbox, etc. It is projected that by 2022, more than 72% of the global organizations will migrate to the cloud from on-premise data centers.
           But the market is still young and there is scope for a new entrant. The <strong>purpose</strong> of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for
@@ -79,7 +106,7 @@
         </p>
       </div>
     </div>
-    <div class="prosol marginbottom colorbox bgcolor marginforproblem">
+    <div id="overview" class="prosol marginbottom colorbox bgcolor marginforproblem">
       <div class="problemandsol marginbottomsmall psrt">
         <div class="problem marginbottom bwprosol">
           <h2>Problem</h2>
@@ -152,7 +179,7 @@
       </div>
 
     </div>
-    <div class="comp marginbottom">
+    <div id="research" class="comp marginbottom">
       <h2>Competitive Analysis</h2>
       <p>The first step was to analyze the market to evaluate current options and find out opportunities to enter this space.
         I chose three main players in the market for this purpose - Google drive, Dropbox, Box.</p>
@@ -234,7 +261,7 @@
         </div>
       </div>
       <div class="compbutton">
-        <a href="#"><button name="button">View In Detail</button></a>
+        <a href="https://drive.google.com/open?id=1gxSLBl20OApEhOgQHs8GOXQGf8JWEEyu" target="_blank"><button name="button">View In Detail</button></a>
       </div>
     </div>
     <div class="survey marginbottom colorbox bgcolor">
@@ -292,7 +319,9 @@
             <p><span class="emp red">65%</span> use the service for a work-related purpose.</p>
             <p><span class="emp red">75% </span>chose Uploading a file and Sharing files as their main reasons to use this service at present.</p>
             <p>Important features according to users - <span class="red bold">Uploading content, Organizing content, and Collaboration.</span></p>
-
+            <div class="compbutton">
+              <a href="https://drive.google.com/open?id=1VMfs93USkQkq_mqZaeurXcfog6INUPqf" target="_blank"><button name="button">View In Detail</button></a>
+            </div>
     </div>
     <div class="definesol marginbottom">
 
@@ -412,15 +441,15 @@
               </ul>
       </div>
       <div class="storybutton">
-        <a href="#"><button name="button">View User Stories</button></a>
+        <a href="https://docs.google.com/spreadsheets/d/129dl6k0cUr1zqrS1AVcNHnt7pFbNBPPCE1Mbxkx001I/edit?usp=sharing" target="_blank"><button name="button">View User Stories</button></a>
       </div>
     </div>
 
-    <div class="userflows marginbottom">
+    <div id="infoarch" class="userflows marginbottom">
       <h2>User Flows</h2>
       <p>The next process involved accounting for all the steps a user takes while navigating through various features identified during the last step. I created 8 different user flows to map out the process and to identify the hierarchy of these
         elements. The main focus here was to find ways to address the main pain points.</p>
-      <a href="#"><button name="button">View User Flows</button></a>
+      <a href="https://docs.google.com/document/d/1CcJsml4a6BGg_jboqlhKwd82Hm5PwcHBSp51B6AuNqA/edit?usp=sharing" target="_blank"><button name="button">View User Flows</button></a>
     </div>
     <div class="papersketch marginbottom ">
       <h2>Paper Sketches</h2>
@@ -440,7 +469,7 @@
         <img class="marginbottomsmall wireframeimg" src="images/WF7.png" alt="wireframes">
       </div>
     </div>
-    <div class="usertesting marginbottom">
+    <div id="usertest" class="usertesting marginbottom">
       <h2>Usability Testing</h2>
       <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues so that I can iterate and improve before moving forward. Wireframes were tested with 3 people through zoom.</p>
       <p class="bold underline">Main change after usability testing</p>
@@ -472,7 +501,7 @@
         </div>
       </div>
     </div>
-    <div class="visual marginbottom">
+    <div id="visual" class="visual marginbottom">
       <h2>Visual Design</h2>
       <p>Branding direction - A product that’s intuitive and makes the workspace fun & vibrant.
       </p>
@@ -486,7 +515,7 @@
         users to easily consume the content.</p> -->
 
     </div>
-    <div class="preftest">
+    <div id="pref" class="preftest">
       <h2>Preference Test</h2>
       <p>I conducted a preference test for a few visual elements before finalizing the design. Following were the three elements that I tested.</p>
     </div>
@@ -516,8 +545,7 @@
           the user as to whether the necessary
           selections were made or not. So I reduced the opacity of the button and once a selection is made, it changes to 100%.</p>
       </div>
-      <div class="final marginbottom desktopnone">
-
+      <div  class="final marginbottom desktopnone">
         <h2>Final Prototype</h2>
         <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
         <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
@@ -530,9 +558,9 @@
           <img class="fullimg finalresult3" src="images/info.png" alt="Affordance Screenshot">
           <p class="red bold finalresult3">Provides affordances to help the user understand how to interact with various elements.</p>
         </div>
-      </div>
-      <div class="final none marginbottom">
-        <h2>Final Prototype</h2>
+  </div>
+      <div id="finalone" class="final none marginbottom">
+        <h2 class="">Final Prototype</h2>
         <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
         <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
         <div class="colorbox bgcolor aligncenter">
@@ -546,7 +574,8 @@
             <p class="red bold finalresult3">Provides affordances to help the user understand how to interact with various elements.</p>
           </div>
         </div>
-      </div>
+        </div>
+
       <div class="conclusion marginbottom">
         <h2>Conclusion</h2>
         <p>It was a rewarding experience to design a product from scratch. Though the direction wasn’t clear in the beginning, each step added clarity and helped me to get closer to the final prototype. While there are still a lot of possibilities to
@@ -556,23 +585,30 @@
         </p>
         <p>If I had more time, I wouldn’t have considered doing another round of usability testing to test the final changes I made to the prototype.</p>
       </div>
+
+         <div class="topbutton">
+
+
+         <a href="#top"><button  name="button">Back To Top</button></a>
+</div>
+        <!--
       <div class="endbuttons marginbottom">
         <a href="#"><button class="previous" name="button">Previous</button></a>
         <a href="#"><button class="next" name="button">Next</button></a>
-      </div>
+      </div> -->
       <footer class="aligncenter container">
         <img src="images/mylogo.png" class="footerlogo" width="25px" alt="logo">
         <h2 class="footernote">Let's Connect!</h2>
         <h3 class="none">I'd love to hear from you</h3>
         <a href="contact.html"><button name="button">Contact Me</button><br></a>
         <ul class="socialicons fontawesome">
-          <a href="https://www.linkedin.com/in/indurk/">
+          <a href="https://www.linkedin.com/in/indurk/" target="_blank">
             <li><i class="fa fa-linkedin"></i></li>
           </a>
-          <a href="https://github.com/Indulr">
+          <a href="https://github.com/Indulr" target="-_blank">
             <li><i class="fa fa-github-square"></i></li>
           </a>
-          <a href="https://twitter.com/iindurem">
+          <a href="https://twitter.com/iindurem" target="_blank">
             <li><i class="fa fa-twitter"></i><br></li>
           </a>
         </ul>

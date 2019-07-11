@@ -130,6 +130,13 @@ button:hover{
       margin: 2%;
     }
 
+a:visited{
+  color :#3A58ED;
+}
+
+a:hover{
+  color: black;
+}
 
 /* navigation */
 
@@ -186,12 +193,10 @@ button:hover{
 }
 
 .topnav a:hover {
-  color: black;
+  color:#3A58ED ;
 }
 
-.topnav a:active {
-  color: #3A58ED ;
-}
+
 
 
 /* Header */
@@ -224,6 +229,27 @@ margin-top: 30px;
   text-align: center;
 }
 
+.navdirection{
+  padding: 2%;
+  margin: 0 auto;
+  background-color:#D9F6F1;
+  box-shadow:
+}
+
+
+.navdirection a {
+  font-size: 16px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+
+
+
+
+.navdirection a:visited{
+  color: #3A58ED;
+}
 
 
 
@@ -232,7 +258,6 @@ margin-top: 30px;
 .container{
   width: 91%;
   margin:0 auto;
-
 }
 
 /* Project Card on Homepage */
@@ -301,6 +326,10 @@ ul.listspace li{
 
 .next{
   float: right;
+}
+
+.topbutton{
+  margin: 0 auto;
 }
 
 .endbuttons{
@@ -433,8 +462,6 @@ fieldset {
 }
 
 
-
-
 /*About Page*/
 .mypic{
   max-width: 100%;
@@ -445,6 +472,8 @@ fieldset {
 .aboutfull{
   margin-top: 30px;
 }
+
+
 
 
 @media screen and (min-width: 575px){
@@ -593,8 +622,10 @@ text-align: center;
 .viewmore{
   text-align: center;
   margin-bottom: 100px;
-
 }
+
+
+
 
 /* Project Card*/
 .project{
@@ -727,8 +758,12 @@ ul.lessmarginbottom{
   margin: 4%;
 }
 
-.compbutton{
+.compbutton, .topbutton{
   text-align: center;
+}
+
+.topbutton{
+  margin-bottom: 50px;
 }
 
 .psrt{
@@ -870,6 +905,9 @@ ul.lessmarginbottom{
 .myname{
   font-family:"Raleway";
 }
+
+
+
 
 
 }
