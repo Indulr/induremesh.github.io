@@ -19,7 +19,7 @@ font-weight: bold;
 
 h2{
   font-size: 2.4rem;
-  line-height: 3rem;
+  line-height: 3.4rem;
   color:;
   text-decoration:none;
   font-weight: bold;
@@ -209,10 +209,7 @@ a:hover{
 }
 
 
-
-
 /* Header */
-
 
 header.home, .flonomain{
 
@@ -240,38 +237,6 @@ margin-top: 30px;
 .herobutton{
   text-align: center;
 }
-
-.navdirection{
-  padding: 2%;
-  margin: 0 auto;
-  background-color:#f6e8ea;
-
-}
-
-
-.navdirection a {
-  font-size: 16px;
-  margin-right: 30px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-
-.finalborder{
-  border: 1px solid #3A58ED ;
-  padding: 1%
-}
-
-
-
-
-
-
-
-.navdirection a:visited{
-  color: #3A58ED;
-}
-
 
 
 /* Main */
@@ -489,23 +454,9 @@ fieldset {
 
 
 /*About Page*/
-.mypic{
-  max-width: 100%;
-  margin-bottom: 30px;
-
-}
-
-.aboutfull{
-  margin-top: 30px;
-}
 
 
-.rightnowbox{
-  width: 50%;
-  padding: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 20px;
-}
+
 
 
 
@@ -603,6 +554,9 @@ position: relative;
   margin-left: 10px;
 }
 
+.links a{
+  font-family:"Raleway";
+}
 
 
 .links a:visited{
@@ -855,11 +809,6 @@ ul.lessmarginbottom{
   max-width: 100%;
 }
 
-.aboutfull{
-  margin-top: 50px;
-}
-
-
 
 
 }
@@ -931,15 +880,12 @@ ul.lessmarginbottom{
 .deskpic{
   margin: 1%;
   float: right;
-  margin-top: 50px;
 }
 .myabout{
   width: 38%;
 }
 
-.deskpic{
-  width: 50%;
-}
+
 
 .myabout, .deskpic{
   display: inline-block;
@@ -953,15 +899,81 @@ ul.lessmarginbottom{
   font-family:"Raleway";
 }
 
-.rightnowbox{
-  width: 19%;
-  padding: 1%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 20px;
+.newrightnow{
+  width: 200px;
+  box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 2%;
+
+}
+
+.firstpartabout{
+  width: 42%;
   display: inline-block;
-  margin-right:  10px;
+  vertical-align: middle;
+  margin: 1%;
+}
+
+.floatright{
   float: right;
 }
+
+.margintop{
+margin-top: 80px;
+
+}
+
+.aboutinfull{
+  margin-top: 50px;
+}
+
+.secondpartbox{
+  width: 42%;
+  margin-left: 11%;
+
+}
+
+
+.secondpartabout{
+  width: 42%;
+  margin: 1%;
+}
+
+
+.secondpartbox, .secondpartabout{
+display: inline-block;
+vertical-align: top;
+}
+
+.navdirection{
+  margin: 0 auto;
+  background-color:#f6e8ea;
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+
+.stickymenuitems{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navdirection a {
+  font-size: 16px;
+  margin-right: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+
+
+.finalborder{
+  border: 1px solid #3A58ED ;
+  padding: 1%
+}
+
+
+
 
 
 
