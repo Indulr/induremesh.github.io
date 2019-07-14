@@ -952,13 +952,12 @@ vertical-align: top;
 }
 
 .stickymenuitems{
-  width: 80%;
-  margin: 0 auto;
+
 }
 
 .navdirection a {
   font-size: 16px;
-  margin-right: 3%;
+  margin-right:2%;
   margin-top: 2%;
   margin-bottom: 2%;
   text-decoration: none;
@@ -969,7 +968,7 @@ vertical-align: top;
 
 .finalborder{
   border: 1px solid #3A58ED ;
-  padding: 1%
+  padding: .5%
 }
 
 
