@@ -160,7 +160,7 @@ a:hover{
   visibility: hidden;
   width: 230px;
   background-color: White;
-  font-size: 20px;
+  font-size: 16px;
   color: darkgrey;
   text-align: center;
   border: 1px solid lightgrey;
@@ -1040,15 +1040,14 @@ justify-content:
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 400px;
+  width: 450px;
   background-color: White;
   font-size: 20px;
   color: darkgrey;
   text-align: center;
   border: 1px solid lightgrey;
-  border-radius: 6px;
   position: absolute;
-  z-index: 2;
+
 }
 
 .tooltip:hover .tooltiptext {
