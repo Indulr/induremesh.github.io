@@ -882,6 +882,10 @@ fieldset {
     margin-bottom: 100px;
   }
 
+.links li{
+  color: #3A58ED;
+}
+
   /* Sticky Menu*/
   .sticky {
     position: fixed;
