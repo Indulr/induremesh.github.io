@@ -384,6 +384,10 @@ footer ul {
 
 }
 
+.socialicons li:hover{
+  color: black;
+}
+
 .cricon {
   font-size: 1.5rem
 }
