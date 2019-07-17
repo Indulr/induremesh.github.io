@@ -3,193 +3,157 @@
   box-sizing: border-box;
 }
 
-
-html{
+html {
   font-size: 10px;
   font-family: "poppins";
   color: #4A4A4A;
 }
 
-h1{
-font-size: 3rem;
-color:#3A58ED;
-line-height: 4rem;
-font-weight: bold;
-}
-
-h2{
-  font-size: 2.4rem;
-  line-height: 3.4rem;
-  color:;
-  text-decoration:none;
+h1 {
+  font-size: 3rem;
+  color: #3A58ED;
+  line-height: 4rem;
   font-weight: bold;
 }
 
-.h2color{
+h2 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: ;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.h2color {
   color: ;
 }
 
-
-h3{
+h3 {
   font-size: 1.6rem;
   line-height: 2.7rem;
 }
 
-h4{
+h4 {
   font-size: 1.4rem;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
-p{
+
+p {
   font-size: 1.6rem;
   line-height: 2.7rem;
   margin-bottom: 10px;
 }
-.fontawesome{
+
+.fontawesome {
   font-size: 20px;
 }
 
-.none{
-  display: none;}
+.none {
+  display: none;
+}
 
-  button {
-    border: 1px solid #4CAF4F;
-    background-color: white;
-    color: #4CAF4F ;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    font-family: "poppins";
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-  }
+button {
+  border: 1px solid #4CAF4F;
+  background-color: white;
+  color: #4CAF4F;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "poppins";
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
-button:hover{
+button:hover {
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
 }
 
-  .aligncenter{
-    text-align: center;
-  }
-  .halfimg{
-    width: 48%;
-  }
-
-  .fullimg{
-    width: 90%;
-  }
-
-  .marginbottom{
-    margin-bottom: 40px;
-  }
-
-  .marginbottomsmall{
-    margin-bottom: 20px;
-  }
-
-  .alignleft{
-    text-align: left;
-  }
-
-
-  .blue{
-      color:#3A58ED;
-    }
-
-    .black{
-      color: #000000;
-    }
-
-    hr{
-      border-top: 1px solid red;
-    }
-
-    .red{
-      color:#E76155;
-    }
-
-    .emp{
-      font-size: 2.5rem;
-    }
-
-    .squarelist {list-style-type: square;}
-
-    .divider{
-      width: 100%;
-      height: 3px;
-      color: red;
-    }
-
-    .bold{
-      font-weight: bold;
-    }
-    .underline{
-      text-decoration: underline;
-    }
-
-    .marginaround{
-      margin: 2%;
-    }
-
-a:visited{
-  color :#3A58ED;
-}
-
-a:hover{
-  color: black;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted darkgrey;
-
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 230px;
-  background-color: White;
-  font-size: 16px;
-  color: darkgrey;
+.aligncenter {
   text-align: center;
-  border: 1px solid lightgrey;
-  border-radius: 6px;
-  position: absolute;
-
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+.halfimg {
+  width: 48%;
 }
 
+.fullimg {
+  width: 90%;
+}
 
+.marginbottom {
+  margin-bottom: 40px;
+}
 
+.marginbottomsmall {
+  margin-bottom: 20px;
+}
 
+.alignleft {
+  text-align: left;
+}
+
+.blue {
+  color: #3A58ED;
+}
+
+.black {
+  color: #000000;
+}
+
+hr {
+  border-top: 1px solid red;
+}
+
+.red {
+  color: #E76155;
+}
+
+.emp {
+  font-size: 2.5rem;
+}
+
+.squarelist {
+  list-style-type: square;
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.marginaround {
+  margin: 2%;
+}
+
+a:visited {
+  color: #3A58ED;
+}
 
 /* navigation */
-
 .topnav {
-  box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
+  box-shadow: 0 -22px 43px 0px rgba(0, 0, 0, .4);
 }
 
-.navitems{
+.navitems {
   width: 91%;
   margin: 0 auto;
 }
 
-
-.topnav img{
+.topnav img {
   width: 50px;
 }
 
@@ -207,16 +171,15 @@ a:hover{
   font-family: "Raleway";
 }
 
-#myLinks a{
+#myLinks a {
   padding-top: 8%;
   padding-bottom: 8%;
   border-bottom: 1px solid #7B8DE4;
 }
 
-#myLinks a:hover{
-  color:black;
+#myLinks a:hover {
+  color: black;
 }
-
 
 .topnav a.icon {
   display: block;
@@ -224,7 +187,7 @@ a:hover{
   right: 16px;
   top: 10px;
   font-size: 30px;
-  color:#3A58ED ;
+  color: #3A58ED;
 }
 
 .topnav a:visited {
@@ -232,164 +195,203 @@ a:hover{
 }
 
 .topnav a:hover {
-  color:#3A58ED ;
+  color: #3A58ED;
 }
-
 
 /* Header */
-
-header.home, .flonomain{
-
-margin-bottom: 30px;
-margin-top: 30px;
-
+/* Tooltip container */
+.dotted {
+  text-decoration: underline;
+  text-decoration-color: lightgrey;
+  text-decoration-style: dotted;
 }
 
-.herohi, .oneliner{
+.lineheightzero {
+  line-height: 30px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted darkgrey; If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 170px;
+  background-color: darkgrey;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 6px;
+  padding-left: 3px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext {
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 30%;
+  right: 100%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent darkgrey transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+header.home, .flonomain {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.herohi, .oneliner {
   font-size: 2rem;
   color: #9B9B9B;
-   font-family: "Roboto";
-   line-height: 3rem;
+  font-family: "Roboto";
+  line-height: 3rem;
 }
 
-.heroname{
+.heroname {
   font-family: "Roboto";
   margin-bottom: 10px;
 }
-.illustration{
+
+.illustration {
   width: 100%;
   margin: 0 auto;
 }
 
-.herobutton{
+.herobutton {
   text-align: center;
 }
 
-
 /* Main */
-
-.container{
+.container {
   width: 91%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 /* Project Card on Homepage */
-
-.project{
-  width:90%;
+.project {
+  width: 90%;
   margin: 0 auto;
   margin-top: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
-
 }
 
-.projectimage{
-
+.projectimage {
   padding: 5%;
-  background-color:#D9F6F1;
-}
-
-.projectdescription{
-padding: 5%;
-}
-
-.pro1{
-  width: 90%;
-}
-
-
-/*Case Study*/
-
-.bgcolor{
   background-color: #D9F6F1;
 }
 
-.colorbox{
-  padding:5%
-
+.projectdescription {
+  padding: 5%;
 }
 
-.margincenter{
+.pro1 {
+  width: 90%;
+}
+
+/*Case Study*/
+.bgcolor {
+  background-color: #D9F6F1;
+}
+
+.colorbox {
+  padding: 5%
+}
+
+.margincenter {
   margin: 0 auto;
 }
 
-.personaimage{
+.personaimage {
   width: 50%;
 }
 
-.papersketchimg, .wireframeimg{
+.papersketchimg, .wireframeimg {
   width: 80%;
 }
 
-
-ul.listspace li{
+ul.listspace li {
   margin-bottom: 10px;
 }
 
-.border{
+.border {
   border-style: solid;
   border-width: thin;
 }
 
+.previous {
+  float: left;
+}
 
-  .previous{
-    float: left;
-  }
-
-.next{
+.next {
   float: right;
 }
 
-.topbutton{
+.topbutton {
   margin: 0 auto;
 }
 
-li{
+li {
   line-height: 3.5rem;
 }
 
-
-.endbuttons{
-  height:   50px;
+.endbuttons {
+  height: 50px;
 }
-/* Footer */
 
-footer ul{
+/* Footer */
+footer ul {
   display: flex;
   width: 30%;
   justify-content: space-between;
   margin: 0 auto;
 }
 
-.socialicons{
+.socialicons {
   padding: 10px 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.cricon{
+.cricon {
   font-size: 1.5rem
 }
-.crname{
+
+.crname {
   font-size: 1.0rem
 }
 
-.cricon, .crname{
+.cricon, .crname {
   display: inline-block;
   vertical-align: middle;
 }
 
 /*Contact Page*/
-
-.contacttext{
+.contacttext {
   margin-top: 50px;
   margin-bottom: 20px;
-
 }
-.contactfull{
-margin-bottom: 100px;
 
+.contactfull {
+  margin-bottom: 100px;
 }
 
 #contact input[type="text"],
@@ -404,7 +406,6 @@ margin-bottom: 100px;
 #contact {
   background: white;
   padding: 3%;
-
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -442,12 +443,9 @@ fieldset {
 #contact textarea {
   max-width: 100%;
   height: 100px;
-
 }
 
-#contact button[type="submit"] {
-}
-
+#contact button[type="submit"] {}
 
 .copyright {
   text-align: center;
@@ -475,586 +473,525 @@ fieldset {
   color: #888;
 }
 
-.inputspace{
+.inputspace {
   height: 40px;
 }
 
-
 /*About Page*/
-
-.aboutinfull{
+.aboutinfull {
   margin-top: 30px;
   margin-bottom: 80px;
 }
 
-.firstpartabout img{
+.firstpartabout img {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.newrightnow{
+.newrightnow {
   width: 200px;
   border: 1px solid lightgrey;
-  box-shadow:0 4px 2px -2px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
   padding: 2%;
   margin: 1%;
-  }
+}
 
-
-.boxes{
+.boxes {
   display: flex;
-
 }
 
-
-@media screen and (min-width: 575px){
-
-/*Global Styles */
-
-   .none{
-     display: block;
-   }
-
-   .nobutton{
-     display:none;
-   }
-
-   h1{
-   font-size: 6rem;
-   line-height: 9rem;
-   }
-
-   h2{
-     font-size: 3rem;
-     line-height: 4.1rem;
-   }
-
-
-   h3{
-     font-size: 1.9rem;
-     line-height: 2.7rem;
-   }
-
-   p{
-     font-size: 1.9rem;
-     line-height: 3.5rem;
-   }
-.fontawesome{
-  font-size: 3rem;
-}
-   button {
-  padding: 8px 8px;
-  font-size: 16px;
-}
-
-.tabnone{
-  display:none;
-}
-
-
-.desktopnone{
-  display:none;
-}
-
-
-/* Navigation */
-nav{
-  width: 100%;
-  height: 80px;
-  box-shadow: 0 -22px 43px 0px rgba(0,0,0,.4);
-  font-family: "Raleway";
-  font-size: 1.9rem;
-position: relative;
-}
-
-.navelements{
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.myname{
-  font-family:"Raleway";
-}
-
-.irlogo,.myname{
-  display: inline-block;
-  vertical-align:middle;
-}
-
-
-.menuicon{
-  display: none;
-}
-
-.irlogo{
-
-  margin-right:10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.myname{
-  font-size: 2rem;
-}
-.work, .about, .contact{
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.links a{
-  font-family:"Raleway";
-}
-
-
-.links a:visited{
-  color: #3A58ED;
-}
-
-.links a:link {
-  color:#3A58ED ;
-}
-
-
-.links a:hover {
-  color: black;
-}
-
-.links a:active {
-  color: #3A58ED ;
-}
-
-.myname:hover{
-  color: black;
-}
-
-.tooltip .tooltiptext {
-
-  width: 400px;
-
-}
-
-/*Main */
-
-.container{
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* Header */
-header.home{
-  margin-top: 40px;
-  margin-bottom: 60px;
-
-}
-
-.herohi, .oneliner{
-  font-size: 3.5rem;
-  line-height: 5.3rem;
-}
-
-.herobutton{
-text-align: center;
-}
-
-.illustration{
-  width: 90%;
-  margin: 0 auto;
-}
-.viewmore{
-  text-align: center;
-  margin-bottom: 100px;
-}
-
-
-
-
-/* Project Card*/
-.project{
-width: 80%;
-margin-bottom: 150px;
-}
-
-.pro1 , .pro2{
-  display: inline-block;
-  width: 48% ;
-  margin-right: 5px;
-}
-
-.projectdescription{
-  text-align: left;
-}
-
-.projectdescription p{
-  line-height: 2.9rem;
-}
-
-/*Footer */
-
-.footerlogo{
-  margin: 0 auto;
-}
-.cricon{
-  font-size: 20px;
-}
-
-
-/*Case Study */
-
-.papersketchimg{
-  width: 30%;
-  margin: 1%;
-}
-
-.wireframeimg{
-  display: inline-block;
-  width: 40%;
-  margin: 1%;
-}
-
-
-.colorbox{
-  padding: 3%;
-}
-
-.personaimage{
-  width: 30%;
-
-}
-
-.personaclass {
-  width: 45%;
-  display: inline-block;
-  margin: 1%;
-
-}
-
-.personaclass ,{
-  width: 45%;
-  display: inline-block;
-  margin: 1%;
-
-}
-
-.storyandfeature{
-  width: 45%;
-  display: inline-block;
-  vertical-align: text-top;
-
-}
-
-.utupload{
-  width: 20%;
-  margin: 1%;
-}
-
-.fullimg{
-  width: 45%;
-  margin: 1%;
-}
-
-.visualtypo, .visualcolor, .visualcolorpalette{
-  width: 48%;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.typo{
-  height:10px;
-}
-
-.signupop1, .signupop2{
-
-  width:25%;
-
-}
-
-.signupop1{
-  margin-right: 10px;
-}
-.utbox{
-  width: 25%;
-}
-
-ul.lessmarginbottom{
-  margin-bottom: 5px;
-}
-
-
-.finalresult1, .finalresult2, .finalresult3{
-  width: 48%;
-  display: inline-block;
-  vertical-align: middle;
-
-}
-
-.reducedcontainer{
-  width:95%;
-  margin: 0 auto;
-}
-
-.google, .dropbox, .box{
-  width: 25%;
-  display: inline-block;
-  vertical-align: top;
-  margin: 4%;
-}
-
-.compbutton, .topbutton{
-  text-align: center;
-}
-
-.topbutton{
-  margin-bottom: 50px;
-}
-
-.psrt{
-  width: 48%;
-  display: inline-block;
-  margin: 1%;
-
-}
-
-.roleandtools{
-  float: right;
-  text-align: center;
-}
-
-.marginforproblem{
-  margin-bottom: 80px;
-
-}
-.flonotext{
-  margin-right: 10px;
-}
-
-.flonoheadcomp{
-  width: 48%;
-  display: inline-block;
-  vertical-align: middle;
-
-}
-
-.userstories{
-  margin-right: 40px;
-}
-
-.storybutton{
-  text-align: center;
-}
-
-.alignleft{
-  text-align: left;
-}
-
-.featuresonly{
-  float: right;
-}
-
-.videowidth{
-  width: 48%;
-}
-
-.contactfull{
-  margin-bottom: 500px;
-}
-
-/* About */
-
-
-.newrightnow{
-  width: 45%;
-  border: 1px solid lightgrey;
-  box-shadow:0 4px 2px -2px rgba(0,0,0,0.4);
-  padding: 2%;
-
+@media screen and (min-width: 575px) {
+
+  /*Global Styles */
+  .none {
+    display: block;
   }
 
-
-
-
-@media screen and (min-width: 991px){
-
-/* Global Styles */
-  button {
-  padding: 10px 30px;
-  font-size: 19px;
-  }
-
-  .comview{
-    display:block;
-  }
-  .none2{
+  .nobutton {
     display: none;
   }
 
+  h1 {
+    font-size: 6rem;
+    line-height: 9rem;
+  }
 
-/* Header */
-  .heroelement{
-    width:48%;
+  h2 {
+    font-size: 3rem;
+    line-height: 4.1rem;
+  }
+
+  h3 {
+    font-size: 1.9rem;
+    line-height: 2.7rem;
+  }
+
+  p {
+    font-size: 1.9rem;
+    line-height: 3.5rem;
+  }
+
+  .fontawesome {
+    font-size: 3rem;
+  }
+
+  button {
+    padding: 8px 8px;
+    font-size: 16px;
+  }
+
+  .tabnone {
+    display: none;
+  }
+
+  .desktopnone {
+    display: none;
+  }
+
+  /* Navigation */
+  nav {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 -22px 43px 0px rgba(0, 0, 0, .4);
+    font-family: "Raleway";
+    font-size: 1.9rem;
+    position: relative;
+  }
+
+  .navelements {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .myname {
+    font-family: "Raleway";
+  }
+
+  .irlogo, .myname {
     display: inline-block;
     vertical-align: middle;
   }
 
-.illustration{
-  float: right;
+  .menuicon {
+    display: none;
+  }
+
+  .irlogo {
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .myname {
+    font-size: 2rem;
+    margin-bottom: 13px;
+  }
+
+  .work, .about, .contact {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 13px;
+  }
+
+  .links a {
+    font-family: "Raleway";
+  }
+
+  .myname:hover {
+    color: black;
+  }
+
+  /*Main */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .tooltip .tooltiptext {
+    width: 180px;
+    font-size: 16px;
+  }
+
+  .tooltip .tooltiptext::after {
+    top: 50%;
+  }
+
+  header.home {
+    margin-top: 60px;
+  }
+
+  .herohi, .oneliner {
+    font-size: 3.5rem;
+    line-height: 5.3rem;
+  }
+
+  .herobutton {
+    text-align: center;
+  }
+
+  .viewmore {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  /* Project Card*/
+  .project {
+    width: 80%;
+    margin-bottom: 150px;
+  }
+
+  .pro1, .pro2 {
+    display: inline-block;
+    width: 48%;
+    margin-right: 5px;
+  }
+
+  .projectdescription {
+    text-align: left;
+  }
+
+  .projectdescription p {
+    line-height: 2.9rem;
+  }
+
+  /*Case Study */
+  .papersketchimg {
+    width: 30%;
+    margin: 1%;
+  }
+
+  .wireframeimg {
+    display: inline-block;
+    width: 40%;
+    margin: 1%;
+  }
+
+  .colorbox {
+    padding: 3%;
+  }
+
+  .personaimage {
+    width: 30%;
+  }
+
+  .personaclass {
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+  }
+
+  .personaclass, {
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+  }
+
+  .storyandfeature {
+    width: 45%;
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
+  .utupload {
+    width: 20%;
+    margin: 1%;
+  }
+
+  .fullimg {
+    width: 45%;
+    margin: 1%;
+  }
+
+  .visualtypo, .visualcolor, .visualcolorpalette {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .typo {
+    height: 10px;
+  }
+
+  .signupop1, .signupop2 {
+    width: 25%;
+  }
+
+  .signupop1 {
+    margin-right: 10px;
+  }
+
+  .utbox {
+    width: 25%;
+  }
+
+  ul.lessmarginbottom {
+    margin-bottom: 5px;
+  }
+
+  .finalresult1, .finalresult2, .finalresult3 {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .reducedcontainer {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .google, .dropbox, .box {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4%;
+  }
+
+  .compbutton, .topbutton {
+    text-align: center;
+  }
+
+  .topbutton {
+    margin-bottom: 50px;
+  }
+
+  .psrt {
+    width: 48%;
+    display: inline-block;
+    margin: 1%;
+  }
+
+  .roleandtools {
+    float: right;
+    text-align: center;
+  }
+
+  .marginforproblem {
+    margin-bottom: 80px;
+  }
+
+  .flonotext {
+    margin-right: 10px;
+  }
+
+  .flonoheadcomp {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .userstories {
+    margin-right: 40px;
+  }
+
+  .storybutton {
+    text-align: center;
+  }
+
+  .alignleft {
+    text-align: left;
+  }
+
+  .featuresonly {
+    float: right;
+  }
+
+  .videowidth {
+    width: 48%;
+  }
+
+  /* Contact */
+  .contactfull {
+    margin-bottom: 80px;
+  }
+
+  /* About */
+  .newrightnow {
+    width: 45%;
+    border: 1px solid lightgrey;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+    padding: 2%;
+  }
+
+  /*Footer */
+  .footerlogo {
+    margin: 0 auto;
+  }
+
+  .cricon {
+    font-size: 20px;
+  }
 }
-.herobutton{
-  text-align: left;
-}
 
-.viewmore{
-  text-align: center;
-  margin-bottom: 100px;
-}
+@media screen and (min-width: 991px) {
 
-/* Sticky Menu*/
+  /* Global Styles */
+  a {
+    text-decoration: none;
+  }
 
-.navdirection{
-  width: 100%;
-  margin: 0 auto;
-  background-color:#f6e8ea;
-  padding-top:2%;
-  padding-bottom: 2%;
-}
+  a:visited {
+    color: #3A58ED;
+  }
 
-.stickymenuitems{
-display: flex;
-justify-content: center;
-justify-content:
+  a:hover {
+    color: black;
+  }
 
-}
+  button {
+    padding: 10px 30px;
+    font-size: 19px;
+  }
 
-.navdirection a {
-  font-size: 16px;
-  margin-left: 1%;
-  margin-right: 1%;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: "Raleway";
-}
+  .comview {
+    display: block;
+  }
 
-/* Case Study */
-.tools{
-  margin-top: 50px;
-}
+  .none2 {
+    display: none;
+  }
 
-.tools h3{
-  line-height: 3rem;
-}
+  /* Header */
+  header.home {
+    margin-top: 10px;
+  }
 
-.roles h3{
-  line-height: 3rem;
-}
+  .heroelement {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-/* Contact */
+  .illustration {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 10px;
+    width: 95%;
+  }
 
-.contactform, .contacttext{
-  width: 48%;
-  display: inline-block;
-  vertical-align: middle;
+  .herobutton {
+    text-align: left;
+  }
 
-}
+  .viewmore {
+    text-align: center;
+    margin-bottom: 100px;
+  }
 
-.contactfull{
-  margin-top: 100px;
-  margin-bottom: 420px;
-}
+  /* Sticky Menu*/
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
-.contactform{
-  float: right;
-}
-.myname{
-  font-family:"Raleway";
-}
+  .navdirection {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f6e8ea;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 
+  .stickymenuitems {
+    display: flex;
+    justify-content: center;
+    justify-content:
+  }
 
-/* About */
+  .navdirection a {
+    font-size: 16px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Raleway";
+  }
 
-.deskpic{
-  max-width: 100%;
-}
+  /* Case Study */
+  .tools {
+    margin-top: 50px;
+  }
 
-.aboutfull{
-  margin-bottom: 100px;
-}
+  .tools h3 {
+    line-height: 3rem;
+  }
 
-.firstpartaboutpic{
-  width: 48%;
-  margin-top: 60px;
-  float: right;
-}
+  .roles h3 {
+    line-height: 3rem;
+  }
 
-.firstpartabout{
-  width: 48%;
-  margin: 1%;
-}
+  .alignfewleft {
+    text-align: left;
+  }
 
-.firstpartabout, .firstpartaboutpic{
-  display: inline-block;
-  vertical-align: top;
-}
+  /* Contact */
+  .contactform, .contacttext {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-.newrightnow{
-  width:45%;
-  border: 1px solid lightgrey;
-  box-shadow:0 4px 2px -2px rgba(0,0,0,0.4);
-  padding: 2%;
+  .contactfull {
+    margin-top: 100px;
+    margin-bottom: 420px;
+  }
 
-}
+  .contactform {
+    float: right;
+  }
 
-.secondpartabout{
-  width: 48%;
-  margin: 1%;
-}
+  /* About */
+  .deskpic {
+    width: 79%;
+  }
 
+  .aboutfull {
+    margin-bottom: 100px;
+  }
 
-.secondpartbox{
-  width: 48%;
-}
+  .firstpartaboutpic {
+    width: 48%;
+    margin-top: 60px;
+    float: right;
+  }
 
+  .firstpartabout {
+    width: 48%;
+    margin: 1%;
+  }
 
-.secondpartbox, .secondpartabout{
-  display: inline-block;
-  vertical-align: top;
-}
+  .firstpartabout, .firstpartaboutpic {
+    display: inline-block;
+    vertical-align: top;
+  }
 
+  .newrightnow {
+    width: 38%;
+    border: 1px solid lightgrey;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+    padding: 2%;
+  }
 
+  .secondpartabout {
+    width: 48%;
+    margin: 1%;
+  }
 
-.boxes{
-  display:flex;
-}
+  .secondpartbox {
+    width: 45%;
+  }
 
+  .secondpartbox, .secondpartabout {
+    display: inline-block;
+    vertical-align: top;
+  }
 
-
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted darkgrey;
-
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 450px;
-  background-color: White;
-  font-size: 20px;
-  color: darkgrey;
-  text-align: center;
-  border: 1px solid lightgrey;
-  position: absolute;
-
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-
-
-
+  .boxes {
+    display: flex;
+  }
 }

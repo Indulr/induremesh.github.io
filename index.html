@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head lang="en">
   <title>Portfolio | Indu Remesh</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <!-- Mobile Nav -->
 <div class="topnav desktopnone">
@@ -43,26 +59,40 @@
   <ul>
     <div class="navelements">
       <div class="logounit">
-        <a href="index.html"><li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li></a>
-        <a href="index.html"><li class="myname blue">Indu Remesh</li></a>
+        <a href="index.html">
+          <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
+        </a>
+        <a href="index.html">
+          <li class="myname blue">Indu Remesh</li>
+        </a>
       </div>
       <div class="menuicon fontawesome">
         <li><i class="fa fa-bars"></i></li>
       </div>
       <div class="links none">
-        <a href="#projectarea"><li class="work">Work</li></a>
-        <a href="about.html"><li class="about">About</li></a>
-        <a href="contact.html"><li class="contact">Contact</li></a>
+        <a href="#projectarea">
+          <li class="work">Work</li>
+        </a>
+        <a href="about.html">
+          <li class="about">About</li>
+        </a>
+        <a href="contact.html">
+          <li class="contact">Contact</li>
+        </a>
       </div>
     </div>
   </ul>
 </nav>
+<!-- Header Unit -->
+
 <body>
   <div class="container">
     <header class="home">
       <div class="herotext heroelement">
         <h3 class="herohi"> Hi There!</h3>
-        <h1 class="heroname blue"><span class="black">I’m </span> <div class="tooltip">Indu<span class="tooltiptext">Meaning : Indian origin name for the Moon</span></div> Remesh.</h1>
+        <h1 class="heroname blue"><span class="black">I’m </span>
+          <div class="tooltip dotted">Indu<span class="tooltiptext lineheightzero">[ In - doo ] <br>Meaning: Indian origin name for the Moon. </span></div> Remesh.
+        </h1>
         <p class="oneliner">UX Designer based in NYC passionate about learning the whys and hows of user behavior.</p>
         <a href="about.html"><button class="">More About Me</button></a>
       </div>
@@ -73,26 +103,32 @@
         <a href="about.html"><button class="none2 none nobutton" name="button">More About Me</button></a>
       </div>
     </header>
+
     <a href="#projectarea">
       <div class="viewmore blue none">
         <i class="fa fa-chevron-down arrowdown"></i>
         <h3>View My Work</h3>
       </div>
     </a>
+    <!-- Project Card -->
     <section id="projectarea" class="project aligncenter">
       <div class="projectimage">
         <img class="pro1 mainprojectimage" src="images/HomePage.svg" alt="Project Image">
         <img class="pro2 none" src="images/dashboardmain.svg" alt="Project Image">
       </div>
       <div class="projectdescription">
-        <h2 class="blue">Flono</h2>
-        <p>Flono is a cloud storage app designed to make cloud-related activities in the workplace easier.
-          <span class="none tabnone comview">The purpose of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for that market.</p></span>
+        <a href="project.html">
+          <h2 class="blue">Flono</h2>
+        </a>
+        <p class="bold black"> A service designed to make cloud-related activities in the workplace easier.</p>
+        <p><span class="none tabnone comview">The purpose of this project is to identify the right market for a new entrant and design a cloud storage service from scratch with relevant features for that market.</p></span>
         <a href="project.html"><button onclick="myFunction()">View case study</button></a>
       </div>
     </section>
+
+    <!-- Footer -->
     <footer class="aligncenter">
-      <img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo">
+      <a href="index.html"><img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo"></a>
       <h2 class="footernote">Let's Connect!</h2>
       <h3 class="none">I'd love to hear from you</h3>
       <a href="contact.html"><button name="button">Contact Me</button><br></a>
@@ -108,24 +144,22 @@
         </a>
       </ul>
       <div class="copyright">
-        <i class="fa fa-copyright"></i> Indu Remesh
-
+        <i class="fa fa-copyright"></i> Designed and Developed by Indu Remesh
       </div>
     </footer>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-143614689-1');
-</script>
-</div>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-143614689-1');
+    </script>
+  </div>
 </body>
-
-
-
-
 
 </html>

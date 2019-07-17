@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Portfolio | Indu Remesh</title>
@@ -8,18 +8,34 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <!-- Mobile Nav -->
 <div class="topnav desktopnone">
   <div class="navitems">
     <a href="index.html" class="active irlogo"><img src="images/mylogo.svg" alt="mylogo"></a>
     <div id="myLinks">
-      <a href="#projectarea">Work</a>
+      <a href="index.html#projectarea">Work</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </div>
@@ -43,21 +59,32 @@
   <ul>
     <div class="navelements">
       <div class="logounit">
-        <a href="index.html"><li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li></a>
-        <a href="index.html"><li class="myname blue">Indu Remesh</li></a>
+        <a href="index.html">
+          <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
+        </a>
+        <a href="index.html">
+          <li class="myname blue">Indu Remesh</li>
+        </a>
       </div>
       <div class="menuicon fontawesome">
         <li><i class="fa fa-bars"></i></li>
       </div>
       <div class="links none">
-        <a href="#projectarea"><li class="work">Work</li></a>
-        <a href="about.html"><li class="about">About</li></a>
-        <a href="contact.html"><li class="contact">Contact</li></a>
+        <a href="index.html#projectarea">
+          <li class="work underline">Work</li>
+        </a>
+        <a href="about.html">
+          <li class="about">About</li>
+        </a>
+        <a href="contact.html">
+          <li class="contact">Contact</li>
+        </a>
       </div>
     </div>
   </ul>
 </nav>
-<div id="fixednav" class="none tabnone comview navdirection" >
+<!-- Sticky Navigation -->
+<div id="fixednav" class="none tabnone comview navdirection">
   <div class="stickymenuitems">
     <a href="#overview">Overview</a>
     <a href="#research">Research</a>
@@ -77,7 +104,7 @@
 
     function onScroll() {
       // Avoids using this script for mobile
-      if(document.body.clientWidth <= 990) return;
+      if (document.body.clientWidth <= 990) return;
 
       if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
@@ -87,17 +114,19 @@
     }
   })();
 </script>
+<!-- Introduction Header -->
 
 <body>
   <div class="container">
-
     <div id="top" class=" flonomain marginbottom">
       <div class="desktopnone">
         <img class="marginbottomsmall fullimg" src="images/HomePage.png" alt="Illustration">
         <!-- <img class="none" src="images/Dashboard.png" width="300px" alt="Illustration"> -->
       </div>
       <div class="flonoheadcomp flonoabout">
-        <h1 class="h2color">Flono</h1>
+        <a href="http://bit.ly/2I86Yix" target="_blank">
+          <h1 class="h2color">Flono</h1>
+        </a>
         <p>Flono is a cloud storage app
           designed to make cloud-related activities in the workplace easier.</p>
         <a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
@@ -114,6 +143,7 @@
         </p>
       </div>
     </div>
+    <!-- Problem & Solution Overview -->
     <div id="overview" class="prosol marginbottom colorbox bgcolor marginforproblem">
       <div class="problemandsol marginbottomsmall psrt">
         <div class="problem marginbottom bwprosol">
@@ -126,7 +156,7 @@
         <div class="solution marginbottomsmall">
           <p>Flono prioritizes usability over everything else. To achieve this, the service is designed to provide an intuitive workflow by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance,
             expectation,
-            efficiency. </p>
+            efficiency etc. </p>
         </div>
       </div>
       <div class="roleandtools  psrt">
@@ -187,10 +217,11 @@
       </div>
 
     </div>
+    <!-- Competitive Analysis -->
     <div id="research" class="comp marginbottom">
       <h2>Competitive Analysis</h2>
       <p>The first step was to analyze the market to evaluate current options and find out opportunities to enter this space.
-        I chose three main players in the market for this purpose - Google drive, Dropbox, Box.</p>
+        Three main players in the market were chosen for this purpose - Google drive, Dropbox, Box.</p>
       <div class="competitors none desktopnone comview">
         <div class="google">
           <p class="smallheading underline bold">Google Drive</p>
@@ -253,9 +284,7 @@
             <li>
               <p>Huge selection of third-party apps</p>
             </li>
-            <li>
-              <p>Provides guest accounts</p>
-            </li>
+
             <li>
               <p>Difficult to sync files</p>
             </li>
@@ -272,6 +301,7 @@
         <a href="https://drive.google.com/open?id=1gxSLBl20OApEhOgQHs8GOXQGf8JWEEyu" target="_blank"><button name="button">View In Detail</button></a>
       </div>
     </div>
+    <!-- User Survey -->
     <div class="survey marginbottom colorbox bgcolor">
       <div class="marginbottomsmall">
         <h2>User Survey</h2>
@@ -296,26 +326,26 @@
         </ul>
       </div>
       <p class="red underline"><b>Key Takeaway</b></p>
-      <p>The most critical thing that I learned during the survey was more than new features, users are concerned about the usability of basic features</p>
+      <p>The most critical thing that I learned during the survey was more than new features, users were concerned about the usability of basic features</p>
       <p class="marginbottomsmall">When users were asked what they DO NOT like about their present service, these were their responses.</p>
       <ul class="squarelist listspace marginbottomsmall">
         <li>
-          <p>I didn't know how to create a folder for a long time</p>
+          <p>"I didn't know how to create a folder for a long time"</p>
         </li>
         <li>
-          <p>Difficult to understand, so I don’t use much</p>
+          <p>"Difficult to understand, so I don’t use much"</p>
         </li>
         <li>
-          <p>Saved it in the wrong folder and couldn’t find it</p>
+          <p>"Saved a file in the wrong folder and couldn’t find it"</p>
         </li>
         <li>
-          <p>One drive wasn’t very intuitive to use</p>
+          <p>"Wasn’t very easy to use"</p>
         </li>
         <li>
-          <p>Right click for options wasn’t clear</p>
+          <p>"Right click for options wasn’t clear"</p>
         </li>
         <li>
-          <p>Couldn’t share a file</p>
+          <p>"Couldn’t share a file"</p>
         </li>
       </ul>
       <hr>
@@ -332,7 +362,7 @@
             </div>
     </div>
     <div class="definesol marginbottom">
-
+      <!--Defining a solution-->
       <h2>Defining the Solution</h2>
       <p>Based on the competitive analysis and user survey, I identified the possible characteristics of a new entrant.
       </p>
@@ -351,9 +381,10 @@
         </li>
       </ul>
     </div>
+    <!--User Personas-->
     <div class="persona marginbottom">
       <h2>User Personas</h2>
-      <p>To understand the user better, I developed two personas based on two clear usage motivations that stood out during the survey. </p>
+      <p>To understand the user better, I developed personas based on two clear usage motivations that stood out during the survey. </p>
       <p><span class="bold red">The uploader</span> - Wants a safe space to upload and organize all the work files.</p>
       <p><span class="bold red">The collaborator</span> - Wants to quickly share and receive feedback on work files.</p>
       <div class="persona1 personaclass aligncenter marginbottomsmall">
@@ -382,10 +413,11 @@
         <hr class="desktopnone">
       </div>
     </div>
+    <!--User Stories-->
     <div class="stories marginbottom">
       <h2>User Stories</h2>
       <p>To identify all the necessary features, I listed down what ‘Ashley’ and ‘ Jacob ‘ would want to see in such a service.
-        From the list, I selected all the high priority user stories and few low & medium priority ones to form the MVP.</p>
+        From the list, I selected all the high priority user stories along with a few low & medium priority ones to form the MVP.</p>
       <div class="userstories  none storyandfeature">
         <p class="storylist bold red underline"><b>Stories</b></p>
         <ul>
@@ -418,9 +450,8 @@
           </li>
         </ul>
       </div>
-
       <div class="storyandfeature featuresonly">
-        <p class="red underline bold"><b>Features<p>
+        <p class="red underline bold"><b>Features for MVP<p>
               <ul>
                 <li>
                   <p>Upload files</p>
@@ -452,13 +483,14 @@
         <a href="https://docs.google.com/spreadsheets/d/129dl6k0cUr1zqrS1AVcNHnt7pFbNBPPCE1Mbxkx001I/edit?usp=sharing" target="_blank"><button name="button">View User Stories</button></a>
       </div>
     </div>
-
+    <!--User Flows-->
     <div id="infoarch" class="userflows marginbottom">
       <h2>User Flows</h2>
       <p>The next process involved accounting for all the steps a user takes while navigating through various features identified during the last step. I created 8 different user flows to map out the process and to identify the hierarchy of these
         elements. The main focus here was to find ways to address the main pain points.</p>
       <a href="https://docs.google.com/document/d/1CcJsml4a6BGg_jboqlhKwd82Hm5PwcHBSp51B6AuNqA/edit?usp=sharing" target="_blank"><button name="button">View User Flows</button></a>
     </div>
+    <!--Paper Sketches-->
     <div class="papersketch marginbottom ">
       <h2>Paper Sketches</h2>
       <p>I started with paper sketching and once I figured out the flow and placement of various elements, I used Sketch to design wireframes.</p>
@@ -468,6 +500,7 @@
         <img class="marginbottomsmall papersketchimg" src="images/Papersketch3.jpg" alt="User Persona">
       </div>
     </div>
+    <!--Wireframes-->
     <div class="wireframes  marginbottom ">
       <h2>Wireframes</h2>
       <div class="aligncenter colorbox bgcolor ">
@@ -477,9 +510,10 @@
         <img class="marginbottomsmall wireframeimg" src="images/WF7.png" alt="wireframes">
       </div>
     </div>
+    <!--Usability Testing1-->
     <div id="usertest" class="usertesting marginbottom">
       <h2>Usability Testing</h2>
-      <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues so that I can iterate and improve before moving forward. Wireframes were tested with 3 people through zoom.</p>
+      <p>I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues early so that I can iterate and improve before moving forward. Wireframes were tested with 3 people via zoom.</p>
       <p class="bold underline">Main change after usability testing</p>
       <p class="flonoheadcomp">When the user hovers over a file, it gets highlighted along with the actions they could perform with that file. But I learned during the test that the hovering feature was confusing and the users found it difficult to
         click the ‘Move’ button
@@ -501,7 +535,8 @@
           <h4 class="bold underline marginbottomsmall">Share Button</h4>
           <img class="aligncenter sbefore fullimg marginaround" src="images/Sbefore.png" alt="Share button before">
           <img class="aligncenter sbefore fullimg marginaround" src="images/Safter.png" alt="Share button after">
-          <p class="red marginbottomsmall">Users found it confusing as there were two buttons ‘Share’ and ‘Done’. I thought it would make it easier for the user to have access to the share button close to the input field. But the test
+          <p class="red marginbottomsmall ">Users found it confusing as there were two buttons ‘Share’ and ‘Done’ to complete the sharing process. Initially, I thought it would make it easier for the user to have access to the share button close to
+            the input field. But the test
             proved
             otherwise so I decided to get rid of the
             ‘Share’ button.
@@ -509,6 +544,7 @@
         </div>
       </div>
     </div>
+    <!--Visual Design-->
     <div id="visual" class="visual marginbottom">
       <h2>Visual Design</h2>
       <p>Branding direction - A product that’s intuitive and makes the workspace fun & vibrant.
@@ -517,15 +553,16 @@
       <img class="logoimg fullimg visualcolor" src="images/logo.png" alt="Logo">
       <p class="logo visualcolor">Through brainstorming, I figured the intended benefits of this service. One that clearly stood out was “Being in the flow”. I tried many variations with ‘FLO’ and decided on flono.</p>
       <img class="colorimg fullimg visualcolorpalette" src="images/colorpalette.png" alt="Color palette">
-      <p class="color visualcolorpalette">I wanted the primary colors to evoke feelings of passion and energy to align with the vibrant nature of this service. But at the same time, I didn’t want it to be overpowering and in-your-face. </p>
+      <p class="color visualcolorpalette">I wanted the primary colors to evoke feelings of passion and energy to align with the vibrant nature of this service. But at the same time, I didn’t want it to be overpowering </p>
       <!--   <img class="typoimg desktopnone fullimg border marginbottomsmall visualtypo" src="images/typo.png" alt="Typography">
       <p class="type desktopnone visualtypo">I chose ‘Amarnath’ as the brand typeface as it aligned with the casual and approachable brand voice of this service. <br> I paired it with ‘Open Sans’ to provide great clarity & readability at any font size and this will help
         users to easily consume the content.</p> -->
 
     </div>
+    <!--Preference Test-->
     <div id="pref" class="preftest">
       <h2>Preference Test</h2>
-      <p>I conducted a preference test for a few visual elements before finalizing the design. Following were the three elements that I tested.</p>
+      <p>I conducted a preference test for a few visual elements before finalizing the design. Following were the three elements that were tested.</p>
     </div>
     <div class="colorbox marginbottom bgcolor">
       <div class="aligncenter">
@@ -536,24 +573,25 @@
         <h4 class="bold underline">Active State For A File</h4>
         <img class="fullimg" src="images/pref3.png" alt="Active state Option1">
         <img class="fullimg" src="images/pref4.png" alt="Active state Option2">
-        <p class="red  aligncenter marginbottomsmall">75% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
+        <p class="red  aligncenter marginbottomsmall">75% of the participants chose option 1. Decided to go with option 1.</p>
         <h4 class="bold underline">Active State For A File</h4>
         <img class="fullimg" src="images/pref5.png" alt="Notification Option1">
         <img class="fullimg" src="images/pref6.png" alt="Notification Option2">
-        <p class="red  aligncenter marginbottomsmall">92% of the participants chose option 1, so I will proceed with this option in the final prototype.</p>
+        <p class="red  aligncenter marginbottomsmall">92% of the participants chose option 1. Decided to go with option 1.</p>
       </div>
     </div>
+    <!--Usability Testing 2-->
     <div class="usability marginbottom">
       <h2>Usability Testing</h2>
       <p>The prototype was tested again to find out how users responded to the various visual elements. I had to make one last change based on the usability testing before finalizing the design. </p>
       <div class="utimages colorbox bgcolor aligncenter marginbottom">
         <img class="marginbottomsmall utbox fullimg" src="images/utbefore.png" alt="Usability Test">
         <img class="marginbottomsmall utbox fullimg" src="images/utafter.png" alt="Usability Test">
-        <p class="red margincenter aligncenter">In the modal window, users were trying to click the ‘upload’ button before necessary selections were made. I think the issue here is that the ‘Upload’ button is always in the active mode which confuses
-          the user as to whether the necessary
-          selections were made or not. So I reduced the opacity of the button and once a selection is made, it changes to 100%.</p>
+        <p class="red margincenter aligncenter alignfewleft">In the modal window, users were trying to click the ‘upload’ button before making required selections. So I reduced the opacity of this button and it changes to a 100% only when the user
+          makes all the necessary selctions .</p>
       </div>
-      <div  class="final marginbottom desktopnone">
+      <!--Final Prototype-->
+      <div class="final marginbottom desktopnone">
         <h2>Final Prototype</h2>
         <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
         <p>Through multiple rounds of testing and iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, constraints, affordance, expectation, efficiency.</p>
@@ -565,9 +603,9 @@
           <p class="red bold marginbottomsmall finalresult2">Establishes constraints by not allowing the user to proceed without making necessary selections.</p>
           <img class="fullimg finalresult3" src="images/info.png" alt="Affordance Screenshot">
           <p class="red bold finalresult3">Provides affordances to help the user understand how to interact with various elements.</p>
-         <a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
+          <a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
         </div>
-  </div>
+      </div>
       <div id="finalone" class="final none marginbottom">
         <h2 class="">Final Prototype</h2>
         <p>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design.</p>
@@ -581,11 +619,11 @@
             <img class=" fullimg finalresult2 marginbottomsmall" src="images/constraint.png" alt="Constraint Screenshot">
             <img class="fullimg finalresult3 marginbottomsmall" src="images/info.png" alt="Affordance Screenshot">
             <p class="red bold finalresult3">Provides affordances to help the user understand how to interact with various elements.</p>
-<a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
+            <a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
           </div>
         </div>
-        </div>
-
+      </div>
+      <!--Conclusion-->
       <div class="conclusion marginbottom">
         <h2>Conclusion</h2>
         <p>It was a rewarding experience to design a product from scratch. Though the direction wasn’t clear in the beginning, each step added clarity and helped me to get closer to the final prototype. While there are still a lot of possibilities to
@@ -595,19 +633,18 @@
         </p>
         <p>If I had more time, I wouldn’t have considered doing another round of usability testing to test the final changes I made to the prototype.</p>
       </div>
-
-         <div class="topbutton">
-
-
-         <a href="#top"><button  name="button">Back To Top</button></a>
-</div>
-        <!--
+      <div class="topbutton">
+        <a href="#top"><button name="button">Back To Top</button></a>
+      </div>
+      <!--Next and Previous buttons-->
+      <!--
       <div class="endbuttons marginbottom">
         <a href="#"><button class="previous" name="button">Previous</button></a>
         <a href="#"><button class="next" name="button">Next</button></a>
       </div> -->
+      <!--Footer-->
       <footer class="aligncenter container">
-        <img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo">
+        <a href="index.html"><img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo"></a>
         <h2 class="footernote">Let's Connect!</h2>
         <h3 class="none">I'd love to hear from you</h3>
         <a href="contact.html"><button name="button">Contact Me</button><br></a>
@@ -622,19 +659,22 @@
             <li><i class="fa fa-twitter"></i><br></li>
           </a>
         </ul>
-        <i class="fa fa-copyright"></i> Indu Remesh
+        <i class="fa fa-copyright"></i> Designed and Developed by Indu Remesh
       </footer>
     </div>
   </div>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-143614689-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143614689-1');
+  </script>
 
 </body>
 

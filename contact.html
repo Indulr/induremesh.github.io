@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head lang="en">
   <title>Portfolio | Indu Remesh</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,26 +9,43 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
-
+<!-- Mobile Navigation-->
 <div class="topnav desktopnone">
-    <div class="navitems">
-    <a href="index.html" class="active irlogo"><img src="images/mylogo.svg"   alt="mylogo"></a>
+  <div class="navitems">
+    <a href="index.html" class="active irlogo"><img src="images/mylogo.svg" alt="mylogo"></a>
     <div id="myLinks">
-      <a href="index.html">Work</a>
+      <a href="index.html#projectarea">Work</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars hambutton"></i>
     </a>
-      </div>
   </div>
-  <script>
+</div>
+<script>
   function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -37,36 +54,48 @@
       x.style.display = "block";
     }
   }
-  </script>
-
+</script>
+<!-- Desktop/Tablet Navigation-->
 <nav class="blue bold none">
   <ul>
     <div class="navelements">
       <div class="logounit">
-        <a href="index.html"><li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li></a>
-        <a href="index.html"><li class="myname blue">Indu Remesh</li></a>
+        <a href="index.html">
+          <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
+        </a>
+        <a href="index.html">
+          <li class="myname blue">Indu Remesh</li>
+        </a>
       </div>
       <div class="menuicon fontawesome">
         <li><i class="fa fa-bars"></i></li>
       </div>
       <div class="links none">
-        <a href="index.html"><li class="work">Work</li></a>
-        <a href="about.html"><li class="about">About</li></a>
-        <a href="contact.html"><li class="contact underline">Contact</li></a>
+        <a href="index.html#projectarea">
+          <li class="work">Work</li>
+        </a>
+        <a href="about.html">
+          <li class="about">About</li>
+        </a>
+        <a href="contact.html">
+          <li class="contact underline">Contact</li>
+        </a>
       </div>
     </div>
   </ul>
 </nav>
-<body>
-      <div class="container contactfull">
 
-      <div class="contacttext">
+<body>
+  <div class="container contactfull">
+    <!-- Contact Text-->
+    <div class="contacttext">
       <h1>Contact Me!</h1>
 
       <p>Please feel free to leave a message or email me at <span class="blue bold">indu.remeshk@gmail.com</span></p>
 
     </div>
-      <div class="contactform">
+    <!-- Contact Form-->
+    <div class="contactform">
       <form id="contact" action="https://formspree.io/indu.remeshk@gmail.com" method="post">
         <h3 class="">Contact Me</h3>
 
@@ -74,7 +103,7 @@
           <input placeholder="Your name" class="inputspace" name="name" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
-          <input placeholder="Your Email Address" name="replyto"  class="inputspace" type="email" tabindex="2" required>
+          <input placeholder="Your Email Address" name="replyto" class="inputspace" type="email" tabindex="2" required>
         </fieldset>
         <!--
         <fieldset>
@@ -89,38 +118,41 @@
 
       </form>
     </div>
+  </div>
+  <!-- Footer-->
+  <footer class="aligncenter">
+    <a href="index.html"><img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo"></a>
+    <h2 class="footernote">Let's Connect!</h2>
+    <h3 class="none">I'd love to hear from you</h3>
+    <a href="contact.html"><button name="button">Contact Me</button><br></a>
+    <ul class="socialicons fontawesome">
+      <a href="https://www.linkedin.com/in/indurk/" target="_blank">
+        <li><i class="fa fa-linkedin"></i></li>
+      </a>
+      <a href="https://github.com/Indulr" target="_blank">
+        <li><i class="fa fa-github-square"></i></li>
+      </a>
+      <a href="https://twitter.com/iindurem" target="_blank">
+        <li><i class="fa fa-twitter"></i><br></li>
+      </a>
+    </ul>
+    <div class="copyright">
+      <i class="fa fa-copyright"></i> Designed and Developed by Indu Remesh
     </div>
-    <footer class="aligncenter">
-      <img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo">
-      <h2 class="footernote">Let's Connect!</h2>
-      <h3 class="none">I'd love to hear from you</h3>
-      <a href="contact.html"><button name="button">Contact Me</button><br></a>
-      <ul class="socialicons fontawesome">
-        <a href="https://www.linkedin.com/in/indurk/" target="_blank">
-          <li><i class="fa fa-linkedin"></i></li>
-        </a>
-        <a href="https://github.com/Indulr" target="_blank">
-          <li><i class="fa fa-github-square"></i></li>
-        </a>
-        <a href="https://twitter.com/iindurem" target="_blank">
-          <li><i class="fa fa-twitter"></i><br></li>
-        </a>
-      </ul>
-      <div class="copyright">
-        <i class="fa fa-copyright"></i> Indu Remesh
+  </footer>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      </div>
-    </footer>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-143614689-1');
-</script>
+    gtag('config', 'UA-143614689-1');
+  </script>
 
-    </body>
+</body>
 
 </html>
