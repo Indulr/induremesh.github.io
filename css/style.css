@@ -45,7 +45,7 @@ p {
 }
 
 .fontawesome {
-  font-size: 20px;
+  font-size: 2.5rem;
 }
 
 .none {
@@ -320,12 +320,20 @@ header.home, .flonomain {
   margin: 0 auto;
 }
 
+.marginleft {
+  margin-left: 10px;
+}
+
+.marginleftmore{
+  margin-left: 20px;
+}
+
 .personaimage {
   width: 50%;
 }
 
 .papersketchimg, .wireframeimg {
-  width: 80%;
+  width: 95%;
 }
 
 ul.listspace li {
@@ -360,15 +368,18 @@ li {
 /* Footer */
 footer ul {
   display: flex;
-  width: 30%;
   justify-content: space-between;
+  width: 50%;
   margin: 0 auto;
 }
 
 .socialicons {
-  padding: 10px 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+}
+
+.socialicons li {
+  font-size: 3rem;
+
 }
 
 .cricon {
@@ -660,6 +671,14 @@ fieldset {
   }
 
   /*Case Study */
+  .marginleft {
+    margin-left: 0px;
+  }
+
+  .alignleftformobile{
+    text-align: center;
+  }
+
   .papersketchimg {
     width: 30%;
     margin: 1%;
@@ -825,6 +844,15 @@ fieldset {
   .cricon {
     font-size: 20px;
   }
+
+  footer ul {
+
+    width: 30%;
+
+  }
+
+
+
 }
 
 @media screen and (min-width: 991px) {
@@ -853,6 +881,13 @@ fieldset {
 
   .none2 {
     display: none;
+  }
+
+  /* Footer */
+  .socialicons {
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   /* Header */
