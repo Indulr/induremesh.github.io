@@ -882,9 +882,13 @@ fieldset {
     margin-bottom: 100px;
   }
 
-.links li{
-  color: #3A58ED;
-}
+  .links li {
+    color: #3A58ED;
+  }
+
+  .links li:hover {
+    color: black;
+  }
 
   /* Sticky Menu*/
   .sticky {
@@ -909,12 +913,16 @@ fieldset {
 
   .navdirection a {
     font-size: 16px;
+    color: #3A58ED;
     margin-left: 1%;
     margin-right: 1%;
-    color:#3A85ED;
     text-decoration: none;
     font-weight: bold;
     font-family: "Raleway";
+  }
+
+  .navdirection a:hover {
+    color: black;
   }
 
   /* Case Study */
