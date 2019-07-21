@@ -965,12 +965,10 @@ fieldset {
 
   /* Case Study */
   .desktopwidth {
-    width: 650px;
+    width: 680px;
   }
 
-  .desktopwidthvar{
-    width: 600px;
-  }
+
 
   .marginbottom {
     margin-bottom: 100px;
