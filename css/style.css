@@ -325,12 +325,16 @@ header.home, .flonomain {
   margin-left: 10px;
 }
 
-.marginleftmore{
+.marginleftmore {
   margin-left: 20px;
 }
 
 .personaimage {
-  width: 50%;
+  width: 40%;
+}
+
+.margintopsmall {
+  margin-top: 40px;
 }
 
 .papersketchimg, .wireframeimg {
@@ -374,17 +378,14 @@ footer ul {
   margin: 0 auto;
 }
 
-.socialicons {
-
-}
+.socialicons {}
 
 .socialicons li {
   font-size: 3rem;
   color: #3A58ED;
-
 }
 
-.socialicons li:hover{
+.socialicons li:hover {
   color: black;
 }
 
@@ -681,7 +682,7 @@ fieldset {
     margin-left: 0px;
   }
 
-  .alignleftformobile{
+  .alignleftformobile {
     text-align: center;
   }
 
@@ -707,7 +708,7 @@ fieldset {
   .personaclass {
     width: 45%;
     display: inline-block;
-    margin: 1%;
+    margin: 2%;
   }
 
   .personaclass, {
@@ -852,13 +853,8 @@ fieldset {
   }
 
   footer ul {
-
-    width: 30%;
-
+    width: 16%;
   }
-
-
-
 }
 
 @media screen and (min-width: 991px) {
@@ -887,6 +883,10 @@ fieldset {
 
   .none2 {
     display: none;
+  }
+
+  h2{
+    line-height: 5rem;
   }
 
   /* Footer */
@@ -967,6 +967,26 @@ fieldset {
   }
 
   /* Case Study */
+  .desktopwidth {
+    width: 650px;
+  }
+
+  .desktopwidthvar{
+    width: 600px;
+  }
+
+  .marginbottom {
+    margin-bottom: 100px;
+  }
+
+  .marginbottomsmall {
+    margin-bottom: 30px;
+  }
+
+  .margintopsmall {
+    margin-top: 60px;
+  }
+
   .tools {
     margin-top: 50px;
   }
