@@ -708,14 +708,11 @@ fieldset {
   .personaclass {
     width: 45%;
     display: inline-block;
+    vertical-align: top;
     margin: 2%;
   }
 
-  .personaclass, {
-    width: 45%;
-    display: inline-block;
-    margin: 1%;
-  }
+
 
   .storyandfeature {
     width: 45%;
