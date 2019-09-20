@@ -53,6 +53,10 @@ p {
   display: none;
 }
 
+.newnone {
+  display: none;
+}
+
 button {
   border: 1px solid #4CAF4F;
   background-color: white;
@@ -287,6 +291,12 @@ header.home, .flonomain {
 }
 
 /* Project Card on Homepage */
+.introimg {
+  width: 40%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
 .project {
   width: 90%;
   margin: 0 auto;
@@ -306,6 +316,12 @@ header.home, .flonomain {
 
 .pro1 {
   width: 90%;
+}
+
+.zeal1, .zeal2, .zeal3 {
+  display: inline-block;
+  width: 25%;
+  margin-right: 2%;
 }
 
 /*Case Study*/
@@ -335,6 +351,10 @@ header.home, .flonomain {
 
 .margintopsmall {
   margin-top: 40px;
+}
+
+.storyboard {
+  width: 90%;
 }
 
 .papersketchimg, .wireframeimg {
@@ -368,6 +388,19 @@ li {
 
 .endbuttons {
   height: 50px;
+}
+
+.zealiewire {
+  width: 30%;
+  margin: 2%;
+}
+
+.zealogo {
+  width: 40%;
+}
+
+.zealmob {
+  width: 70%;
 }
 
 /* Footer */
@@ -660,13 +693,19 @@ fieldset {
   /* Project Card*/
   .project {
     width: 80%;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
 
   .pro1, .pro2 {
     display: inline-block;
     width: 48%;
     margin-right: 5px;
+  }
+
+  .zeal1, .zeal2, .zeal3 {
+    display: inline-block;
+    width: 25%;
+    margin-right: 2%;
   }
 
   .projectdescription {
@@ -712,8 +751,6 @@ fieldset {
     margin: 2%;
   }
 
-
-
   .storyandfeature {
     width: 45%;
     display: inline-block;
@@ -732,6 +769,34 @@ fieldset {
 
   .visualtypo, .visualcolor, .visualcolorpalette {
     width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .zealogo {
+    width: 20%;
+    margin-right: 28%;
+  }
+
+  .logotype {
+    width: 50%;
+  }
+
+  .zealogo, .logotype {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .visualzealie {
+    width: 25%;
+    margin-right: 23%;
+  }
+
+  .visualtype {
+    width: 45%;
+  }
+
+  .visualtype, .visualzealie {
     display: inline-block;
     vertical-align: middle;
   }
@@ -758,6 +823,20 @@ fieldset {
 
   .finalresult1, .finalresult2, .finalresult3 {
     width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .zealieresult1 {
+    width: 30%;
+    margin-right: 15%;
+  }
+
+  .zealieresulttype1 {
+    width: 53%;
+  }
+
+  .zealieresult1, .zealieresulttype1 {
     display: inline-block;
     vertical-align: middle;
   }
@@ -827,6 +906,20 @@ fieldset {
     width: 48%;
   }
 
+  .videocontrol {
+    width: 20%;
+  }
+
+  .zealieheadcomp {
+    width: 40%;
+    margin-right: 30%;
+  }
+
+  .zealieheadcomp, .videocontrol {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
   /* Contact */
   .contactfull {
     margin-bottom: 80px;
@@ -882,7 +975,7 @@ fieldset {
     display: none;
   }
 
-  h2{
+  h2 {
     line-height: 5rem;
   }
 
@@ -968,14 +1061,12 @@ fieldset {
     width: 680px;
   }
 
-
-
   .marginbottom {
     margin-bottom: 100px;
   }
 
   .marginbottomsmall {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .margintopsmall {

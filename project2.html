@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio | Indu Remesh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<!-- Mobile Nav -->
+<div class="topnav desktopnone">
+  <div class="navitems">
+    <a href="index.html" class="active irlogo"><img src="images/mylogo.svg" alt="mylogo"></a>
+    <div id="myLinks">
+      <a href="index.html#projectarea">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars hambutton"></i>
+    </a>
+  </div>
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+<!-- Desktop/tablet nav -->
+<nav class="blue bold none">
+  <ul>
+    <div class="navelements">
+      <div class="logounit">
+        <a href="index.html">
+          <li class="irlogo"><img src="images/mylogo.svg" alt="logo"></li>
+        </a>
+        <a href="index.html">
+          <li class="myname blue">Indu Remesh</li>
+        </a>
+      </div>
+      <div class="menuicon fontawesome">
+        <li><i class="fa fa-bars"></i></li>
+      </div>
+      <div class="links none">
+        <a href="index.html#projectarea">
+          <li class="work underline">Work</li>
+        </a>
+        <a href="about.html">
+          <li class="about">About</li>
+        </a>
+        <a href="contact.html">
+          <li class="contact">Contact</li>
+        </a>
+      </div>
+    </div>
+  </ul>
+</nav>
+<!-- Sticky Navigation -->
+<div id="fixednav" class="none tabnone comview navdirection">
+  <div class="stickymenuitems">
+    <a href="#overview">Overview</a>
+    <a href="#research">Research</a>
+    <a href="#infoarch">Information Architechture & Testing</a>
+    <a href="#visual">Visual Design</a>
+    <a href="#usability2">Usability Testing</a>
+    <a href="#finalone" class="finalborder">Final Prototype</a>
+  </div>
+</div>
+<script>
+  (function() {
+    window.addEventListener('scroll', onScroll);
+
+    var navbar = document.getElementById("fixednav");
+    var sticky = navbar.offsetTop;
+
+    function onScroll() {
+      // Avoids using this script for mobile
+      if (document.body.clientWidth <= 990) return;
+
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  })();
+</script>
+<!-- Introduction Header -->
+
+<body>
+  <div class="container">
+    <div id="top" class=" flonomain marginbottom">
+      <div class="desktopnone">
+        <img class="marginbottomsmall introimg" src="images2/introimage.png" alt="Illustration">
+        <img class="marginbottomsmall introimg" src="images2/launchScreen.png" alt="Illustration">
+        <!-- <img class="none" src="images/Dashboard.png" width="300px" alt="Illustration"> -->
+      </div>
+      <div class="zealieheadcomp flonoabout">
+        <a href="http://bit.ly/2I86Yix" target="_blank">
+          <h1 class="h2color">Zealie</h1>
+        </a>
+        <p>Zealie is an app through which users can book personal stylists based on their availability at an affordable price.
+          .</p>
+        <a href="https://invis.io/N4TOC049AVM#/380790814_Launch_Screen_1" target="_blank"><button name="button">View Prototype</button></a>
+      </div>
+      <video class="videocontrol none" controls autoplay>
+        <source src="images2/zealie.mp4" type="video/mp4"> </video>
+      <!--    <img class="marginbottomsmall newimage flonoheadcomp none" src="images/HomePage.png" alt="Illustration">-->
+      <div id="intro" class="topicintro">
+        <h2>Introduction</h2>
+        <p class=""> “ What to wear to a ___” is one of the most googled questions. There are millions of resources online but most often than not, it just causes more confusion. it’s always reassuring to get an expert’s opinion while making such a
+          decision. But personal styling is an expensive affair. Companies like Stitch Fix, Trunk Club, etc work around this idea but users don’t get to directly interact with the stylist. They also don’t get an opportunity to enjoy the shopping
+          process and have to settle down for whatever the stylist sends. These services suit people who are short on time and have a considerable budget. Zealie, on the other hand, works as a companion for everyday people who enjoys shopping.
+
+        </p>
+      </div>
+    </div>
+    <!-- Problem & Solution Overview -->
+    <div id="overview" class="prosol marginbottom colorbox bgcolor marginforproblem">
+      <div class="problemandsol marginbottomsmall psrt">
+        <div class="problem marginbottomsmall bwprosol">
+          <h2>Problem</h2>
+          <p>Women often find it challenging to shop for clothes especially for special events as they get confused about what to pick. I further explored this problem and found out the main reasons - paradox of choice, information overload &
+            expensive expert's opinion </p>
+          <br>
+          <br>
+          <br>
+
+
+        </div>
+        <h2>Solution</h2>
+        <div class="solution marginbottomsmall">
+          <p> An app that lets women book appointments with personal stylists to receive style advice specific to their needs at an affordable price. Zealie is a companion for everyday people who enjoys shopping.</p>
+          <br>
+          <br>
+
+          <h2>Client</h2> - <p>Bloc Design</p>
+
+
+        </div>
+      </div>
+      <div class="roleandtools  psrt">
+        <div class="roles  marginbottomsmall ">
+          <h2>Roles</h2>
+          <ul>
+            <li>
+              <h3>User Research</h3>
+            </li>
+            <li>
+              <h3>Competitive Analysis</h3>
+            </li>
+            <li>
+              <h3>User Flows</h3>
+            </li>
+            <li>
+              <h3>Content Strategy</h3>
+            </li>
+            <li>
+              <h3>Wireframing</h3>
+            </li>
+            <li>
+              <h3>Prototyping</h3>
+            </li>
+            <li>
+              <h3>Branding & Style Guide</h3>
+            </li>
+            <li>
+              <h3>Usability Testing</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="tools  marginbottomsmall">
+          <h2>Tools</h2>
+          <ul class="list">
+            <li>
+              <h3>Sketch</h3>
+            </li>
+
+            <li>
+              <h3>Invision</h3>
+            </li>
+            <h3>
+              <li>
+                <h3>Maze</h3>
+              </li>
+
+              <li>
+                <h3>Draw.io</h3>
+              </li>
+
+              <li>
+                <h3>Google forms</h3>
+              </li>
+              <p>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <!-- Competitive Analysis -->
+    <div id="research" class="comp marginbottom">
+      <h2>Competitive Analysis</h2>
+      <p class="">Online styling services are a relatively new concept. But there are a few emerging players and my first step was to study the existing solutions to get a better idea about the market. This helped me in identifying aspects that are
+        working well and the ones that could use some improvement.</p>
+
+      <p class="desktopwidth">I chose 1 direct and 2 indirect competitors for this Analysis - Wishi, Allume, Stichfix</p>
+
+      <p class="desktopwidth"><span class="bold red">Wishi</span> - Users are matched with a stylist online based on a style quiz. The stylist will send personalized looks based on the user’s style goals. Users can choose what they want and buy them
+        online from respective stores.</p>
+
+      <p class="desktopwidth"><span class="bold red">Allume</span> - Users are matched with a stylist online based on a style quiz. The stylist will send 3 personalized looks based on the user’s style goals. Users can choose what they want the list
+        and buy it from the Allume website.</p>
+
+      <p class="desktopwidth"><span class="bold red">Stitch Fix</span> - Stylist sends a personalized box with 5 items based on a style quiz.</p>
+
+
+
+
+      <div class="compbutton">
+        <a href="https://www.dropbox.com/s/y11bdgv18azx6mj/Comp%20Analysis%20Online%20Stylist.pptx?dl=0" target="_blank"><button name="button">View In Detail</button></a>
+      </div>
+    </div>
+    <!-- User Survey -->
+    <div class="survey marginbottom colorbox bgcolor">
+      <div class="">
+        <h2>User Survey</h2>
+        <p>Through the research, I wanted to find out if my initial assumptions were right.</p>
+      </div>
+      <div class="">
+        <p>Intial Assumptions:</p>
+
+        <ul class="listspace">
+          <li>
+            <p><b>1. People find it difficult to shop for clothes online/in-store.
+              </b></p>
+          </li>
+          <li>
+            <p><b>2. People value an expert’s opinion(Stylists, designer).
+              </b></p>
+          </li>
+          <li>
+            <p><b>3. They mostly need help while they are making the final decision about their outfit choice.</b></p>
+          </li>
+
+        </ul>
+      </div>
+      <p>I kicked off the research by creating a survey and followed it up with in-person interviews to understand the user better. 54 people responded to the survey.</p>
+      <p class="red underline"><b>Key Takeaway - I was wrong!</b></p>
+      <p class="marginbottomsmall"> While the first two assumptions turned out to be right, the third one was wrong. The initial idea was to create an app, where users could quickly make an appointment with a personal stylist while they are in-store
+        to consult about their outfit choice. But turns out, for a significant amount of people, the shopping process starts way before their trip to the store. They start with online research and plan their shopping trips a week in advance. So I
+        decided to take the pre-shopping experience into consideration before I finalize the solution.
+      </p>
+
+      <hr>
+      <p class="red  alignleftformobile mar">Pre-shopping experience is a very important part of decision making <br>
+      </p>
+      <hr class="">
+      <p class=" underline"><b>Other Key Points<p>
+            <p><span class="emp red">70%</span> of the users prefer making their purchase in-store </p>
+            <p><span class="emp red">62%</span> prefer messaging/chatting with the stylist.</p>
+            <p><span class="emp red">69% </span> would like to interact with the stylist for less than 30 minutes .</p>
+            <p><span class="emp red">Majority</span> of the users would like to receive style advice in the form of a lookbook .</p>
+            <p>Crucial factors while selecting a stylist - <span class="red bold">Price, Reviews, Personal Style.</span></p>
+            <div class="compbutton">
+              <a href="https://www.dropbox.com/s/rvp969ith3obja0/User%20Survey%20Results%20Revised.pptx?dl=0" target="_blank"><button name="button">View In Detail</button></a>
+            </div>
+    </div>
+    <div class="marginbottomsmall storyboard">
+
+      <p class="marginbottomsmall">With the help of survey and in-person interviews, I explored the current shopping experience.
+      </p>
+      <img class=" storyboard " src="images2/storyboard.png" alt="story">
+      <p>This process helped me in identifying two major points in the user's current experience where she is seeking external help - Internet Research & Chatting with friends. </p>
+    </div>
+
+    <div class="definesol marginbottom">
+      <!--Defining a solution-->
+      <h2>Defining the Solution</h2>
+      <p class="desktopwidth">Based on the competitive analysis and user survey, I identified the possible characteristics of a new entrant.
+      </p>
+      <ul class=" listspace">
+        <li>
+          <p>1. Options to interact with the stylist during two main points in the user journey - Pre shopping & While shopping
+            .</p>
+        </li>
+        <li>
+          <p>2. Affordable options
+            .</p>
+        </li>
+        <li>
+          <p>3. Primary form of communication - Messages.</p>
+        </li>
+        <li>
+          <p>4. Look books to be used by stylists to provide style advice
+            .</p>
+        </li>
+        <li>
+          <p>5. Users should have the option to select a stylist based on price, reviews & personal style
+
+            .</p>
+        </li>
+      </ul>
+    </div>
+    <!--User Personas-->
+    <div class="persona marginbottom">
+      <h2>User Personas</h2>
+      <p class="desktopwidth">To understand the user better, I developed personas based on two clear usage motivations that stood out during the survey. </p>
+      <p><span class="bold red">The Busybee</span> - Wants to update her wardrobe.</p>
+      <p><span class="bold red">The Newbie</span> - Wants to make sure she is following the dress code properly.</p>
+      <div class="persona1 personaclass aligncenter marginbottomsmall margintopsmall">
+        <img src="images2/jessica.jpg" class="personaimage" alt="User Persona">
+        <p class="bold">Jennifer - The Busybee</p>
+        <h3>AGE: 34</h3>
+        <h3>Occupation:</b> Finance Manager</h3>
+        <h3>Location:</b> New York</h3>
+        <h3 class="marginbottomsmall">Gender:</b> Female</h3>
+        <p>Jennifer is bored with her current wardrobe. She really wants a change but doesn’t have much time to dedicate to it.</p>
+        <p><b>Main Goal:</b><br>Wants to update her wardrobe with new items.
+        </p>
+        <p><b>Frustration:</b><br>She is confused about the latest trends. <br>She never finds what she’s looking for.</p>
+        <hr class="desktopnone">
+      </div>
+      <div class="persona2 personaclass aligncenter marginbottomsmall margintopsmall">
+        <img src="images2/lisa.jpg" class="personaimage" alt="User Persona">
+        <p class="bold">Lisa - The Busybee</p>
+        <h3>AGE: 26</h3>
+        <h3>Occupation:</b> Marketing Consultant</h3>
+        <h3>Location:</b> Boston</h3>
+        <h3 class="marginbottomsmall">Gender:</b> Female</h3>
+        <p>Lisa is expected to attend a lot of marketing and networking events. But she is never sure about what to wear.</p>
+        <p><b>Main Goal:</b><br>Wants to attend office events & parties
+          confidently.
+        </p>
+        <p><b>Frustration:</b><br>She is never sure if she is picking the right outfit.
+          <br>Online resources are overwhelming.</p>
+        <hr class="desktopnone">
+      </div>
+      <div class="storybutton">
+
+
+        <a href="https://www.dropbox.com/sh/pk04ip3ltk6pvh0/AAC3COO66BQAlJHuaCfGssuIa?dl=0" target="_blank"><button name="button">View Personas</button></a>
+      </div>
+    </div>
+    <!--User Stories-->
+    <div class="stories marginbottom">
+      <h2>User Stories</h2>
+      <p class="desktopwidth">To identify all the necessary features, I listed down what ‘Jessica’ and ‘ Lisa ‘ would want to see in such a service.
+        From the list, I selected all the high priority user stories along with a few low & medium priority ones to form the MVP.</p>
+      <div class="userstories  none storyandfeature margintopsmall">
+        <p class="storylist bold red underline"><b>Stories</b></p>
+        <ul>
+          <li>
+            <p>1. I want to get matched to stylists with similar personal style</p>
+          </li>
+          <li>
+            <p>2. I want to book a stylist based on my time availability</p>
+          </li>
+          <li>
+            <p>3. I want to set my budget for an appointment</p>
+          </li>
+          <li>
+            <p>4. I want to chat with the booked stylist</p>
+          </li>
+          <li>
+            <p>5. I want to receive the style advice in the form of a lookbook</p>
+          </li>
+          <li>
+            <p>6. I want to reschedule my session if I am not able to make it
+            </p>
+          </li>
+          <li>
+            <p>7. I want to let the stylist know if I am not happy with their advice</p>
+          </li>
+          <li>
+            <p>8. I want to see reviews from previous customers.
+            </p>
+          </li>
+          <li>
+            <p>9. I want to use the service without an appointment</p>
+          </li>
+        </ul>
+      </div>
+      <div class="storyandfeature featuresonly margintopsmall">
+        <p class="red underline bold"><b>Features for MVP<p>
+              <ul>
+                <li>
+                  <p>Onboarding with a style quiz
+                  </p>
+                </li>
+                <li>
+                  <p>Filtering stylists based on price, reviews, etc</p>
+                </li>
+                <li>
+                  <p>Booking a session based on availability
+                  </p>
+                </li>
+                <li>
+                  <p>Rescheduling a session
+                  </p>
+                </li>
+                <li>
+                  <p>Reviewing a style board prepared by the stylist
+                  </p>
+                </li>
+                <li>
+                  <p>‘Available now’ option
+                  </p>
+                </li>
+
+              </ul>
+      </div>
+      <div class="storybutton">
+        <a href="https://www.dropbox.com/s/foyonhjlkljxrn3/User%20Stories%20Final.xlsx?dl=0" target="_blank"><button name="button">View User Stories</button></a>
+      </div>
+    </div>
+    <!--User Flows-->
+    <div id="infoarch" class="userflows marginbottom">
+      <h2>User Flows</h2>
+      <p class="desktopwidth">The next process involved accounting for all the steps a user takes while navigating through various features identified during the last step. I created 6 different user flows to map out the process and to identify the
+        hierarchy of these
+        elements. The main focus here was to find ways to address the main pain points.</p>
+      <div class="storybutton">
+
+
+        <a href="https://www.dropbox.com/sh/uakzi1ebqrclr0r/AAACwjzfcWBMteNQy9ykPaX0a?dl=0" target="_blank"><button name="button">View User Flows</button></a>
+      </div>
+    </div>
+    <!--Paper Sketches
+    <div class="papersketch marginbottom ">
+      <h2>Paper Sketches</h2>
+      <p class="desktopwidth">I started with paper sketching and once I figured out the flow and placement of various elements, I used Sketch to design wireframes.</p>
+      <div class="aligncenter colorbox bgcolor">
+        <img class="marginbottomsmall papersketchimg" src="images/Papersketch1.jpg" alt="User Persona">
+        <img class="marginbottomsmall papersketchimg" src="images/Papersketch2.jpg" alt="User Persona">
+        <img class="papersketchimg marginbottomsmall" src="images/Papersketch3.jpg" alt="User Persona">
+        <div class="storybutton">
+
+
+          <a href="https://drive.google.com/open?id=1hlU_d8Jrxt3VNi6Jp7j3moYOMkVxZGSh" target="_blank"><button name="button">View Paper Sketches</button></a>
+        </div>
+      </div>
+    </div> -->
+    <!--Wireframes-->
+    <div class="wireframes  marginbottom ">
+      <h2>Wireframes</h2>
+      <div class="aligncenter colorbox bgcolor ">
+        <img class="zealiewire" src="images2/wireframe1.png" alt="wireframes">
+        <img class="zealiewire" src="images2/wireframe2.png" alt="wireframes">
+        <img class="zealiewire" src="images2/wireframe3.png" alt="wireframes">
+        <img class="zealiewire" src="images2/wireframe4.png" alt="wireframes">
+        <img class="zealiewire" src="images2/wireframes5.png" alt="wireframes">
+        <img class="zealiewire" src="images2/wireframe6.png" alt="wireframes">
+        <div class="storybutton">
+
+
+          <a href="https://sketch.cloud/s/MWaaz?settings=MWaaz" target="_blank"><button name="button">View Wireframes</button></a>
+        </div>
+      </div>
+    </div>
+    <!--Usability Testing1-->
+    <div id="usertest" class="usertesting marginbottom">
+      <h2>Usability Testing</h2>
+      <p class="desktopwidth">I wanted to test the wireframes at this stage to find out how users will interact with various elements to uncover any issues early so that I can iterate and improve before moving forward. Wireframes were tested with 4
+        people.</p>
+      <source src="images/usabilitytest.mp4" type="video/mp4"> </video>
+      <p class="bold underline">Main Changes</p>
+      <div class="otherchanges colorbox bgcolor">
+        <div class="container aligncenter">
+          <h4 class="bold underline marginbottomsmall">Availability & Filter</h4>
+          <img class="uploadbefore halfimg utupload marginaround" src="images2/wireframeUT1.png" alt="Upload button Before">
+          <img class="uploadafter halfimg utupload marginaround" src="images2/wireframeUT2.png" alt="Upload button After">
+          <p class="red  marginbottomsmall alignleft marginleftmore">When users were asked to check the availability or use filters, they took a lot of time to find out these icons in the top navigation. As these options were part of my high priority
+            user stories, I decided to redesign
+            .</p>
+          <h4 class="bold underline marginbottomsmall">Number of Steps</h4>
+          <img class="uploadbefore halfimg utupload marginaround" src="images2/wireframe3.png" alt="Upload button Before">
+          <img class="uploadafter halfimg utupload marginaround" src="images2/wireframe5.png" alt="Upload button After">
+          <p class="red  marginbottomsmall alignleft marginleftmore">While observing the test, I realized that the users were finding some of the flows slightly tedious as they had to take multiple steps to make selections. I thought of ways to
+            simplify the steps and came up with iterations. Size boxes in the second design are 65px wide which is more than the recommended touch target for the user’s finger to fit snugly inside the target.
+            .</p>
+
+        </div>
+      </div>
+    </div>
+    <!--Visual Design-->
+    <div id="visual" class="visual marginbottom">
+      <h2>Visual Design</h2>
+      <p>Branding direction - he app will be positioned as a product that helps women dress confidently and in a way empowering them to achieve more.
+        .
+      </p>
+      <p>Brand voice will be approachable, vibrant, warm, helpful (Reference - Birchbox).</p>
+      <img class="zealogo fullimg marginbottomsmall" src="images2/logoZealie.png" alt="Logo">
+      <p class="logotype"> Through brainstorming, I figured the intended benefits of this service. A word that closely connected all the benefits of this service was ‘Zeal’.I tried various combinations with the word ‘zeal’ and decided on zealie.</p>
+      <img class="colorimg fullimg visualzealie" src="images2/colorpalette.png" alt="Color palette">
+      <p class="color visualtype">I wanted the primary colors to evoke feelings of positivity to align with the welcoming nature of this service. So I decided to go ahead with a warm color palette. </p>
+
+      <!--   <img class="typoimg desktopnone fullimg border marginbottomsmall visualtypo" src="images/typo.png" alt="Typography">
+      <p class="type desktopnone visualtypo">I chose ‘Amarnath’ as the brand typeface as it aligned with the casual and approachable brand voice of this service. <br> I paired it with ‘Open Sans’ to provide great clarity & readability at any font size and this will help
+        users to easily consume the content.</p> -->
+      <div class="storybutton">
+
+
+        <a href="https://docs.google.com/document/d/1BqVT7raPVEDhaNfr3-OfJ7nhuXU3a_MrBgmV7HLIEQ4/edit?usp=sharing" target="_blank"><button name="button">View In Detail</button></a>
+      </div>
+    </div>
+    <!--Hifidelity Mockups-->
+    <div class="wireframes  marginbottom ">
+      <h2>Wireframes</h2>
+      <div class="aligncenter colorbox bgcolor ">
+        <img class="zealiewire" src="images2/mockframe1.png" alt="wireframes">
+        <img class="zealiewire" src="images2/mockframe2.png" alt="wireframes">
+        <img class="zealiewire" src="images2/mockframe3.png" alt="wireframes">
+        <img class="zealiewire" src="images2/mockframe4.png" alt="wireframes">
+        <img class="zealiewire" src="images2/mockframe5.png" alt="wireframes">
+        <img class="zealiewire" src="images2/mockframe6.png" alt="wireframes">
+        <div class="storybutton">
+
+
+          <a href="https://sketch.cloud/s/00q4A" target="_blank"><button name="button">View Mockups</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!--Usability Testing 2-->
+    <div id="usability2" class="usability marginbottom">
+      <h2>Usability Testing</h2>
+      <p class="desktopwidth">After creating the prototype, I did two types of testing.</p>
+      <p>Part 1 : In-person( 4Nos)</p>
+      <p>Part 2 : Remote - Maze (22 Participants)</p>
+      <p>This helped me in clearly identifying usability issues.</p>
+
+
+      </p>
+      <div class="utimages colorbox bgcolor aligncenter marginbottom">
+        <p>Part 1 - In-person testing</p>
+        <p class="bold underline marginbottomsmall">Option to skip account creation</p>
+        <img class="uploadbefore halfimg utupload marginaround" src="images2/finalut1.png" alt="Upload button Before">
+        <img class="uploadafter halfimg utupload marginaround" src="images2/finalut2.png" alt="Upload button After">
+        <p class="red  marginbottomsmall alignleft marginleftmore">3 OUT OF 4 wanted the option to skip creating a profile before getting matched to the stylists. So I added an option to skip creating a profile before meeting the stylists
+          .</p>
+
+        <p class="bold underline marginbottomsmall">Option to skip account creation</p>
+        <img class="uploadbefore halfimg utupload marginaround" src="images2/finalut21.png" alt="Upload button Before">
+        <img class="uploadafter halfimg utupload marginaround" src="images2/finalut22.png" alt="Upload button After">
+        <p class="red  marginbottomsmall alignleft marginleftmore">Users were expected to click on ‘All dates’ or ‘ All slots’ to change the date and time respectively. Users could also use the ‘Available Now’ toggle button. But 3 out of 4 didn’t
+          know how to proceed from there. They were confused about the options and didn’t understand what ‘All dates’ and ‘All slots’ meant. So I redesigned the second screen to make the options clearer.
+          .</p>
+
+        <p class="bold underline marginbottomsmall">Progress Bar</p>
+        <img class="uploadbefore halfimg utupload marginaround" src="images2/finalut31.png" alt="Upload button Before">
+        <img class="uploadafter halfimg utupload marginaround" src="images2/finalut32.png" alt="Upload button After">
+        <p class="red  marginbottomsmall alignleft marginleftmore">Once the user starts booking from the Stylist’s profile page, they were expected to complete three steps to finish the booking. Users were confused regarding their progress. They
+          asked questions like “ How many steps are pending”, “Is this really long”, etc. So I added a progress bar to let the user know about the three steps that will lead to the final booking.
+
+          .</p>
+
+        <p class="bold underline marginbottomsmall">Card Design</p>
+        <img class="uploadbefore halfimg utupload marginaround" src="images2/finalut41.png" alt="Upload button Before">
+        <img class="uploadafter halfimg utupload marginaround" src="images2/finalut42.png" alt="Upload button After">
+        <p class="red   alignleft marginleftmore">For rescheduling, users were expected to click only on the ‘Reschedule’ button on the card. But they were clicking on the card instead of the button. So I redesigned the cards to be in accordance with
+          the repetitive patterns in the app.
+
+          .</p>
+
+        <p>Part 2 - Maze Testing</p>
+
+        <p class="red   alignleft marginleftmore">Most of the issues were corrected during In-person Usability testing. So I didn’t come across any major issues during maze testing.
+          After thoroughly going through the heatmaps and rest of the report, I figured that the recorded usability issues are mainly due to the functional limitations of the prototype. For E,g Users trying to select another option even when an
+          option is pre-selected for them, hotspot area, etc.</p>
+
+        <div class="storybutton">
+
+
+          <a href="https://docs.google.com/document/d/1zInCNlSm3WYizCtKdvN4Gp6Z8nT0A-57Og8saz_OXPE/edit?usp=sharing" target="_blank"><button name="button">View In Detail</button></a>
+        </div>
+      </div>
+    </div>
+    <!--Final Prototype-->
+    <div class="final marginbottom desktopnone">
+      <h2>Final Prototype</h2>
+      <p class="desktopwidth">I believe I have come up with a solution that will help women make confident shopping decisions by receiving style advice from an expert at an affordable cost. I have taken steps to make the process easier with the help
+        of multiple rounds of testing and iterations.
+        .</p>
+
+      <div class="colorbox bgcolor aligncenter">
+        <img class=" fullimg finalresult1 zealmob" src="images2/final1.png" alt="Feedback Screenshot">
+        <!--  <img class="none desktopnone" src="images/feedback2.png" alt="Feedback Screenshot"> -->
+        <p class="red bold marginbottomsmall finalresult1">A style quiz to understand the user’s personal style to get matched to a stylist with similar taste.</p>
+        <img class=" fullimg finalresult1 zealmob" src="images2/final2.png" alt="Feedback Screenshot">
+        <p class="red bold marginbottomsmall finalresult1">Options to book a stylist based on the user’s availability, budget, reviews, etc.</p>
+        <img class=" fullimg finalresult1 zealmob" src="images2/final3.png" alt="Feedback Screenshot">
+        <p class="red bold marginbottomsmall finalresult1">Detailed profile for each stylist with individual reviews from previous customers to make the selection process easier.</p>
+        <img class=" fullimg finalresult1 zealmob" src="images2/final4.png" alt="Feedback Screenshot">
+        <p class="red bold marginbottomsmall finalresult1">Options to interact with the stylist before shopping and while shopping.</p>
+        <img class=" fullimg finalresult1 zealmob" src="images2/final5.png" alt="Feedback Screenshot">
+        <p class="red bold marginbottomsmall finalresult1">Easy to communicate and review style advice.</p>
+        <a href="http://bit.ly/2I86Yix" target="_blank"><button name="button">View Prototype</button></a>
+      </div>
+    </div>
+    <div id="finalone" class="final none marginbottom">
+      <h2 class="">Final Prototype</h2>
+      <p class="desktopwidth">I believe I have come up with a solution that will help women make confident shopping decisions by receiving style advice from an expert at an affordable cost. I have taken steps to make the process easier with the help
+        of multiple rounds of testing and iterations.
+      </p>
+
+      <div class="colorbox bgcolor aligncenter">
+        <div class="container">
+          <img class=" halfimg zealieresult1 marginbottomsmall" src="images2/final1.png" alt="Feedback Screenshot">
+          <!--  <img class="none desktopnone" src="images/feedback2.png" alt="Feedback Screenshot"> -->
+          <p class="red bold marginbottomsmall zealieresulttype1 alignleft">A style quiz to understand the user’s personal style to get matched to a stylist with similar taste.
+            .</p>
+          <p class="red bold marginbottomsmall zealieresulttype1 alignleft">Options to book a stylist based on the user’s availability, budget, reviews, etc.
+
+            .</p>
+          <img class="  halfimg zealieresult1 marginbottomsmall" src="images2/final2.png" alt="Constraint Screenshot">
+          <img class=" halfimg zealieresult1 marginbottomsmall" src="images2/final3.png" alt="Feedback Screenshot">
+          <!--  <img class="none desktopnone" src="images/feedback2.png" alt="Feedback Screenshot"> -->
+          <p class="red bold marginbottomsmall zealieresulttype1 alignleft">Detailed profile for each stylist with individual reviews from previous customers to make the selection process easier.
+
+            .</p>
+          <p class="red bold marginbottomsmall zealieresulttype1 alignleft">Options to interact with the stylist before shopping and while shopping.
+            .</p>
+          <img class="  halfimg zealieresult1 marginbottomsmall" src="images2/final4.png" alt="Constraint Screenshot">
+          <img class=" halfimg zealieresult1 marginbottomsmall" src="images2/final5.png" alt="Feedback Screenshot">
+          <!--  <img class="none desktopnone" src="images/feedback2.png" alt="Feedback Screenshot"> -->
+          <p class="red bold marginbottomsmall zealieresulttype1 alignleft">Easy to communicate and review style advice
+            .</p>
+          <a href="https://invis.io/N4TOC049AVM#/380790814_Launch_Screen_1" target="_blank"><button name="button">View Prototype</button></a>
+        </div>
+      </div>
+    </div>
+    <!--Conclusion-->
+    <div class="conclusion marginbottom">
+      <h2>Conclusion</h2>
+      <p class="desktopwidth">This project is very close to my heart because when I moved to the United States a few years back, I didn’t have a clue about any dress code or the season based outfits. I used to frantically search various blogs before
+        attending an event. During the research phase, I interacted with a lot of women who have been in a similar position and they shared very personal stories.</p>
+      <p class="desktopwidth">I believe an expert’s opinion catered to specific personal needs will help women feel more confident and powerful, allowing them to take on other challenges.
+      </p>
+      <p class="desktopwidth">In the next phase, I would like to explore the options for on-boarding stylists. Though there is still a lot of work to do, I believe this is a good start and I sincerely hope it becomes a reality someday.
+      </p>
+
+    </div>
+    <div class="topbutton">
+      <a href="#top"><button name="button">Back To Top</button></a>
+    </div>
+    <!--Next and Previous buttons-->
+    <!--
+      <div class="endbuttons marginbottom">
+        <a href="#"><button class="previous" name="button">Previous</button></a>
+        <a href="#"><button class="next" name="button">Next</button></a>
+      </div> -->
+    <!--Footer-->
+    <footer class="aligncenter">
+      <a href="index.html"><img src="images/mylogo.png" class="footerlogo" width="40px" alt="logo"></a>
+      <h2 class="footernote">Let's Connect!</h2>
+      <h3 class="none">I'd love to hear from you</h3>
+      <a href="contact.html"><button name="button">Contact Me</button><br></a>
+      <ul class="socialicons fontawesome">
+        <a href="https://www.linkedin.com/in/indurk/" target="_blank">
+          <li><i class="fa fa-linkedin"></i></li>
+        </a>
+        <a href="https://github.com/Indulr" target="-_blank">
+          <li><i class="fa fa-github-square"></i></li>
+        </a>
+        <a href="https://twitter.com/iindurem" target="_blank">
+          <li><i class="fa fa-twitter"></i><br></li>
+        </a>
+      </ul>
+      <i class="fa fa-copyright"></i> Designed and Developed by Indu Remesh
+    </footer>
+  </div>
+  </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143614689-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143614689-1');
+  </script>
+
+</body>
+
+</html>
